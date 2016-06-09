@@ -12,11 +12,11 @@ http://openflights.org/data.html
 
 #### Aplikacija
 
+Aplikacija bo omogočala: 
+* pregled poletov pri dani začetni in končnI lokaciji (država, mesto) za enega ali več letališč v danem mestu
+* cenovna ponudba, iskanje najugodnejšega leta
+* nakup/rezervacija karte
+
 Vir podatkov: 
 http://openflights.org/data.html
-
-
-Aplikacija bo omogočala: 
-* žblj
-
 
