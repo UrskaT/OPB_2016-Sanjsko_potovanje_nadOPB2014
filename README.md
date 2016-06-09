@@ -17,6 +17,5 @@ Aplikacija bo omogočala:
 * cenovna ponudba, iskanje najugodnejšega leta
 * nakup/rezervacija karte
 
-Vir podatkov: 
-http://openflights.org/data.html
+#### Zagon programa/aplikacije
 
