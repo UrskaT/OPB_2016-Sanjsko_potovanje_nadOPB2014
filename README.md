@@ -5,7 +5,7 @@ Projekt pri predmetu Osnove podatkovnih baz (OPB) 2015/16, nadaljevanje projekta
 Osnovna ideja je baza za evidenco poletov z N največjih letališč, ki bo uporabna za aplikacijo iskanja (in naročanja) letalskih kart z najboljšo cenovno ponudbo za želeno destinacjo.
 
 #### ER diagram
-![ER diagram](/ER diagram/ER diagram Sanjsko potovanje AB.png)
+![ER diagram](/1. ER diagram/ER diagram Sanjsko potovanje AB.png)
 
 #### Vir podatkov: 
 http://openflights.org/data.html
