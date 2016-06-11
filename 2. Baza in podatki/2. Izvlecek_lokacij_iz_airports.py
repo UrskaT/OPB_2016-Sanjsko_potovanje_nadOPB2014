@@ -1,10 +1,10 @@
 # Izvleček lokacij iz podatkov za letališča + oštevilčenje
-print ("Datoteka Lokacije.dat v izdelavi:")
+print ("Datoteka lokacije.dat v izdelavi:")
 lokacije = list()
 j = 1  
-for line in open("airports.dat","r",encoding="utf-8"):
+for line in open("airports_red.dat","r",encoding="utf-8"): # 
     line = line.replace("\"","") # Odstranimo narekovaje
-    listLine = line.split(",") # Podatke iz vrstice zapišemo v seznam
+    listLine = line.split(",") # Podatke iz vrstice zapišemo v seznam stringov
     
 
     if len(listLine) == 12: # upoštevamo samo pravilno zapisane podatke
@@ -41,7 +41,14 @@ print("Število vrstic v datoteki:", j-1)
 f = open("lokacije.dat", "w+",encoding="utf-8")
 f.write("\n".join(map(lambda x: str(x).strip("[").strip("]"), lokacije)))
 f.close()
-print("\nKončano, csv oblika: lokacija.dat")
+print("\nKončano, csv oblika: lokacije.dat")
+
+
+
+    
+
+
+
 
 
 
