@@ -46,18 +46,3 @@ print("\nKončano, csv oblika: lokacija.dat")
 
 
 
-### Zapis dobljenega seznama lokacij v datoteko (vrstive v obliki seznama)
-# f = open("Lokacije_seznami.txt", "w+",encoding="utf-8")
-# f.write("\n".join(map(lambda x: str(x), lokacije)))
-# f.close()
-# print("\nKončano: Lokacija_seznami.txt")
-
-
-    
-
-
-
-
-
-
-
