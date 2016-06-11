@@ -7,15 +7,14 @@ Osnovna ideja je baza za evidenco poletov z N največjih letališč, ki bo upora
 #### ER diagram
 ![ER diagram](/1. ER diagram/ER diagram Sanjsko potovanje AB.png)
 
-##### Vir podatkov: 
-http://openflights.org/data.html
-
 #### Aplikacija
-
 Aplikacija bo omogočala: 
 * pregled letov pri dani začetni in končnI lokaciji (država, mesto) za enega ali več letališč v danem mestu
 * cenovna ponudba, iskanje najugodnejšega leta
 * nakup/rezervacija karte
+
+#### Vir podatkov: 
+http://openflights.org/data.html
 
 #### Zagon programa/aplikacije
 
