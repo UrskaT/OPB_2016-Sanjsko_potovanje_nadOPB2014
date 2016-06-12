@@ -19,7 +19,7 @@ for lineB in open("airports.dat","r",encoding="utf-8-sig"):
 print ("Število vrstic:",j)
 
 f = open("airports_red.dat", "w+",encoding="utf-8") 
-f.write("".join(map(lambda x: str(x).strip("[").strip("]"), airports_red)))
+f.write("".join(airports_red))
 f.close()
 print("\nKončano, csv oblika: airports_red.dat")
 
@@ -40,7 +40,7 @@ for lineB in open("airlines.dat","r",encoding="utf-8-sig"):
 print ("Število vrstic:",j)
 
 f = open("airlines_red.dat", "w+",encoding="utf-8")
-f.write("".join(map(lambda x: str(x).strip("[").strip("]"), airlines_red)))
+f.write("".join(airlines_red))
 f.close()
 print("\nKončano, csv oblika: airlines_red.dat")
 
