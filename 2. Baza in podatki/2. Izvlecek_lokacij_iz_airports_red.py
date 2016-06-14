@@ -7,7 +7,7 @@ for line in open("airports_red.dat","r",encoding="utf-8"): #
     listLine = line.split(",") # Podatke iz vrstice zapišemo v seznam stringov
     
 
-    if len(listLine) == 12: # upoštevamo samo pravilno zapisane podatke
+    if len(listLine) == 12: # preverimo, če so podatki pravilno zapisani
         listLineData = list()
         data = listLine[2]
         if len(lokacije)==0:

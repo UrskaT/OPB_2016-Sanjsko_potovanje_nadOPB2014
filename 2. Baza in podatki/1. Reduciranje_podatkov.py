@@ -10,7 +10,7 @@ for lineB in open("airports.dat","r",encoding="utf-8-sig"):
     letalisca = lineB.split(",") # Podatke iz vrstice zapišemo v seznam stringov
     for line0B in open("routes.dat","r",encoding="utf-8-sig"):
         poti = line0B.split(",")
-        if len(letalisca) == 12 and len(poti) == 9: # upoštevamo samo pravilno zapisane podatke
+        if len(letalisca) == 12 and len(poti) == 9: # preverimo, če so podatki pravilno zapisani
             if letalisca[0] == poti[3] or letalisca[0] == poti[5]:
                 airports_red.append(lineB)
                 j+=1
@@ -24,7 +24,7 @@ f.close()
 print("\nKončano, csv oblika: airports_red.dat")
 
 
-# LETALSKE DRUŽBE: 
+# LETALSKE DRUŽBE: (analogno letališčem)
 airlines_red = list()
 j = 0
 for lineB in open("airlines.dat","r",encoding="utf-8-sig"):
