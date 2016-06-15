@@ -55,5 +55,26 @@ for i in AIRvrstice:
                 if j >= 100 and j % 100 == 0: 
                     print("-Opravljenih že", j , "vnosov")
 print ("--končano--")
+
+
+######## Vnos LETALSKIH DRUŽB (PONUDNIKOV) v bazo - airlines_red.dat
+
+DRUpodatki = open("airlines_red.dat","r+t",encoding="utf-8")
+DRUvrstice = DRUpodatki.readlines()
+j=0
+for l in DRUvrstice:
+    l=l.replace("\"","")
+    l=l.split(",")
+    id_dru=int(l[0])
+    ime_dru=str(l[1])
+    cen_faktor=random.uniform(0.040, 0.255) # faktor za izračun cen letov, viri 
+    cur.execute("""INSERT INTO ponudnik (id_ponud, ime_ponudnika, cenovni_razred)
+    VALUES (%s, %s, %s)""",(id_dru, ime_dru, cen_faktor))
+    j+=1
+    if j >= 100 and j % 100 == 0:
+        print("-Opravljenih že", j , "vnosov")
+print ("--končano--")
+
+
 conn.commit()
 
