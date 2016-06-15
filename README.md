@@ -14,7 +14,8 @@ Aplikacija bo omogočala:
 * nakup/rezervacija karte
 
 #### Vir podatkov: 
-http://openflights.org/data.html
+* http://openflights.org/data.html
+* http://blog.rome2rio.com/2013/01/02/170779446/
 
 #### Zagon programa/aplikacije
 
