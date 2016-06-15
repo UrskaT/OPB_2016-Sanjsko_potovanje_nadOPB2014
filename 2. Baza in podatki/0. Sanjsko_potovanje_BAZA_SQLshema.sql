@@ -27,7 +27,7 @@ CREATE TABLE zelja(
 CREATE TABLE letalisce (	
 	id_air INTEGER PRIMARY KEY,
 	ime TEXT NOT NULL,
-	blizinje INTEGER NOT NULL REFERENCES lokacija(id)
+	bliznje INTEGER NOT NULL REFERENCES lokacija(id)
 		ON DELETE RESTRICT
 		ON UPDATE RESTRICT,
 	gps_sirina FLOAT NOT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE letalisce (
 
 CREATE TABLE ponudnik(
 	id_ponud INTEGER PRIMARY KEY,
-	ime TEXT NOT NULL,
+	ime_ponudnika TEXT NOT NULL,
 	cenovni_razred FLOAT NOT NULL
 );
 
