@@ -20,4 +20,4 @@ Aplikacija bo omogočala:
 
 #### Zagon programa/aplikacije
 
-*** Opomba: cene letov so izračunane glede na statistiko v letu 2013, ekonomski razred [3]. 
+########## *** _Opomba: cene letov so izračunane glede na statistiko v letu 2013, ekonomski razred [3]._ 
