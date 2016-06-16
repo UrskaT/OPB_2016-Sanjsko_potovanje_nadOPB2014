@@ -14,8 +14,10 @@ Aplikacija bo omogočala:
 * nakup/rezervacija karte
 
 #### Vir podatkov: 
-* http://openflights.org/data.html
-* http://blog.rome2rio.com/2013/01/02/170779446/
+* [1] http://openflights.org/data.html
+* [2] http://openflights.org/  
+* [3] http://blog.rome2rio.com/2013/01/02/170779446/ 
 
 #### Zagon programa/aplikacije
 
+*** Opomba: cene letov so izračunane glede na statistiko v letu 2013, ekonomski razred [3]. 
