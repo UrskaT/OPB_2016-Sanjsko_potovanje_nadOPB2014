@@ -24,7 +24,7 @@ for i in LOKvrstice:
     i=i.replace("\"","")
     i=i.split(",")
     mesto_lok=i[0]
-    drzava_lok=i[1]
+    drzava_lok=i[1].replace(" ","")
     id_lok=int(i[2].strip("\n"))
     if id_lok >= 100 and id_lok % 100 == 0: 
         print("Opravljenih že", id_lok , "vnosov")
