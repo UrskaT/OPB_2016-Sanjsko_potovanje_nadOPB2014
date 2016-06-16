@@ -121,7 +121,7 @@ for n in LETvrstice:
     for p in cenovni_razred:
         if int(p[0])==id_druzbe:
             cena_leta1=50+(float(dolzina_leta)*float(p[1])) # cena leta v dolarjih, vir 2013) 
-            cena_leta=round(cena_leta1)
+            cena_leta=round(cena_leta1,2)
     cur.execute("""INSERT INTO let (id_let, letalska_druzba, kam_leti, od_kod, dolzina, cena)
     VALUES (%s, %s, %s, %s, %s, %s)""",(id_leta, id_druzbe, id_kam_let, id_kje_let, dolzina_leta, cena_leta))
     m+=1
