@@ -58,7 +58,7 @@ for i in AIRvrstice:
             if mesto_air==str(k[0]):
                 bliznje_air=int(k[2].strip("\n"))
                 #print (mesto_air, bliznje_air)
-                cur.execute("""INSERT INTO letalisce (id_air, ime, bliznje, gps_sirina, gps_dolzina)
+                cur.execute("""INSERT INTO letalisce (id_air, ime_letalisca, bliznje, gps_sirina, gps_dolzina)
                 VALUES (%s, %s, %s, %s, %s)""",(id_air, ime_air, bliznje_air, gps_sir, gps_dol))
                 j+=1
                 if j >= 100 and j % 100 == 0: 

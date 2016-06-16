@@ -26,7 +26,7 @@ CREATE TABLE zelja(
 	
 CREATE TABLE letalisce (	
 	id_air INTEGER PRIMARY KEY,
-	ime TEXT NOT NULL,
+	ime_letalisca TEXT NOT NULL,
 	bliznje INTEGER NOT NULL REFERENCES lokacija(id)
 		ON DELETE RESTRICT
 		ON UPDATE RESTRICT,
