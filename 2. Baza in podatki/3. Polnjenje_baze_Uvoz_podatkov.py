@@ -15,6 +15,7 @@ cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
 ######## Vnos LOKACIJ v bazo - lokacije.dat
 
+print ("Lokacije")
 LOKpodatki = open("lokacije.dat","r+t",encoding="utf-8")
 LOKvrstice = LOKpodatki.readlines()
 
@@ -31,11 +32,12 @@ for i in LOKvrstice:
     cur.execute("""INSERT INTO lokacija (mesto, drzava, id)
     VALUES (%s, %s, %s)""",(mesto_lok, drzava_lok, id_lok))
     u+=1
-print ("--končano--", u,"vnosov")       #3156 vnosov
+print ("--končano--", u,"vnosov")       #3208 vnosov
 
 
 ######## Vnos LETALIŠČ v bazo - airports_red.dat
 
+print ("Letališča")
 AIRpodatki = open("airports_red.dat","r+t",encoding="utf-8")
 AIRvrstice = AIRpodatki.readlines()
 
@@ -55,9 +57,8 @@ for i in AIRvrstice:
             k=k.replace("\'","")
             k=k.replace("\"","")
             k=k.split(",")
-            if mesto_air==str(k[0]):
+            if mesto_air==str(k[0]) and drzava_air==str(k[1].lstrip()):
                 bliznje_air=int(k[2].strip("\n"))
-                #print (mesto_air, bliznje_air)
                 cur.execute("""INSERT INTO letalisce (id_air, ime_letalisca, bliznje, gps_sirina, gps_dolzina)
                 VALUES (%s, %s, %s, %s, %s)""",(id_air, ime_air, bliznje_air, gps_sir, gps_dol))
                 j+=1
@@ -68,6 +69,7 @@ print ("--končano--", j, "vnosov")      #3282 vnosov
 
 ######## Vnos LETALSKIH DRUŽB (PONUDNIKOV) v bazo - airlines_red.dat
 
+print("Letalske družbe")
 DRUpodatki = open("airlines_red.dat","r+t",encoding="utf-8")
 DRUvrstice = DRUpodatki.readlines()
 
@@ -90,6 +92,7 @@ print ("--končano--", j , "vnosov")     #540 vnosov
 
 ######## Vnos LINIJ (LETOV) v bazo - routes.dat
 
+print("Linije/leti")
 LETpodatki = open("routes.dat","r+t",encoding="utf-8")
 LETvrstice = LETpodatki.readlines()
 m=0
@@ -127,10 +130,8 @@ for n in LETvrstice:
     m+=1
     if (m) >= 100 and (m) % 100 == 0:
         print("-Opravljenih že", m , "vnosov")
-print ("--končano--", m, "vnosov")      #66548 vnosov (polni podatki, brez "\N")
+print ("--končano--", m, "vnosov")      #66548 vnosov (polni podatki, brez NULL)
 
 conn.commit()
-
-
 
 

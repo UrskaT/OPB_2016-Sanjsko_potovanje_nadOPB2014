@@ -239,2918 +239,2970 @@
 'Cardiff', 'United Kingdom', 239
 'Bristol', 'United Kingdom', 240
 'Liverpool', 'United Kingdom', 241
-'Bournemouth', 'United Kingdom', 242
-'Southampton', 'United Kingdom', 243
-'Alderney', 'Guernsey', 244
-'Guernsey', 'Guernsey', 245
-'Jersey', 'Jersey', 246
-'Southend', 'United Kingdom', 247
-'Blackpool', 'United Kingdom', 248
-'Humberside', 'United Kingdom', 249
-'Leeds', 'United Kingdom', 250
-'Hawarden', 'United Kingdom', 251
-'Isle Of Man', 'Isle of Man', 252
-'Newcastle', 'United Kingdom', 253
-'Teesside', 'United Kingdom', 254
-'East Midlands', 'United Kingdom', 255
-'Kirkwall', 'United Kingdom', 256
-'Sumburgh', 'United Kingdom', 257
-'Wick', 'United Kingdom', 258
-'Aberdeen', 'United Kingdom', 259
-'Inverness', 'United Kingdom', 260
-'Glasgow', 'United Kingdom', 261
-'Edinburgh', 'United Kingdom', 262
-'Islay', 'United Kingdom', 263
-'Prestwick', 'United Kingdom', 264
-'Benbecula', 'United Kingdom', 265
-'Dundee', 'United Kingdom', 266
-'Stornoway', 'United Kingdom', 267
-'Tiree', 'United Kingdom', 268
-'Norwich', 'United Kingdom', 269
-'Exeter', 'United Kingdom', 270
-'Mount Pleasant', 'Falkland Islands', 271
-'Amsterdam', 'Netherlands', 272
-'Maastricht', 'Netherlands', 273
-'Eindhoven', 'Netherlands', 274
-'Groningen', 'Netherlands', 275
-'Rotterdam', 'Netherlands', 276
-'Cork', 'Ireland', 277
-'Dublin', 'Ireland', 278
-'Connaught', 'Ireland', 279
-'Kerry', 'Ireland', 280
-'Shannon', 'Ireland', 281
-'Waterford', 'Ireland', 282
-'Aarhus', 'Denmark', 283
-'Billund', 'Denmark', 284
-'Copenhagen', 'Denmark', 285
-'Esbjerg', 'Denmark', 286
-'Karup', 'Denmark', 287
-'Ronne', 'Denmark', 288
-'Soenderborg', 'Denmark', 289
-'Vagar', 'Faroe Islands', 290
-'Aalborg', 'Denmark', 291
-'Luxemburg', 'Luxembourg', 292
-'Alesund', 'Norway', 293
-'Andoya', 'Norway', 294
-'Alta', 'Norway', 295
-'Bronnoysund', 'Norway', 296
-'Bodo', 'Norway', 297
-'Bergen', 'Norway', 298
-'Batsfjord', 'Norway', 299
-'Kristiansand', 'Norway', 300
-'Bardufoss', 'Norway', 301
-'Harstad/Narvik', 'Norway', 302
-'Fagernes', 'Norway', 303
-'Floro', 'Norway', 304
-'Oslo', 'Norway', 305
-'Haugesund', 'Norway', 306
-'Hasvik', 'Norway', 307
-'Kristiansund', 'Norway', 308
-'Kirkenes', 'Norway', 309
-'Molde', 'Norway', 310
-'Mosjoen', 'Norway', 311
-'Lakselv', 'Norway', 312
-'Orland', 'Norway', 313
-'Roros', 'Norway', 314
-'Rygge', 'Norway', 315
-'Svalbard', 'Norway', 316
-'Skien', 'Norway', 317
-'Stord', 'Norway', 318
-'Sandnessjoen', 'Norway', 319
-'Tromso', 'Norway', 320
-'Sandefjord', 'Norway', 321
-'Trondheim', 'Norway', 322
-'Stavanger', 'Norway', 323
-'Gdansk', 'Poland', 324
-'Krakow', 'Poland', 325
-'Katowice', 'Poland', 326
-'Poznan', 'Poland', 327
-'Rzeszow', 'Poland', 328
-'Szczecin', 'Poland', 329
-'Warsaw', 'Poland', 330
-'Wroclaw', 'Poland', 331
-'Ronneby', 'Sweden', 332
-'Gothenborg', 'Sweden', 333
-'Joenkoeping', 'Sweden', 334
-'Trollhattan', 'Sweden', 335
-'Mora', 'Sweden', 336
-'Stockholm', 'Sweden', 337
-'Kristianstad', 'Sweden', 338
-'Kalkmar', 'Sweden', 339
-'Malmoe', 'Sweden', 340
-'Halmstad', 'Sweden', 341
-'Vaxjo', 'Sweden', 342
-'Sveg', 'Sweden', 343
-'Gallivare', 'Sweden', 344
-'Kramfors', 'Sweden', 345
-'Lycksele', 'Sweden', 346
-'Sundsvall', 'Sweden', 347
-'Ornskoldsvik', 'Sweden', 348
-'Kiruna', 'Sweden', 349
-'Skelleftea', 'Sweden', 350
-'Umea', 'Sweden', 351
-'Vilhelmina', 'Sweden', 352
-'Arvidsjaur', 'Sweden', 353
-'Orebro', 'Sweden', 354
-'Vasteras', 'Sweden', 355
-'Lulea', 'Sweden', 356
-'Borlange', 'Sweden', 357
-'Linkoeping', 'Sweden', 358
-'Norrkoeping', 'Sweden', 359
-'Visby', 'Sweden', 360
-'Laage', 'Germany', 361
-'Bloemfontein', 'South Africa', 362
-'Cape Town', 'South Africa', 363
-'Durban', 'South Africa', 364
-'East London', 'South Africa', 365
-'George', 'South Africa', 366
-'Hoedspruit', 'South Africa', 367
-'Johannesburg', 'South Africa', 368
-'Kimberley', 'South Africa', 369
-'Margate', 'South Africa', 370
-'Port Elizabeth', 'South Africa', 371
-'Phalaborwa', 'South Africa', 372
-'Polokwane', 'South Africa', 373
-'Pietermaritzburg', 'South Africa', 374
-"Richard's Bay", 'South Africa', 375
-'Upington', 'South Africa', 376
-'Umtata', 'South Africa', 377
-'Francistown', 'Botswana', 378
-'Kasane', 'Botswana', 379
-'Maun', 'Botswana', 380
-'Gaberone', 'Botswana', 381
-'Brazzaville', 'Congo (Brazzaville)', 382
-'Pointe-noire', 'Congo (Brazzaville)', 383
-'Manzini', 'Swaziland', 384
-'Bangui', 'Central African Republic', 385
-'Bata', 'Equatorial Guinea', 386
-'Malabo', 'Equatorial Guinea', 387
-'Plaisance', 'Mauritius', 388
-'Rodriguez Island', 'Mauritius', 389
-'Douala', 'Cameroon', 390
-'Maroua', 'Cameroon', 391
-"N'gaoundere", 'Cameroon', 392
-'Garoua', 'Cameroon', 393
-'Livingstone', 'Zambia', 394
-'Lusaka', 'Zambia', 395
-'Mfuwe', 'Zambia', 396
-'Ndola', 'Zambia', 397
-'Moroni', 'Comoros', 398
-'Dzaoudzi', 'Mayotte', 399
-'St.-denis', 'Reunion', 400
-'St.-pierre', 'Reunion', 401
-'Antananarivo', 'Madagascar', 402
-'Sainte Marie', 'Madagascar', 403
-'Toamasina', 'Madagascar', 404
-'Morondava', 'Madagascar', 405
-'Antsiranana', 'Madagascar', 406
-'Mananara', 'Madagascar', 407
-'Antalaha', 'Madagascar', 408
-'Mahajanga', 'Madagascar', 409
-'Nosy-be', 'Madagascar', 410
-'Maroantsetra', 'Madagascar', 411
-'Sambava', 'Madagascar', 412
-'Tolagnaro', 'Madagascar', 413
-'Toliara', 'Madagascar', 414
-"M'banza-congo", 'Angola', 415
-'Cabinda', 'Angola', 416
-'Culebra Island', 'Puerto Rico', 417
-'Huambo', 'Angola', 418
-'Kuito', 'Angola', 419
-'Luanda', 'Angola', 420
-'Malanje', 'Angola', 421
-'Menongue', 'Angola', 422
-'Saurimo', 'Angola', 423
-'Soyo', 'Angola', 424
-'Lubango', 'Angola', 425
-'Luena', 'Angola', 426
-'Port Gentil', 'Gabon', 427
-'Libreville', 'Gabon', 428
-'Sao Tome', 'Sao Tome and Principe', 429
-'Beira', 'Mozambique', 430
-'Inhambane', 'Mozambique', 431
-'Lichinga', 'Mozambique', 432
-'Maputo', 'Mozambique', 433
-'Nampula', 'Mozambique', 434
-'Pemba', 'Mozambique', 435
-'Quelimane', 'Mozambique', 436
-'Tete', 'Mozambique', 437
-'Vilankulu', 'Mozambique', 438
-'Mahe', 'Seychelles', 439
-'Praslin', 'Seychelles', 440
-"N'djamena", 'Chad', 441
-'Bulawayo', 'Zimbabwe', 442
-'Victoria Falls', 'Zimbabwe', 443
-'Harare', 'Zimbabwe', 444
-'Blantyre', 'Malawi', 445
-'Lilongwe', 'Malawi', 446
-'Maseru', 'Lesotho', 447
-'Kinshasa', 'Congo (Kinshasa)', 448
-'Mbandaka', 'Congo (Kinshasa)', 449
-'Gemena', 'Congo (Kinshasa)', 450
-'Kisangani', 'Congo (Kinshasa)', 451
-'Isiro', 'Congo (Kinshasa)', 452
-'Bunia', 'Congo (Kinshasa)', 453
-'Bukavu/kavumu', 'Congo (Kinshasa)', 454
-'Goma', 'Congo (Kinshasa)', 455
-'Kindu', 'Congo (Kinshasa)', 456
-'Lubumashi', 'Congo (Kinshasa)', 457
-'Kalemie', 'Congo (Kinshasa)', 458
-'Kananga', 'Congo (Kinshasa)', 459
-'Mbuji-mayi', 'Congo (Kinshasa)', 460
-'Bamako', 'Mali', 461
-'Banjul', 'Gambia', 462
-'Fuerteventura', 'Spain', 463
-'Hierro', 'Spain', 464
-'Santa Cruz De La Palma', 'Spain', 465
-'Gran Canaria', 'Spain', 466
-'Las Palmas', 'Spain', 467
-'Tenerife', 'Spain', 468
-'Melilla', 'Spain', 469
-'Freetown', 'Sierra Leone', 470
-'Monrovia', 'Liberia', 471
-'Agadir', 'Morocco', 472
-'Tan Tan', 'Morocco', 473
-'Fes', 'Morocco', 474
-'Oujda', 'Morocco', 475
-'Rabat', 'Morocco', 476
-'Casablanca', 'Morocco', 477
-'Marrakech', 'Morocco', 478
-'Ouarzazate', 'Morocco', 479
-'Al Hociema', 'Morocco', 480
-'Tetouan', 'Morocco', 481
-'Tanger', 'Morocco', 482
-'Ziguinchor', 'Senegal', 483
-'Cap Skiring', 'Senegal', 484
-'Dakar', 'Senegal', 485
-'Nouakschott', 'Mauritania', 486
-'Nouadhibou', 'Mauritania', 487
-'Amilcar Cabral', 'Cape Verde', 488
-'Boa Vista', 'Cape Verde', 489
-'Maio', 'Cape Verde', 490
-'Sao Nocolau Island', 'Cape Verde', 491
-'Sao Vicente Island', 'Cape Verde', 492
-'Addis Ababa', 'Ethiopia', 493
-'Arba Minch', 'Ethiopia', 494
-'Axum', 'Ethiopia', 495
-'Bahar Dar', 'Ethiopia', 496
-'Dire Dawa', 'Ethiopia', 497
-'Gambella', 'Ethiopia', 498
-'Gondar', 'Ethiopia', 499
-'Jimma', 'Ethiopia', 500
-'Lalibella', 'Ethiopia', 501
-'Makale', 'Ethiopia', 502
-'Asosa', 'Ethiopia', 503
-'Bujumbura', 'Burundi', 504
-'Hargeisa', 'Somalia', 505
-'Berbera', 'Somalia', 506
-'Abu Simbel', 'Egypt', 507
-'Cairo', 'Egypt', 508
-'Hurghada', 'Egypt', 509
-'Luxor', 'Egypt', 510
-'Aswan', 'Egypt', 511
-'Eldoret', 'Kenya', 512
-'Kisumu', 'Kenya', 513
-'Kitale', 'Kenya', 514
-'Lodwar', 'Kenya', 515
-'Lamu', 'Kenya', 516
-'Mombasa', 'Kenya', 517
-'Nairobi', 'Kenya', 518
-'Wajir', 'Kenya', 519
-'Ghat', 'Libya', 520
-'Kufra', 'Libya', 521
-'Benghazi', 'Libya', 522
-'Tripoli', 'Libya', 523
-'Ghadames', 'Libya', 524
-'Kigali', 'Rwanda', 525
-'Kamembe', 'Rwanda', 526
-'El Fasher', 'Sudan', 527
-'Juba', 'South Sudan', 528
-'Khartoum', 'Sudan', 529
-'Arusha', 'Tanzania', 530
-'Dar Es Salaam', 'Tanzania', 531
-'Kilimanjaro', 'Tanzania', 532
-'Mtwara', 'Tanzania', 533
-'Mwanza', 'Tanzania', 534
-'Zanzibar', 'Tanzania', 535
-'Entebbe', 'Uganda', 536
-'Tirana', 'Albania', 537
-'Bourgas', 'Bulgaria', 538
-'Plovdiv', 'Bulgaria', 539
-'Sofia', 'Bulgaria', 540
-'Varna', 'Bulgaria', 541
-'Larnaca', 'Cyprus', 542
-'Paphos', 'Cyprus', 543
-'Dubrovnik', 'Croatia', 544
-'Osijek', 'Croatia', 545
-'Pula', 'Croatia', 546
-'Rijeka', 'Croatia', 547
-'Split', 'Croatia', 548
-'Zagreb', 'Croatia', 549
-'Zadar', 'Croatia', 550
-'Alicante', 'Spain', 551
-'Almeria', 'Spain', 552
-'Aviles', 'Spain', 553
-'Bilbao', 'Spain', 554
-'Barcelona', 'Spain', 555
-'Badajoz', 'Spain', 556
-'La Coruna', 'Spain', 557
-'Gerona', 'Spain', 558
-'Granada', 'Spain', 559
-'Ibiza', 'Spain', 560
-'Jerez', 'Spain', 561
-'Murcia', 'Spain', 562
-'Madrid', 'Spain', 563
-'Malaga', 'Spain', 564
-'Menorca', 'Spain', 565
-'Pamplona', 'Spain', 566
-'Reus', 'Spain', 567
-'Salamanca', 'Spain', 568
-'San Sebastian', 'Spain', 569
-'Santiago', 'Spain', 570
-'Valencia', 'Spain', 571
-'Valladolid', 'Spain', 572
-'Vigo', 'Spain', 573
-'Santander', 'Spain', 574
-'Zaragoza', 'Spain', 575
-'Sevilla', 'Spain', 576
-'Agen', 'France', 577
-'Bordeaux', 'France', 578
-'Bergerac', 'France', 579
-'Poitiers', 'France', 580
-'Limoges', 'France', 581
-'Toulouse', 'France', 582
-'Pau', 'France', 583
-'Tarbes', 'France', 584
-'Angouleme', 'France', 585
-'Brive', 'France', 586
-'Perigueux', 'France', 587
-'Biarritz-bayonne', 'France', 588
-'Castres', 'France', 589
-'Rodez', 'France', 590
-'Dole', 'France', 591
-'Le Puy', 'France', 592
-'Metz', 'France', 593
-'Bastia', 'France', 594
-'Calvi', 'France', 595
-'Figari', 'France', 596
-'Ajaccio', 'France', 597
-'Clermont-Ferrand', 'France', 598
-'Lyon', 'France', 599
-'Aurillac', 'France', 600
-'St-Etienne', 'France', 601
-'Carcassonne', 'France', 602
-'Marseille', 'France', 603
-'Nice', 'France', 604
-'Perpignan', 'France', 605
-'Montpellier', 'France', 606
-'Beziers', 'France', 607
-'Avignon', 'France', 608
-'Beauvais', 'France', 609
-'Le Havre', 'France', 610
-'Chalons', 'France', 611
-'Tours', 'France', 612
-'Paris', 'France', 613
-'Lille', 'France', 614
-'Brest', 'France', 615
-'Dinard', 'France', 616
-'Deauville', 'France', 617
-'Lorient', 'France', 618
-'Caen', 'France', 619
-'Rennes', 'France', 620
-'Lannion', 'France', 621
-'Quimper', 'France', 622
-'Nantes', 'France', 623
-'Mulhouse', 'France', 624
-'Dijon', 'France', 625
-'Strasbourg', 'France', 626
-'Hyeres', 'France', 627
-'Nimes', 'France', 628
-'Alexandroupolis', 'Greece', 629
-'Nea Anghialos', 'Greece', 630
-'Chios', 'Greece', 631
-'Ioannina', 'Greece', 632
-'Heraklion', 'Greece', 633
-'Kastoria', 'Greece', 634
-'Kithira', 'Greece', 635
-'Keffallinia', 'Greece', 636
-'Kalamata', 'Greece', 637
-'Kos', 'Greece', 638
-'Karpathos', 'Greece', 639
-'Kerkyra/corfu', 'Greece', 640
-'Kasos', 'Greece', 641
-'Kavala', 'Greece', 642
-'Kozani', 'Greece', 643
-'Leros', 'Greece', 644
-'Limnos', 'Greece', 645
-'Mykonos', 'Greece', 646
-'Mytilini', 'Greece', 647
-'Preveza', 'Greece', 648
-'Rhodos', 'Greece', 649
-'Patras', 'Greece', 650
-'Chania', 'Greece', 651
-'Skiathos', 'Greece', 652
-'Samos', 'Greece', 653
-'Thira', 'Greece', 654
-'Sitia', 'Greece', 655
-'Skiros', 'Greece', 656
-'Thessaloniki', 'Greece', 657
-'Zakynthos', 'Greece', 658
-'Budapest', 'Hungary', 659
-'Debrecen', 'Hungary', 660
-'Bari', 'Italy', 661
-'Pescara', 'Italy', 662
-'Brindisi', 'Italy', 663
-'Lamezia', 'Italy', 664
-'Catania', 'Italy', 665
-'Lampedusa', 'Italy', 666
-'Pantelleria', 'Italy', 667
-'Palermo', 'Italy', 668
-'Reggio Calabria', 'Italy', 669
-'Trapani', 'Italy', 670
-'Alghero', 'Italy', 671
-'Cagliari', 'Italy', 672
-'Olbia', 'Italy', 673
-'Milano', 'Italy', 674
-'Bergamo', 'Italy', 675
-'Torino', 'Italy', 676
-'Genoa', 'Italy', 677
-'Milan', 'Italy', 678
-'Parma', 'Italy', 679
-'Cuneo', 'Italy', 680
-'Bolzano', 'Italy', 681
-'Bologna', 'Italy', 682
-'Treviso', 'Italy', 683
-'Ronchi De Legionari', 'Italy', 684
-'Rimini', 'Italy', 685
-'Villafranca', 'Italy', 686
-'Venice', 'Italy', 687
-'Rome', 'Italy', 688
-'Marina Di Campo', 'Italy', 689
-'Naples', 'Italy', 690
-'Pisa', 'Italy', 691
-'Florence', 'Italy', 692
-'Perugia', 'Italy', 693
-'Ljubljana', 'Slovenia', 694
-'Karlovy Vary', 'Czech Republic', 695
-'Ostrava', 'Czech Republic', 696
-'Pardubice', 'Czech Republic', 697
-'Prague', 'Czech Republic', 698
-'Brno', 'Czech Republic', 699
-'Tel-aviv', 'Israel', 700
-'Elat', 'Israel', 701
-'Haifa', 'Israel', 702
-'Ovda', 'Israel', 703
-'Malta', 'Malta', 704
-'Graz', 'Austria', 705
-'Innsbruck', 'Austria', 706
-'Linz', 'Austria', 707
-'Salzburg', 'Austria', 708
-'Vienna', 'Austria', 709
-'Santa Maria (island)', 'Portugal', 710
-'Flores', 'Portugal', 711
-'Faro', 'Portugal', 712
-'Graciosa Island', 'Portugal', 713
-'Horta', 'Portugal', 714
-'Lajes (terceira Island)', 'Portugal', 715
-'Ponta Delgada', 'Portugal', 716
-'Pico', 'Portugal', 717
-'Porto', 'Portugal', 718
-'Porto Santo', 'Portugal', 719
-'Lisbon', 'Portugal', 720
-'Sao Jorge Island', 'Portugal', 721
-'Pendleton', 'United States', 722
-'Mostar', 'Bosnia and Herzegovina', 723
-'Sarajevo', 'Bosnia and Herzegovina', 724
-'Arad', 'Romania', 725
-'Baia Mare', 'Romania', 726
-'Constanta', 'Romania', 727
-'Cluj-napoca', 'Romania', 728
-'Craiova', 'Romania', 729
-'Iasi', 'Romania', 730
-'Oradea', 'Romania', 731
-'Bucharest', 'Romania', 732
-'Sibiu', 'Romania', 733
-'Satu Mare', 'Romania', 734
-'Tirgu Mures', 'Romania', 735
-'Timisoara', 'Romania', 736
-'Geneva', 'Switzerland', 737
-'Lugano', 'Switzerland', 738
-'Bern', 'Switzerland', 739
-'Zurich', 'Switzerland', 740
-'Altenrhein', 'Switzerland', 741
-'Ankara', 'Turkey', 742
-'Adana', 'Turkey', 743
-'Antalya', 'Turkey', 744
-'Gaziantep', 'Turkey', 745
-'Konya', 'Turkey', 746
-'Merzifon', 'Turkey', 747
-'Sivas', 'Turkey', 748
-'Malatya', 'Turkey', 749
-'Kayseri', 'Turkey', 750
-'Denizli', 'Turkey', 751
-'Istanbul', 'Turkey', 752
-'Izmir', 'Turkey', 753
-'Dalaman', 'Turkey', 754
-'Riverton WY', 'United States', 755
-'Elazig', 'Turkey', 756
-'Diyabakir', 'Turkey', 757
-'Erzincan', 'Turkey', 758
-'Erzurum', 'Turkey', 759
-'Trabzon', 'Turkey', 760
-'Montrose CO', 'United States', 761
-'Van', 'Turkey', 762
-'Batman', 'Turkey', 763
-'Chisinau', 'Moldova', 764
-'Skopje', 'Macedonia', 765
-'Gibraltar', 'Gibraltar', 766
-'Belgrade', 'Serbia', 767
-'Podgorica', 'Montenegro', 768
-'Pristina', 'Serbia', 769
-'Tivat', 'Montenegro', 770
-'Bratislava', 'Slovakia', 771
-'Kosice', 'Slovakia', 772
-'Providenciales', 'Turks and Caicos Islands', 773
-'South Caicos', 'Turks and Caicos Islands', 774
-'La Romana', 'Dominican Republic', 775
-'Punta Cana', 'Dominican Republic', 776
-'Puerto Plata', 'Dominican Republic', 777
-'Santo Domingo', 'Dominican Republic', 778
-'Guatemala City', 'Guatemala', 779
-'La Ceiba', 'Honduras', 780
-'San Pedro Sula', 'Honduras', 781
-'Guanaja', 'Honduras', 782
-'Roatan', 'Honduras', 783
-'Tegucigalpa', 'Honduras', 784
-'Montego Bay', 'Jamaica', 785
-'Acapulco', 'Mexico', 786
-'Aguascalientes', 'Mexico', 787
-'Huatulco', 'Mexico', 788
-'Ciudad Del Carmen', 'Mexico', 789
-'Culiacan', 'Mexico', 790
-'Chetumal', 'Mexico', 791
-'Ciudad Obregon', 'Mexico', 792
-'Campeche', 'Mexico', 793
-'Ciudad Juarez', 'Mexico', 794
-'Chihuahua', 'Mexico', 795
-'Ciudad Victoria', 'Mexico', 796
-'Cozumel', 'Mexico', 797
-'Durango', 'Mexico', 798
-'Tepic', 'Mexico', 799
-'Guadalajara', 'Mexico', 800
-'Hermosillo', 'Mexico', 801
-'Colima', 'Mexico', 802
-'Saltillo', 'Mexico', 803
-'Lazard Cardenas', 'Mexico', 804
-'Los Mochis', 'Mexico', 805
-'Del Bajio', 'Mexico', 806
-'La Paz', 'Mexico', 807
-'Loreto', 'Mexico', 808
-'Matamoros', 'Mexico', 809
-'Merida', 'Mexico', 810
-'Mexicali', 'Mexico', 811
-'Morelia', 'Mexico', 812
-'Minatitlan', 'Mexico', 813
-'Mexico City', 'Mexico', 814
-'Monterrey', 'Mexico', 815
-'Mazatlan', 'Mexico', 816
-'Nuevo Laredo', 'Mexico', 817
-'Oaxaca', 'Mexico', 818
-'Poza Rico', 'Mexico', 819
-'Puebla', 'Mexico', 820
-'Piedras Negras', 'Mexico', 821
-'Uruapan', 'Mexico', 822
-'Puerto Vallarta', 'Mexico', 823
-'Puerto Escondido', 'Mexico', 824
-'Queretaro', 'Mexico', 825
-'Reynosa', 'Mexico', 826
-'San Jose Del Cabo', 'Mexico', 827
-'San Luis Potosi', 'Mexico', 828
-'Torreon', 'Mexico', 829
-'Tuxtla Gutierrez', 'Mexico', 830
-'Tijuana', 'Mexico', 831
-'Tampico', 'Mexico', 832
-'Toluca', 'Mexico', 833
-'Tapachula', 'Mexico', 834
-'Cancun', 'Mexico', 835
-'Villahermosa', 'Mexico', 836
-'Vera Cruz', 'Mexico', 837
-'Zacatecas', 'Mexico', 838
-'Zihuatanejo', 'Mexico', 839
-'Manzanillo', 'Mexico', 840
-'Managua', 'Nicaragua', 841
-'Bocas Del Toro', 'Panama', 842
-'Changuinola', 'Panama', 843
-'David', 'Panama', 844
-'Panama', 'Panama', 845
-'Panama City', 'Panama', 846
-'Golfito', 'Costa Rica', 847
-'Liberia', 'Costa Rica', 848
-'Nosara Beach', 'Costa Rica', 849
-'San Jose', 'Costa Rica', 850
-'Palmar Sur', 'Costa Rica', 851
-'Quepos', 'Costa Rica', 852
-'San Salvador', 'El Salvador', 853
-'Cap Haitien', 'Haiti', 854
-'Port-au-prince', 'Haiti', 855
-'Cayo Largo del Sur', 'Cuba', 856
-'Camaguey', 'Cuba', 857
-'Santiago De Cuba', 'Cuba', 858
-'Guantanamo', 'Cuba', 859
-'Havana', 'Cuba', 860
-'Holguin', 'Cuba', 861
-'Santa Clara', 'Cuba', 862
-'Varadero', 'Cuba', 863
-'Cayman Barac', 'Cayman Islands', 864
-'Georgetown', 'Cayman Islands', 865
-'Marsh Harbor', 'Bahamas', 866
-'Spring Point', 'Bahamas', 867
-'Treasure Cay', 'Bahamas', 868
-'Alice Town', 'Bahamas', 869
-'Great Exuma', 'Bahamas', 870
-'North Eleuthera', 'Bahamas', 871
-"Governor's Harbor", 'Bahamas', 872
-'Rock Sound', 'Bahamas', 873
-'Freeport', 'Bahamas', 874
-'Matthew Town', 'Bahamas', 875
-"Dead Man's Cay", 'Bahamas', 876
-'Stella Maris', 'Bahamas', 877
-'Mayaguana', 'Bahamas', 878
-'Nassau', 'Bahamas', 879
-'Cockburn Town', 'Bahamas', 880
-'Belize City', 'Belize', 881
-'Aitutaki', 'Cook Islands', 882
-'Avarua', 'Cook Islands', 883
-'Nandi', 'Fiji', 884
-'Nausori', 'Fiji', 885
-'Tongatapu', 'Tonga', 886
-'Tarawa', 'Kiribati', 887
-'Wallis', 'Wallis and Futuna', 888
-'Faleolo', 'Samoa', 889
-'Pago Pago', 'American Samoa', 890
-'Rurutu', 'French Polynesia', 891
-'Tubuai', 'French Polynesia', 892
-'Tikehau', 'French Polynesia', 893
-'Fakarava', 'French Polynesia', 894
-'Manihi', 'French Polynesia', 895
-'Totegegie', 'French Polynesia', 896
-'Kaukura Atoll', 'French Polynesia', 897
-'Makemo', 'French Polynesia', 898
-'Takapoto', 'French Polynesia', 899
-'Arutua', 'French Polynesia', 900
-'Mataiva', 'French Polynesia', 901
-'Takaroa', 'French Polynesia', 902
-'Nuku Hiva', 'French Polynesia', 903
-'Bora Bora', 'French Polynesia', 904
-'Rangiroa', 'French Polynesia', 905
-'Huahine Island', 'French Polynesia', 906
-'Moorea', 'French Polynesia', 907
-'Hao Island', 'French Polynesia', 908
-'Maupiti', 'French Polynesia', 909
-'Raiatea Island', 'French Polynesia', 910
-'Port-vila', 'Vanuatu', 911
-'Kone', 'New Caledonia', 912
-'Koumac', 'New Caledonia', 913
-'Lifou', 'New Caledonia', 914
-'Noumea', 'New Caledonia', 915
-'Mare', 'New Caledonia', 916
-'Touho', 'New Caledonia', 917
-'Ouvea', 'New Caledonia', 918
-'Auckland', 'New Zealand', 919
-'Taupo', 'New Zealand', 920
-'Christchurch', 'New Zealand', 921
-'Dunedin', 'New Zealand', 922
-'Gisborne', 'New Zealand', 923
-'Hokitika', 'New Zealand', 924
-'Kerikeri', 'New Zealand', 925
-'Kaitaia', 'New Zealand', 926
-'New Plymouth', 'New Zealand', 927
-'Nelson', 'New Zealand', 928
-'Invercargill', 'New Zealand', 929
-'Palmerston North', 'New Zealand', 930
-'Paraparaumu', 'New Zealand', 931
-'Queenstown International', 'New Zealand', 932
-'Rotorua', 'New Zealand', 933
-'Tauranga', 'New Zealand', 934
-'Timaru', 'New Zealand', 935
-'Woodbourne', 'New Zealand', 936
-'Whakatane', 'New Zealand', 937
-'Wellington', 'New Zealand', 938
-'Whangarei', 'New Zealand', 939
-'Westport', 'New Zealand', 940
-'Wanganui', 'New Zealand', 941
-'Herat', 'Afghanistan', 942
-'Kabul', 'Afghanistan', 943
-'Kandahar', 'Afghanistan', 944
-'Mazar-i-sharif', 'Afghanistan', 945
-'Bahrain', 'Bahrain', 946
-'Abha', 'Saudi Arabia', 947
-'Al-ahsa', 'Saudi Arabia', 948
-'El-baha', 'Saudi Arabia', 949
-'Bisha', 'Saudi Arabia', 950
-'Dammam', 'Saudi Arabia', 951
-'Gizan', 'Saudi Arabia', 952
-'Gassim', 'Saudi Arabia', 953
-'Guriat', 'Saudi Arabia', 954
-'Hail', 'Saudi Arabia', 955
-'Jeddah', 'Saudi Arabia', 956
-'Madinah', 'Saudi Arabia', 957
-'Nejran', 'Saudi Arabia', 958
-'Hafr Al-batin', 'Saudi Arabia', 959
-'Rafha', 'Saudi Arabia', 960
-'Riyadh', 'Saudi Arabia', 961
-'Arar', 'Saudi Arabia', 962
-'Sharurah', 'Saudi Arabia', 963
-'Tabuk', 'Saudi Arabia', 964
-'Taif', 'Saudi Arabia', 965
-'Turaif', 'Saudi Arabia', 966
-'Wejh', 'Saudi Arabia', 967
-'Yenbo', 'Saudi Arabia', 968
-'Abadan', 'Iran', 969
-'Bandar Mahshahr', 'Iran', 970
-'Ahwaz', 'Iran', 971
-'Bushehr', 'Iran', 972
-'Kish Island', 'Iran', 973
-'Bandar Lengeh', 'Iran', 974
-'Bakhtaran', 'Iran', 975
-'Sanandaj', 'Iran', 976
-'Rasht', 'Iran', 977
-'Teheran', 'Iran', 978
-'Bandar Abbas', 'Iran', 979
-'Kerman', 'Iran', 980
-'Birjand', 'Iran', 981
-'Ramsar', 'Iran', 982
-'Shiraz', 'Iran', 983
-'Tabriz', 'Iran', 984
-'Yazd', 'Iran', 985
-'Chah Bahar', 'Iran', 986
-'Zahedan', 'Iran', 987
-'Amman', 'Jordan', 988
-'Aqaba', 'Jordan', 989
-'Kuwait', 'Kuwait', 990
-'Beirut', 'Lebanon', 991
-'Abu Dhabi', 'United Arab Emirates', 992
-'Dubai', 'United Arab Emirates', 993
-'Fujeirah', 'United Arab Emirates', 994
-'Sharjah', 'United Arab Emirates', 995
-'Khasab', 'Oman', 996
-'Muscat', 'Oman', 997
-'Salalah', 'Oman', 998
-'Faisalabad', 'Pakistan', 999
-'Gwadar', 'Pakistan', 1000
-'Gilgit', 'Pakistan', 1001
-'Karachi', 'Pakistan', 1002
-'Lahore', 'Pakistan', 1003
-'Moenjodaro', 'Pakistan', 1004
-'Multan', 'Pakistan', 1005
-'Panjgur', 'Pakistan', 1006
-'Peshawar', 'Pakistan', 1007
-'Quetta', 'Pakistan', 1008
-'Rahim Yar Khan', 'Pakistan', 1009
-'Islamabad', 'Pakistan', 1010
-'Sukkur', 'Pakistan', 1011
-'Zhob', 'Pakistan', 1012
-'Basrah', 'Iraq', 1013
-'Doha', 'Qatar', 1014
-'Rota', 'Northern Mariana Islands', 1015
-'Saipan', 'Northern Mariana Islands', 1016
-'Agana', 'Guam', 1017
-'Majuro', 'Marshall Islands', 1018
-'Kwajalein', 'Marshall Islands', 1019
-'Kiritimati', 'Kiribati', 1020
-'Chuuk', 'Micronesia', 1021
-'Pohnpei', 'Micronesia', 1022
-'Babelthuap', 'Palau', 1023
-'Kosrae', 'Micronesia', 1024
-'Yap', 'Micronesia', 1025
-'Kinmen', 'Taiwan', 1026
-'Fengnin', 'Taiwan', 1027
-'Kaohsiung', 'Taiwan', 1028
-'Taichung', 'Taiwan', 1029
-'Tainan', 'Taiwan', 1030
-'Makung', 'Taiwan', 1031
-'Taipei', 'Taiwan', 1032
-'Hualien', 'Taiwan', 1033
-'Tokyo', 'Japan', 1034
-'Matsumoto', 'Japan', 1035
-'Ibaraki', 'Japan', 1036
-'Nanki-shirahama', 'Japan', 1037
-'Obihiro', 'Japan', 1038
-'Sapporo', 'Japan', 1039
-'Hakodate', 'Japan', 1040
-'Memanbetsu', 'Japan', 1041
-'Nakashibetsu', 'Japan', 1042
-'Wakkanai', 'Japan', 1043
-'Iki', 'Japan', 1044
-'Yamaguchi', 'Japan', 1045
-'Tsushima', 'Japan', 1046
-'Monbetsu', 'Japan', 1047
-'Asahikawa', 'Japan', 1048
-'Fukue', 'Japan', 1049
-'Fukuoka', 'Japan', 1050
-'Kagoshima', 'Japan', 1051
-'Miyazaki', 'Japan', 1052
-'Oita', 'Japan', 1053
-'Kitakyushu', 'Japan', 1054
-'Kumamoto', 'Japan', 1055
-'Nagasaki', 'Japan', 1056
-'Amami', 'Japan', 1057
-'Kanazawa', 'Japan', 1058
-'Toyama', 'Japan', 1059
-'Hiroshima', 'Japan', 1060
-'Okayama', 'Japan', 1061
-'Izumo', 'Japan', 1062
-'Miho', 'Japan', 1063
-'Kochi', 'Japan', 1064
-'Matsuyama', 'Japan', 1065
-'Osaka', 'Japan', 1066
-'Tottori', 'Japan', 1067
-'Tokushima', 'Japan', 1068
-'Takamatsu', 'Japan', 1069
-'Aomori', 'Japan', 1070
-'Yamagata', 'Japan', 1071
-'Hanamaki', 'Japan', 1072
-'Akita', 'Japan', 1073
-'Misawa', 'Japan', 1074
-'Sendai', 'Japan', 1075
-'Hachijojima', 'Japan', 1076
-'Oshima', 'Japan', 1077
-'Kwangju', 'South Korea', 1078
-'Yeosu', 'South Korea', 1079
-'Cheju', 'South Korea', 1080
-'Busan', 'South Korea', 1081
-'Ulsan', 'South Korea', 1082
-'Seoul', 'South Korea', 1083
-'Pohang', 'South Korea', 1084
-'Taegu', 'South Korea', 1085
-'Okinawa', 'Japan', 1086
-'Ishigaki', 'Japan', 1087
-'Kumejima', 'Japan', 1088
-'Miyako', 'Japan', 1089
-'Manila', 'Philippines', 1090
-'Cotabato', 'Philippines', 1091
-'Ladag', 'Philippines', 1092
-'Pagadian', 'Philippines', 1093
-'Zamboanga', 'Philippines', 1094
-'Tacloban', 'Philippines', 1095
-'Bacolod', 'Philippines', 1096
-'Dumaguete', 'Philippines', 1097
-'Iloilo', 'Philippines', 1098
-'Kalibo', 'Philippines', 1099
-'Puerto Princesa', 'Philippines', 1100
-'Parana', 'Argentina', 1101
-'Rosario', 'Argentina', 1102
-'Santa Fe', 'Argentina', 1103
-'Buenos Aires', 'Argentina', 1104
-'Cordoba', 'Argentina', 1105
-'Mendoza', 'Argentina', 1106
-'San Rafael', 'Argentina', 1107
-'Catamarca', 'Argentina', 1108
-'Santiago Del Estero', 'Argentina', 1109
-'La Rioja', 'Argentina', 1110
-'Tucuman', 'Argentina', 1111
-'San Julian', 'Argentina', 1112
-'San Luis', 'Argentina', 1113
-'Resistencia', 'Argentina', 1114
-'Formosa', 'Argentina', 1115
-'Iguazu Falls', 'Argentina', 1116
-'Posadas', 'Argentina', 1117
-'Salta', 'Argentina', 1118
-'Jujuy', 'Argentina', 1119
-'Comodoro Rivadavia', 'Argentina', 1120
-'Esquel', 'Argentina', 1121
-'Trelew', 'Argentina', 1122
-'Viedma', 'Argentina', 1123
-'Puerto Madryn', 'Argentina', 1124
-'Rio Grande', 'Argentina', 1125
-'Rio Gallegos', 'Argentina', 1126
-'Ushuaia', 'Argentina', 1127
-'Bahia Blanca', 'Argentina', 1128
-'Mar Del Plata', 'Argentina', 1129
-'Neuquen', 'Argentina', 1130
-'Santa Rosa', 'Argentina', 1131
-'San Carlos De Bariloche', 'Argentina', 1132
-'San Martin Des Andes', 'Argentina', 1133
-'Conceicao Do Araguaia', 'Brazil', 1134
-'Araracuara', 'Brazil', 1135
-'Aracaju', 'Brazil', 1136
-'Alta Floresta', 'Brazil', 1137
-'Aracatuba', 'Brazil', 1138
-'Belem', 'Brazil', 1139
-'Belo Horizonte', 'Brazil', 1140
-'Brasilia', 'Brazil', 1141
-'Cascavel', 'Brazil', 1142
-'Campo Grande', 'Brazil', 1143
-'Chapeco', 'Brazil', 1144
-'Criciuma', 'Brazil', 1145
-'Campos', 'Brazil', 1146
-'Corumba', 'Brazil', 1147
-'Curitiba', 'Brazil', 1148
-'Caxias Do Sul', 'Brazil', 1149
-'Cuiaba', 'Brazil', 1150
-'Cruzeiro do Sul', 'Brazil', 1151
-'President Prudente', 'Brazil', 1152
-'Manaus', 'Brazil', 1153
-'Foz Do Iguacu', 'Brazil', 1154
-'Florianopolis', 'Brazil', 1155
-'Fernando Do Noronha', 'Brazil', 1156
-'Fortaleza', 'Brazil', 1157
-'Rio De Janeiro', 'Brazil', 1158
-'Goiania', 'Brazil', 1159
-'Sao Paulo', 'Brazil', 1160
-'Altamira', 'Brazil', 1161
-'Ilheus', 'Brazil', 1162
-'Ipatinga', 'Brazil', 1163
-'Imperatriz', 'Brazil', 1164
-'Joao Pessoa', 'Brazil', 1165
-'Joinville', 'Brazil', 1166
-'Campina Grande', 'Brazil', 1167
-'Campinas', 'Brazil', 1168
-'Londrina', 'Brazil', 1169
-'Bom Jesus Da Lapa', 'Brazil', 1170
-'Maraba', 'Brazil', 1171
-'Maringa', 'Brazil', 1172
-'Montes Claros', 'Brazil', 1173
-'Maceio', 'Brazil', 1174
-'Macapa', 'Brazil', 1175
-'Navegantes', 'Brazil', 1176
-'Santo Angelo', 'Brazil', 1177
-'Natal', 'Brazil', 1178
-'Porto Alegre', 'Brazil', 1179
-'Passo Fundo', 'Brazil', 1180
-'Pelotas', 'Brazil', 1181
-'Petrolina', 'Brazil', 1182
-'Porto Velho', 'Brazil', 1183
-'Rio Branco', 'Brazil', 1184
-'Recife', 'Brazil', 1185
-'Ribeirao Preto', 'Brazil', 1186
-'Sao Jose Dos Campos', 'Brazil', 1187
-'Sao Luis', 'Brazil', 1188
-'Sao Jose Do Rio Preto', 'Brazil', 1189
-'Salvador', 'Brazil', 1190
-'Oriximina', 'Brazil', 1191
-'Teresina', 'Brazil', 1192
-'Tefe', 'Brazil', 1193
-'Tabatinga', 'Brazil', 1194
-'Tucurui', 'Brazil', 1195
-'Paulo Alfonso', 'Brazil', 1196
-'Uruguaiana', 'Brazil', 1197
-'Uberlandia', 'Brazil', 1198
-'Uberaba', 'Brazil', 1199
-'Vilhena', 'Brazil', 1200
-'Vitoria', 'Brazil', 1201
-'Arica', 'Chile', 1202
-'Balmaceda', 'Chile', 1203
-'Calama', 'Chile', 1204
-'Punta Arenas', 'Chile', 1205
-'Iquique', 'Chile', 1206
-'Antofagasta', 'Chile', 1207
-'Concepcion', 'Chile', 1208
-'Easter Island', 'Chile', 1209
-'Osorno', 'Chile', 1210
-'La Serena', 'Chile', 1211
-'Temuco', 'Chile', 1212
-'Puerto Montt', 'Chile', 1213
-'Valdivia', 'Chile', 1214
-'Coca', 'Ecuador', 1215
-'Cuenca', 'Ecuador', 1216
-'Galapagos', 'Ecuador', 1217
-'Guayaquil', 'Ecuador', 1218
-'Macas', 'Ecuador', 1219
-'Manta', 'Ecuador', 1220
-'Quito', 'Ecuador', 1221
-'Tulcan', 'Ecuador', 1222
-'Asuncion', 'Paraguay', 1223
-'Armenia', 'Colombia', 1224
-'Puerto Asis', 'Colombia', 1225
-'Bucaramanga', 'Colombia', 1226
-'Bogota', 'Colombia', 1227
-'Barranquilla', 'Colombia', 1228
-'Bahia Solano', 'Colombia', 1229
-'Buenaventura', 'Colombia', 1230
-'Cucuta', 'Colombia', 1231
-'Cartagena', 'Colombia', 1232
-'Cali', 'Colombia', 1233
-'Tumaco', 'Colombia', 1234
-'Corozal', 'Colombia', 1235
-'Barrancabermeja', 'Colombia', 1236
-'Florencia', 'Colombia', 1237
-'Guapi', 'Colombia', 1238
-'Ibague', 'Colombia', 1239
-'Ipiales', 'Colombia', 1240
-'Leticia', 'Colombia', 1241
-'Medellin', 'Colombia', 1242
-'Monteria', 'Colombia', 1243
-'Mitu', 'Colombia', 1244
-'Manizales', 'Colombia', 1245
-'Neiva', 'Colombia', 1246
-'Puerto Carreno', 'Colombia', 1247
-'Pereira', 'Colombia', 1248
-'Popayan', 'Colombia', 1249
-'Pasto', 'Colombia', 1250
-'Providencia', 'Colombia', 1251
-'Rio Negro', 'Colombia', 1252
-'Rio Hacha', 'Colombia', 1253
-'San Jose Del Guaviare', 'Colombia', 1254
-'Santa Marta', 'Colombia', 1255
-'San Andres Island', 'Colombia', 1256
-'San Vincente De Caguan', 'Colombia', 1257
-'Tame', 'Colombia', 1258
-'Arauca', 'Colombia', 1259
-'Quibdo', 'Colombia', 1260
-'Valledupar', 'Colombia', 1261
-'Villavicencio', 'Colombia', 1262
-'Cochabamba', 'Bolivia', 1263
-'Cobija', 'Bolivia', 1264
-'Potosi', 'Bolivia', 1265
-'Sucre', 'Bolivia', 1266
-'Tarija', 'Bolivia', 1267
-'Trinidad', 'Bolivia', 1268
-'Santa Cruz', 'Bolivia', 1269
-'Yacuiba', 'Bolivia', 1270
-'Zandery', 'Suriname', 1271
-'Cayenne', 'French Guiana', 1272
-'Pucallpa', 'Peru', 1273
-'Chiclayo', 'Peru', 1274
-'Ayacucho', 'Peru', 1275
-'Andahuaylas', 'Peru', 1276
-'Anta', 'Peru', 1277
-'Lima', 'Peru', 1278
-'Juliaca', 'Peru', 1279
-'Tumbes', 'Peru', 1280
-'Iquitos', 'Peru', 1281
-'Arequipa', 'Peru', 1282
-'Trujillo', 'Peru', 1283
-'Tarapoto', 'Peru', 1284
-'Tacna', 'Peru', 1285
-'Puerto Maldonado', 'Peru', 1286
-'Piura', 'Peru', 1287
-'Cuzco', 'Peru', 1288
-'Montevideo', 'Uruguay', 1289
-'Barinas', 'Venezuela', 1290
-'Barquisimeto', 'Venezuela', 1291
-'Canaima', 'Venezuela', 1292
-'Coro', 'Venezuela', 1293
-'Cumana', 'Venezuela', 1294
-'Paraguana', 'Venezuela', 1295
-'La Fria', 'Venezuela', 1296
-'Maracaibo', 'Venezuela', 1297
-'Porlamar', 'Venezuela', 1298
-'Caracas', 'Venezuela', 1299
-'Maturin', 'Venezuela', 1300
-'Puerto Ayacucho', 'Venezuela', 1301
-'Puerto Cabello', 'Venezuela', 1302
-'Guayana', 'Venezuela', 1303
-'San Antonio', 'Venezuela', 1304
-'San Tome', 'Venezuela', 1305
-'Valera', 'Venezuela', 1306
-'Antigua', 'Antigua and Barbuda', 1307
-'Bridgetown', 'Barbados', 1308
-'Dominica', 'Dominica', 1309
-'Fort-de-france', 'Martinique', 1310
-'St. Martin', 'Guadeloupe', 1311
-'Pointe-a-pitre', 'Guadeloupe', 1312
-'Point Salines', 'Grenada', 1313
-'St. Thomas', 'Virgin Islands', 1314
-'St. Croix Island', 'Virgin Islands', 1315
-'Aguadilla', 'Puerto Rico', 1316
-'Mayaguez', 'Puerto Rico', 1317
-'Ponce', 'Puerto Rico', 1318
-'San Juan', 'Puerto Rico', 1319
-'Basse Terre', 'Saint Kitts and Nevis', 1320
-'Castries', 'Saint Lucia', 1321
-'Hewandorra', 'Saint Lucia', 1322
-'Oranjestad', 'Aruba', 1323
-'Kralendijk', 'Netherlands Antilles', 1324
-'Willemstad', 'Netherlands Antilles', 1325
-'Philipsburg', 'Netherlands Antilles', 1326
-'The Valley', 'Anguilla', 1327
-'Scarborough', 'Trinidad and Tobago', 1328
-'Port-of-spain', 'Trinidad and Tobago', 1329
-'Tortola', 'British Virgin Islands', 1330
-'Allakaket', 'United States', 1331
-'Kingstown', 'Saint Vincent and the Grenadines', 1332
-'Alma-ata', 'Kazakhstan', 1333
-'Tselinograd', 'Kazakhstan', 1334
-'Dzhambul', 'Kazakhstan', 1335
-'Bishkek', 'Kyrgyzstan', 1336
-'Osh', 'Kyrgyzstan', 1337
-'Chimkent', 'Kazakhstan', 1338
-'Yakutat', 'United States', 1339
-'Uralsk', 'Kazakhstan', 1340
-'Pavlodar', 'Kazakhstan', 1341
-'Semiplatinsk', 'Kazakhstan', 1342
-'Aktyubinsk', 'Kazakhstan', 1343
-'Baku', 'Azerbaijan', 1344
-'Yakutsk', 'Russia', 1345
-'Mirnyj', 'Russia', 1346
-'Blagoveschensk', 'Russia', 1347
-'Khabarovsk', 'Russia', 1348
-'Marquette', 'United States', 1349
-'Magadan', 'Russia', 1350
-'Pevek', 'Russia', 1351
-'Petropavlovsk', 'Russia', 1352
-'Yuzhno-sakhalinsk', 'Russia', 1353
-'Vladivostok', 'Russia', 1354
-'Chita', 'Russia', 1355
-'Bratsk', 'Russia', 1356
-'Irkutsk', 'Russia', 1357
-'Ulan-ude', 'Russia', 1358
-'Kiev', 'Ukraine', 1359
-'Donetsk', 'Ukraine', 1360
-'Dnepropetrovsk', 'Ukraine', 1361
-'Simferopol', 'Ukraine', 1362
-'Lvov', 'Ukraine', 1363
-'Iron Mountain', 'United States', 1364
-'Odessa', 'Ukraine', 1365
-'St. Petersburg', 'Russia', 1366
-'Murmansk', 'Russia', 1367
-'Kaliningrad', 'Russia', 1368
-'Minsk 2', 'Belarus', 1369
-'Abakan', 'Russia', 1370
-'Barnaul', 'Russia', 1371
-'Kemorovo', 'Russia', 1372
-'Omsk', 'Russia', 1373
-'Krasnodar', 'Russia', 1374
-'Makhachkala', 'Russia', 1375
-'Mineralnye Vody', 'Russia', 1376
-'Stavropol', 'Russia', 1377
-'Rostov', 'Russia', 1378
-'Sochi', 'Russia', 1379
-'Astrakhan', 'Russia', 1380
-'Volgograd', 'Russia', 1381
-'Chelyabinsk', 'Russia', 1382
-'Magnetiogorsk', 'Russia', 1383
-'Nizhnevartovsk', 'Russia', 1384
-'Perm', 'Russia', 1385
-'Surgut', 'Russia', 1386
-'Yekaterinburg', 'Russia', 1387
-'Ashkhabad', 'Turkmenistan', 1388
-'Dushanbe', 'Tajikistan', 1389
-'Bukhara', 'Uzbekistan', 1390
-'Samarkand', 'Uzbekistan', 1391
-'Tashkent', 'Uzbekistan', 1392
-'Moscow', 'Russia', 1393
-'Voronezh', 'Russia', 1394
-'Syktyvkar', 'Russia', 1395
-'Kazan', 'Russia', 1396
-'Orenburg', 'Russia', 1397
-'Ufa', 'Russia', 1398
-'Ahmedabad', 'India', 1399
-'Aurangabad', 'India', 1400
-'Mumbai', 'India', 1401
-'Bhuj', 'India', 1402
-'Belgaum', 'India', 1403
-'Baroda', 'India', 1404
-'Bhopal', 'India', 1405
-'Bhaunagar', 'India', 1406
-'Goa', 'India', 1407
-'Indore', 'India', 1408
-'Jabalpur', 'India', 1409
-'Jamnagar', 'India', 1410
-'Khajuraho', 'India', 1411
-'Nagpur', 'India', 1412
-'Pune', 'India', 1413
-'Porbandar', 'India', 1414
-'Rajkot', 'India', 1415
-'Raipur', 'India', 1416
-'Surat', 'India', 1417
-'Udaipur', 'India', 1418
-'Colombo', 'Sri Lanka', 1419
-'Trinciomalee', 'Sri Lanka', 1420
-'Phnom-penh', 'Cambodia', 1421
-'Siem-reap', 'Cambodia', 1422
-'Agartala', 'India', 1423
-'Aizwal', 'India', 1424
-'Baghdogra', 'India', 1425
-'Bhubaneswar', 'India', 1426
-'Kolkata', 'India', 1427
-'Escanaba', 'United States', 1428
-'Imphal', 'India', 1429
-'Silchar', 'India', 1430
-'Patina', 'India', 1431
-'Ranchi', 'India', 1432
-'Vishakhapatnam', 'India', 1433
-"Cox's Bazar", 'Bangladesh', 1434
-'Chittagong', 'Bangladesh', 1435
-'Jessore', 'Bangladesh', 1436
-'Rajshahi', 'Bangladesh', 1437
-'Saidpur', 'Bangladesh', 1438
-'Sylhet Osmani', 'Bangladesh', 1439
-'Dhaka', 'Bangladesh', 1440
-'Hong Kong', 'Hong Kong', 1441
-'Agra', 'India', 1442
-'Allahabad', 'India', 1443
-'Amritsar', 'India', 1444
-'Varanasi', 'India', 1445
-'Kulu', 'India', 1446
-'Chandigarh', 'India', 1447
-'Dehra Dun', 'India', 1448
-'Delhi', 'India', 1449
-'Gwalior', 'India', 1450
-'Jodhpur', 'India', 1451
-'Jaipur', 'India', 1452
-'Jammu', 'India', 1453
-'Kanpur', 'India', 1454
-'Ludhiaha', 'India', 1455
-'Leh', 'India', 1456
-'Lucknow', 'India', 1457
-'Srinagar', 'India', 1458
-'Luang Prabang', 'Laos', 1459
-'Pakse', 'Laos', 1460
-'Savannakhet', 'Laos', 1461
-'Vientiane', 'Laos', 1462
-'Macau', 'Macau', 1463
-'Bhairawa', 'Nepal', 1464
-'Kathmandu', 'Nepal', 1465
-'Pokhara', 'Nepal', 1466
-'Biratnagar', 'Nepal', 1467
-'Agatti Island', 'India', 1468
-'Bangalore', 'India', 1469
-'Vijayawada', 'India', 1470
-'Coimbatore', 'India', 1471
-'Calicut', 'India', 1472
-'Hyderabad', 'India', 1473
-'Madurai', 'India', 1474
-'Mangalore', 'India', 1475
-'Madras', 'India', 1476
-'Port Blair', 'India', 1477
-'Rajahmundry', 'India', 1478
-'Tirupeti', 'India', 1479
-'Tiruchirappalli', 'India', 1480
-'Trivandrum', 'India', 1481
-'Thimphu', 'Bhutan', 1482
-'Male', 'Maldives', 1483
-'Bangkok', 'Thailand', 1484
-'Naha', 'Indonesia', 1485
-'Pattaya', 'Thailand', 1486
-'Lampang', 'Thailand', 1487
-'Phrae', 'Thailand', 1488
-'Phitsanulok', 'Thailand', 1489
-'Narathiwat', 'Thailand', 1490
-'Krabi', 'Thailand', 1491
-'Ko Samui', 'Thailand', 1492
-'Phuket', 'Thailand', 1493
-'Hat Yai', 'Thailand', 1494
-'Trang', 'Thailand', 1495
-'Udon Thani', 'Thailand', 1496
-'Sakon Nakhon', 'Thailand', 1497
-'Loei', 'Thailand', 1498
-'Danang', 'Vietnam', 1499
-'Hanoi', 'Vietnam', 1500
-'Ho Chi Minh City', 'Vietnam', 1501
-'Heho', 'Burma', 1502
-'Kengtung', 'Burma', 1503
-'Marion', 'United States', 1504
-'Kyaukpyu', 'Burma', 1505
-'Mandalay', 'Burma', 1506
-'Myeik', 'Burma', 1507
-'Myitkyina', 'Burma', 1508
-'Putao', 'Burma', 1509
-'Sittwe', 'Burma', 1510
-'Thandwe', 'Burma', 1511
-'Tachilek', 'Burma', 1512
-'Yangon', 'Burma', 1513
-'Ujung Pandang', 'Indonesia', 1514
-'Biak', 'Indonesia', 1515
-'Nabire', 'Indonesia', 1516
-'Timika', 'Indonesia', 1517
-'Jayapura', 'Indonesia', 1518
-'Wamena', 'Indonesia', 1519
-'Merauke', 'Indonesia', 1520
-'Gorontalo', 'Indonesia', 1521
-'Palu', 'Indonesia', 1522
-'Manado', 'Indonesia', 1523
-'Poso', 'Indonesia', 1524
-'Ternate', 'Indonesia', 1525
-'Luwuk', 'Indonesia', 1526
-'Ambon', 'Indonesia', 1527
-'Fak Fak', 'Indonesia', 1528
-'Kaimana', 'Indonesia', 1529
-'Babo', 'Indonesia', 1530
-'Manokwari', 'Indonesia', 1531
-'Sorong', 'Indonesia', 1532
-'Bintulu', 'Malaysia', 1533
-'Kuching', 'Malaysia', 1534
-'Limbang', 'Malaysia', 1535
-'Marudi', 'Malaysia', 1536
-'Miri', 'Malaysia', 1537
-'Sibu', 'Malaysia', 1538
-'Lahad Datu', 'Malaysia', 1539
-'Kota Kinabalu', 'Malaysia', 1540
-'Labuan', 'Malaysia', 1541
-'Tawau', 'Malaysia', 1542
-'Bandar Seri Begawan', 'Brunei', 1543
-'Pekanbaru', 'Indonesia', 1544
-'Jakarta', 'Indonesia', 1545
-'Padang', 'Indonesia', 1546
-'Ketapang', 'Indonesia', 1547
-'Pontianak', 'Indonesia', 1548
-'Jambi', 'Indonesia', 1549
-'Bengkulu', 'Indonesia', 1550
-'Palembang', 'Indonesia', 1551
-'Banda Aceh', 'Indonesia', 1552
-'Alor Setar', 'Malaysia', 1553
-'Kota Bahru', 'Malaysia', 1554
-'Kuantan', 'Malaysia', 1555
-'Kerteh', 'Malaysia', 1556
-'Ipoh', 'Malaysia', 1557
-'Johor Bahru', 'Malaysia', 1558
-'Kuala Lumpur', 'Malaysia', 1559
-'Pulau', 'Malaysia', 1560
-'Kuala Terengganu', 'Malaysia', 1561
-'Penang', 'Malaysia', 1562
-'Dili', 'East Timor', 1563
-'Singapore', 'Singapore', 1564
-'Amberley', 'Australia', 1565
-'Alice Springs', 'Australia', 1566
-'Brisbane', 'Australia', 1567
-'Coolangatta', 'Australia', 1568
-'Cairns', 'Australia', 1569
-'Charlieville', 'Australia', 1570
-'Mount Isa', 'Australia', 1571
-'Maroochydore', 'Australia', 1572
-'Mackay', 'Australia', 1573
-'Prosserpine', 'Australia', 1574
-'Rockhampton', 'Australia', 1575
-'Townsville', 'Australia', 1576
-'Weipa', 'Australia', 1577
-'Avalon', 'Australia', 1578
-'Albury', 'Australia', 1579
-'Melbourne', 'Australia', 1580
-'Hobart', 'Australia', 1581
-'Launceston', 'Australia', 1582
-'Adelaide', 'Australia', 1583
-'Karratha', 'Australia', 1584
-'Kalgoorlie', 'Australia', 1585
-'Kununurra', 'Australia', 1586
-'Learmonth', 'Australia', 1587
-'Port Hedland', 'Australia', 1588
-'Perth', 'Australia', 1589
-'Christmas Island', 'Christmas Island', 1590
-'Canberra', 'Australia', 1591
-"Coff's Harbour", 'Australia', 1592
-'Dubbo', 'Australia', 1593
-'Norfolk Island', 'Norfolk Island', 1594
-'Richmond', 'Australia', 1595
-'Tamworth', 'Australia', 1596
-'Wagga Wagga', 'Australia', 1597
-'Beijing', 'China', 1598
-'Hailar', 'China', 1599
-'Tianjin', 'China', 1600
-'Taiyuan', 'China', 1601
-'Guangzhou', 'China', 1602
-'Changcha', 'China', 1603
-'Guilin', 'China', 1604
-'Nanning', 'China', 1605
-'Shenzhen', 'China', 1606
-'Zhengzhou', 'China', 1607
-'Wuhan', 'China', 1608
-'Pyongyang', 'Korea', 1609
-"Xi'an", 'China', 1610
-'Ulan Bator', 'Mongolia', 1611
-'Kunming', 'China', 1612
-'Xiamen', 'China', 1613
-'Nanchang', 'China', 1614
-'Fuzhou', 'China', 1615
-'Hangzhou', 'China', 1616
-'Ninbo', 'China', 1617
-'Nanjing', 'China', 1618
-'Hefei', 'China', 1619
-'Qingdao', 'China', 1620
-'Shanghai', 'China', 1621
-'Yantai', 'China', 1622
-'Chongqing', 'China', 1623
-'Guiyang', 'China', 1624
-'Chengdu', 'China', 1625
-'Xichang', 'China', 1626
-'Kashi', 'China', 1627
-'Hotan', 'China', 1628
-'Urumqi', 'China', 1629
-'Harbin', 'China', 1630
-'Dalian', 'China', 1631
-'Wajima', 'Japan', 1632
-'Alexandria', 'Egypt', 1633
-'Barter Island', 'United States', 1634
-'Cape Lisburne', 'United States', 1635
-'Point Lay', 'United States', 1636
-'Hilo', 'United States', 1637
-'Bettles', 'United States', 1638
-'Fort Yukon', 'United States', 1639
-'Tatalina', 'United States', 1640
-'St. Paul Island', 'United States', 1641
-'Iliamna', 'United States', 1642
-'Port Moller', 'United States', 1643
-'Grand Forks', 'United States', 1644
-'Hana', 'United States', 1645
-'Prescott', 'United States', 1646
-'Trenton', 'United States', 1647
-'Boston', 'United States', 1648
-'Oakland', 'United States', 1649
-'Omaha', 'United States', 1650
-'Kahului', 'United States', 1651
-'Wichita', 'United States', 1652
-'Kansas City', 'United States', 1653
-'Madison', 'United States', 1654
-'Dillingham', 'United States', 1655
-'Harrison', 'United States', 1656
-'Phoenix', 'United States', 1657
-'Bangor', 'United States', 1658
-'Longview', 'United States', 1659
-'Spokane', 'United States', 1660
-'San Francisco', 'United States', 1661
-'Gainesville', 'United States', 1662
-'Memphis', 'United States', 1663
-'Los Angeles', 'United States', 1664
-'Cleveland', 'United States', 1665
-'Cincinnati', 'United States', 1666
-'Huron', 'United States', 1667
-'Juneau', 'United States', 1668
-'Lafayette', 'United States', 1669
-'Newark', 'United States', 1670
-'Boise', 'United States', 1671
-'Garden City', 'United States', 1672
-'Minot', 'United States', 1673
-'Dallas', 'United States', 1674
-'Helena', 'United States', 1675
-'Lake Charles', 'United States', 1676
-'Kona', 'United States', 1677
-'Myrtle Beach', 'United States', 1678
-'Nantucket', 'United States', 1679
-'Washington', 'United States', 1680
-'Atlantic City', 'United States', 1681
-'Pueblo', 'United States', 1682
-'Presque Isle', 'United States', 1683
-'Kodiak', 'United States', 1684
-'Fort Lauderdale', 'United States', 1685
-'International Falls', 'United States', 1686
-'Salt Lake City', 'United States', 1687
-'Harrisburg', 'United States', 1688
-'Lincoln', 'United States', 1689
-'Lansing', 'United States', 1690
-'Kamuela', 'United States', 1691
-'Massena', 'United States', 1692
-'Houston', 'United States', 1693
-'Bakersfield', 'United States', 1694
-'El Paso', 'United States', 1695
-'Harlingen', 'United States', 1696
-'Columbia', 'United States', 1697
-'Pensacola', 'United States', 1698
-'Pittsburgh', 'United States', 1699
-'Barrow', 'United States', 1700
-'Miami', 'United States', 1701
-'Seattle', 'United States', 1702
-'Chattanooga', 'United States', 1703
-'Jackson', 'United States', 1704
-'Long Beach', 'United States', 1705
-'Williamsport', 'United States', 1706
-'Indianapolis', 'United States', 1707
-'White Plains', 'United States', 1708
-'Jonesboro', 'United States', 1709
-'Yuma', 'United States', 1710
-'Carlsbad', 'United States', 1711
-'Duluth', 'United States', 1712
-'Bethel', 'United States', 1713
-'Lihue', 'United States', 1714
-'Havre', 'United States', 1715
-'Shreveport', 'United States', 1716
-'Cordova', 'United States', 1717
-'Norfolk', 'United States', 1718
-'Beaumont', 'United States', 1719
-'Savannah', 'United States', 1720
-'Nome', 'United States', 1721
-'Deadhorse', 'United States', 1722
-'Rochester', 'United States', 1723
-'Teterboro', 'United States', 1724
-'Raleigh-durham', 'United States', 1725
-'Dayton', 'United States', 1726
-'Kenai', 'United States', 1727
-'Niagara Falls', 'United States', 1728
-'Newport News', 'United States', 1729
-'Tucson', 'United States', 1730
-'Providence', 'United States', 1731
-'Salisbury', 'United States', 1732
-'Burbank', 'United States', 1733
-'Detroit', 'United States', 1734
-'Tampa', 'United States', 1735
-'Hibbing', 'United States', 1736
-'Midland', 'United States', 1737
-'Green Bay', 'United States', 1738
-'Bush Field', 'United States', 1739
-'Williston', 'United States', 1740
-'Little Rock', 'United States', 1741
-'Newburgh', 'United States', 1742
-'Homer', 'United States', 1743
-'Fort Leonardwood', 'United States', 1744
-'Dallas-Fort Worth', 'United States', 1745
-'Austin', 'United States', 1746
-'Columbus', 'United States', 1747
-'Knoxville', 'United States', 1748
-'St. Louis', 'United States', 1749
-'Wichita Falls', 'United States', 1750
-'Atlanta', 'United States', 1751
-'Grand Rapids', 'United States', 1752
-'Fresno', 'United States', 1753
-'Imperial', 'United States', 1754
-'Nashville', 'United States', 1755
-'Laredo', 'United States', 1756
-'Kotzebue', 'United States', 1757
-'Altoona', 'United States', 1758
-'El Dorado', 'United States', 1759
-'New York', 'United States', 1760
-'Tallahassee', 'United States', 1761
-'Waco', 'United States', 1762
-'Augusta', 'United States', 1763
-'Molokai', 'United States', 1764
-'San Angelo', 'United States', 1765
-'Chico', 'United States', 1766
-'Burlington', 'United States', 1767
-'Jacksonville', 'United States', 1768
-'College Station', 'United States', 1769
-'Milwaukee', 'United States', 1770
-'Abilene', 'United States', 1771
-'Portland', 'United States', 1772
-'West Palm Beach', 'United States', 1773
-'Ogdensburg', 'United States', 1774
-'Honolulu', 'United States', 1775
-'Des Moines', 'United States', 1776
-'New Bern', 'United States', 1777
-'San Diego', 'United States', 1778
-'Monroe', 'United States', 1779
-'Ontario', 'United States', 1780
-'Roswell', 'United States', 1781
-'Brownsville', 'United States', 1782
-'Dothan', 'United States', 1783
-'Farmington', 'United States', 1784
-'Corpus Christi', 'United States', 1785
-'Syracuse', 'United States', 1786
-'Chicago', 'United States', 1787
-'Hobbs', 'United States', 1788
-'Denver', 'United States', 1789
-'Philadelphia', 'United States', 1790
-'Sioux City', 'United States', 1791
-'Macon', 'United States', 1792
-'Galena', 'United States', 1793
-'Texarkana', 'United States', 1794
-'Plattsburgh', 'United States', 1795
-'Anchorage', 'United States', 1796
-'Killeen', 'United States', 1797
-'Bellingham', 'United States', 1798
-'Mobile', 'United States', 1799
-'Belleville', 'United States', 1800
-'Fort Myers', 'United States', 1801
-'King Salmon', 'United States', 1802
-'Lahania-kapalua', 'United States', 1803
-'Cheyenne', 'United States', 1804
-'Stockton', 'United States', 1805
-'Charleston', 'United States', 1806
-'Reno', 'United States', 1807
-'Ketchikan', 'United States', 1808
-'Modesto', 'United States', 1809
-'Sacramento', 'United States', 1810
-'Colorado Springs', 'United States', 1811
-'Buffalo', 'United States', 1812
-'Cedar City', 'United States', 1813
-'Windsor Locks', 'United States', 1814
-'Mcallen', 'United States', 1815
-'Lubbock', 'United States', 1816
-'Fairbanks', 'United States', 1817
-'Watertown', 'United States', 1818
-'Palm Springs', 'United States', 1819
-'Amarillo', 'United States', 1820
-'Topeka', 'United States', 1821
-'Wilmington', 'United States', 1822
-'Baton Rouge', 'United States', 1823
-'Tyler', 'United States', 1824
-'Baltimore', 'United States', 1825
-'Lanai', 'United States', 1826
-'Cold Bay', 'United States', 1827
-'Tulsa', 'United States', 1828
-'Sitka', 'United States', 1829
-'Islip', 'United States', 1830
-'Minneapolis', 'United States', 1831
-'Unalaska', 'United States', 1832
-'New Orleans', 'United States', 1833
-'Oklahoma City', 'United States', 1834
-'Albany', 'United States', 1835
-'Valdez', 'United States', 1836
-'Santa Ana', 'United States', 1837
-'Casper', 'United States', 1838
-'Valparaiso', 'United States', 1839
-'Key West', 'United States', 1840
-'Charlotte', 'United States', 1841
-'Las Vegas', 'United States', 1842
-'Orlando', 'United States', 1843
-'Great Falls', 'United States', 1844
-'Youngstown', 'United States', 1845
-'Kendari', 'Indonesia', 1846
-'Malang', 'Indonesia', 1847
-'Bandung', 'Indonesia', 1848
-'Yogyakarta', 'Indonesia', 1849
-'Semarang', 'Indonesia', 1850
-'Batam', 'Indonesia', 1851
-'Tanjung Pandan', 'Indonesia', 1852
-'Pangkal Pinang', 'Indonesia', 1853
-'Tanjung Pinang', 'Indonesia', 1854
-'Banjarmasin', 'Indonesia', 1855
-'Pangkalan Bun', 'Indonesia', 1856
-'Palangkaraya', 'Indonesia', 1857
-'Maumere', 'Indonesia', 1858
-'Ende', 'Indonesia', 1859
-'Kupang', 'Indonesia', 1860
-'Labuhan Bajo', 'Indonesia', 1861
-'Balikpapan', 'Indonesia', 1862
-'Taraken', 'Indonesia', 1863
-'Bima', 'Indonesia', 1864
-'Waingapu', 'Indonesia', 1865
-'Surabaya', 'Indonesia', 1866
-'Solo City', 'Indonesia', 1867
-'Chiang Mai', 'Thailand', 1868
-'Chiang Rai', 'Thailand', 1869
-'Nakhon Si Thammarat', 'Thailand', 1870
-'Denpasar', 'Indonesia', 1871
-'Nakhon Phanom', 'Thailand', 1872
-'Ubon Ratchathani', 'Thailand', 1873
-'Khon Kaen', 'Thailand', 1874
-'Sukhothai', 'Thailand', 1875
-'Athens', 'Greece', 1876
-'Nagoya', 'Japan', 1877
-'Kobe', 'Japan', 1878
-'Pullman', 'United States', 1879
-'Lewiston', 'United States', 1880
-'Elmira', 'United States', 1881
-'Ithaca', 'United States', 1882
-'Monterey', 'United States', 1883
-'Santa Barbara', 'United States', 1884
-'Daytona Beach', 'United States', 1885
-'Riga', 'Latvia', 1886
-'Kaunas', 'Lithuania', 1887
-'Palanga', 'Lithuania', 1888
-'Vilnius', 'Lithuania', 1889
-'Yerevan', 'Armenia', 1890
-'Gyumri', 'Armenia', 1891
-'Asmara', 'Eritrea', 1892
-'Massawa', 'Eritrea', 1893
-'Mukalla', 'Yemen', 1894
-'Batumi', 'Georgia', 1895
-'Kutaisi', 'Georgia', 1896
-'Tbilisi', 'Georgia', 1897
-'Taiz', 'Yemen', 1898
-'Hodeidah', 'Yemen', 1899
-'Aden', 'Yemen', 1900
-'Ataq', 'Yemen', 1901
-'Al Ghaidah Intl', 'Yemen', 1902
-'Sanaa', 'Yemen', 1903
-'Memmingen', 'Germany', 1904
-'Socotra', 'Yemen', 1905
-'Nevsehir', 'Turkey', 1906
-'Erbil', 'Iraq', 1907
-'Emerald', 'Australia', 1908
-'Tagbilaran', 'Philippines', 1909
-'Ilulissat', 'Greenland', 1910
-'Aasiaat', 'Greenland', 1911
-'Palma de Mallorca', 'Spain', 1912
-'Darwin', 'Australia', 1913
-'Surat Thani', 'Thailand', 1914
-'Nyuang U', 'Burma', 1915
-'Caticlan', 'Philippines', 1916
-'New Haven', 'United States', 1917
-'Asheville', 'United States', 1918
-'Greensboro', 'United States', 1919
-'Sioux Falls', 'United States', 1920
-'Uluru', 'Australia', 1921
-'Manchester NH', 'United States', 1922
-'Redang', 'Malaysia', 1923
-'Louisville', 'United States', 1924
-'Charlottesville VA', 'United States', 1925
-'Roanoke VA', 'United States', 1926
-'Lexington KY', 'United States', 1927
-'Evansville', 'United States', 1928
-'Albuquerque', 'United States', 1929
-'Bozeman', 'United States', 1930
-'Billings', 'United States', 1931
-'Butte', 'United States', 1932
-'Traverse City', 'United States', 1933
-'Bar Harbor', 'United States', 1934
-'Rockland', 'United States', 1935
-'Jacksn Hole', 'United States', 1936
-'Rockford', 'United States', 1937
-'Sanya', 'China', 1938
-'Lijiang', 'China', 1939
-'Greenville', 'United States', 1940
-'Bloomington', 'United States', 1941
-'Gulfport', 'United States', 1942
-'Kalamazoo', 'United States', 1943
-'Toledo', 'United States', 1944
-'Fort Wayne', 'United States', 1945
-'Decatur', 'United States', 1946
-'Cedar Rapids', 'United States', 1947
-'La Crosse', 'United States', 1948
-'Wassau', 'United States', 1949
-'Peoria', 'United States', 1950
-'Appleton', 'United States', 1951
-'Champaign', 'United States', 1952
-'Manhattan', 'United States', 1953
-'Kingscote', 'Australia', 1954
-'Hervey Bay', 'Australia', 1955
-'Basel', 'Switzerland', 1956
-'Dali', 'China', 1957
-'Jinghong', 'China', 1958
-'Mulu', 'Malaysia', 1959
-'Sharm El Sheikh', 'Egypt', 1960
-'Franklin', 'United States', 1961
-'El Calafate', 'Argentina', 1962
-'Armidale', 'Australia', 1963
-'Grand Junction', 'United States', 1964
-'Saint George', 'United States', 1965
-'Sarasota', 'United States', 1966
-'Bermuda', 'Bermuda', 1967
-'Moline', 'United States', 1968
-'Honiara', 'Solomon Islands', 1969
-'Papeete', 'French Polynesia', 1970
-'Nauru', 'Nauru', 1971
-'Funafuti', 'Tuvalu', 1972
-'Novosibirsk', 'Russia', 1973
-'Phon Savan', 'Laos', 1974
-'Hue', 'Vietnam', 1975
-'Bismarck', 'United States', 1976
-'Yinchuan', 'China', 1977
-'Mae Hong Son', 'Thailand', 1978
-'Rapid City', 'United States', 1979
-'Flint', 'United States', 1980
-'Davao', 'Philippines', 1981
-'Funchal', 'Portugal', 1982
-'Santarem', 'Brazil', 1983
-'Sihanoukville', 'Cambodia', 1984
-'NAPIER', 'New Zealand', 1985
-'Lhasa', 'China', 1986
-'Redding', 'United States', 1987
-'Eugene', 'United States', 1988
-'Idaho Falls', 'United States', 1989
-'Medford', 'United States', 1990
-'Redmond-Bend', 'United States', 1991
-'Windhoek', 'Namibia', 1992
-'Jinan', 'China', 1993
-'Changzhou', 'China', 1994
-'Yibin', 'China', 1995
-'Tyumen', 'Russia', 1996
-'Akron', 'United States', 1997
-'Huntsville', 'United States', 1998
-'PARKERSBURG', 'United States', 1999
-'MONTGOMERY', 'United States', 2000
-'BRISTOL', 'United States', 2001
-'PADUCAH', 'United States', 2002
-'Samara', 'Russia', 2003
-'Djibouti', 'Djibouti', 2004
-'Haikou', 'China', 2005
-'Kalispell', 'United States', 2006
-'Page', 'United States', 2007
-'Utila', 'Honduras', 2008
-'Santa Elena de Uairen', 'Venezuela', 2009
-'Saginaw', 'United States', 2010
-'Binghamton', 'United States', 2011
-'Baghdad', 'Iraq', 2012
-'Nan', 'Thailand', 2013
-'Roi Et', 'Thailand', 2014
-'Buri Ram', 'Thailand', 2015
-'Ranong', 'Thailand', 2016
-'Trat', 'Thailand', 2017
-'Angeles City', 'Philippines', 2018
-'Sandakan', 'Malaysia', 2019
-'Luang Namtha', 'Laos', 2020
-'Muang Xay', 'Laos', 2021
-'Shenyang', 'China', 2022
-'Dongying', 'China', 2023
-'Petersburg', 'United States', 2024
-'Luoyang', 'China', 2025
-'Xuzhou', 'China', 2026
-'Isfahan', 'Iran', 2027
-'Dalat', 'Vietnam', 2028
-'Dong Hoi', 'Vietnam', 2029
-'Rach Gia', 'Vietnam', 2030
-'Ca Mau', 'Vietnam', 2031
-'Chu Lai', 'Vietnam', 2032
-'Tuy Hoa', 'Vietnam', 2033
-'Pai', 'Thailand', 2034
-'Brac', 'Croatia', 2035
-'Yaounde', 'Cameroon', 2036
-'Conakry', 'Guinea', 2037
-'Karlsruhe/Baden-Baden', 'Germany', 2038
-'Sanford', 'United States', 2039
-'Phu Quoc', 'Vietnam', 2040
-'Johnstown', 'United States', 2041
-'Tumling Tar', 'Nepal', 2042
-'Dhangarhi', 'Nepal', 2043
-'Muan', 'South Korea', 2044
-'Astypalaia', 'Greece', 2045
-'Ikaria', 'Greece', 2046
-'Kalymnos', 'Greece', 2047
-'Milos', 'Greece', 2048
-'Cyclades Islands', 'Greece', 2049
-'Paros', 'Greece', 2050
-'Kastelorizo', 'Greece', 2051
-'Marsa Alam', 'Egypt', 2052
-'Weeze', 'Germany', 2053
-'Busuanga', 'Philippines', 2054
-'Butuan', 'Philippines', 2055
-'Dipolog', 'Philippines', 2056
-'Laoag', 'Philippines', 2057
-'Legazpi', 'Philippines', 2058
-'Ozamis', 'Philippines', 2059
-'Zweibruecken', 'Germany', 2060
-'Cebu', 'Philippines', 2061
-'Porto Seguro', 'Brazil', 2062
-'Palmas', 'Brazil', 2063
-'Caldas Novas', 'Brazil', 2064
-'Missoula', 'United States', 2065
-'Blackall', 'Australia', 2066
-'Bundaberg', 'Australia', 2067
-'Grand Canyon', 'United States', 2068
-'Kaadedhdhoo', 'Maldives', 2069
-'Deline', 'Canada', 2070
-'Tulita', 'Canada', 2071
-'Fort Good Hope', 'Canada', 2072
-'Tanna', 'Vanuatu', 2073
-'Paulatuk', 'Canada', 2074
-'Kulusuk', 'Greenland', 2075
-'Saba', 'Netherlands Antilles', 2076
-'Vail', 'United States', 2077
-'Stokmarknes', 'Norway', 2078
-'Lawton', 'United States', 2079
-'Flagstaff', 'United States', 2080
-'Twin Falls', 'United States', 2081
-'Monaco', 'Monaco', 2082
-'Vineyard Haven MA', 'United States', 2083
-'Saint Cloud', 'United States', 2084
-'Columbus Mississippi', 'United States', 2085
-'Nizhniy Novgorod', 'Russia', 2086
-'Erie', 'United States', 2087
-'Barnstable', 'United States', 2088
-'San Pedro', 'Belize', 2089
-'Morgantown', 'United States', 2090
-'Scranton', 'United States', 2091
-'Bemidji', 'United States', 2092
-'Ballina Byron Bay', 'Australia', 2093
-'Fargo', 'United States', 2094
-'Mesa', 'United States', 2095
-'Gillette', 'United States', 2096
-'Tomsk', 'Russia', 2097
-'Chumphon', 'Thailand', 2098
-'Jiuzhaigou', 'China', 2099
-'Shantou', 'China', 2100
-'Ciudad del Este', 'Paraguay', 2101
-'Dunhuang', 'China', 2102
-'Ancona', 'Italy', 2103
-'Copiapo', 'Chile', 2104
-'Little Cayman', 'Cayman Islands', 2105
-'Bodrum', 'Turkey', 2106
-'State College Pennsylvania', 'United States', 2107
-'Broome', 'Australia', 2108
-'Klagenfurt', 'Austria', 2109
-'Hammerfest', 'Norway', 2110
-'Honningsvag', 'Norway', 2111
-'Mehamn', 'Norway', 2112
-'Vadso', 'Norway', 2113
-'Tehran', 'Iran', 2114
-'Mashhad', 'Iran', 2115
-'Mudanjiang', 'China', 2116
-'Meridian', 'United States', 2117
-'Springfield', 'United States', 2118
-'Cortez', 'United States', 2119
-'Hayden', 'United States', 2120
-'Liberal', 'United States', 2121
-'Cody', 'United States', 2122
-'Orsta-Volda', 'Norway', 2123
-"ST MARY'S", 'United Kingdom', 2124
-'Narvik', 'Norway', 2125
-'Berlevag', 'Norway', 2126
-'Norilsk', 'Russia', 2127
-'Anapa', 'Russia', 2128
-'Joplin', 'United States', 2129
-'Allentown', 'United States', 2130
-'Bentonville', 'United States', 2131
-'Atyrau', 'Kazakhstan', 2132
-'Kzyl-Orda', 'Kazakhstan', 2133
-'South Bend', 'United States', 2134
-'Arkhangelsk', 'Russia', 2135
-'Saratov', 'Russia', 2136
-'Novy Urengoy', 'Russia', 2137
-'Noyabrsk', 'Russia', 2138
-'Aktau', 'Kazakhstan', 2139
-'Ukhta', 'Russia', 2140
-'Usinsk', 'Russia', 2141
-'Naryan-Mar', 'Russia', 2142
-'Kogalym', 'Russia', 2143
-'Krasnoyarsk', 'Russia', 2144
-'Karaganda', 'Kazakhstan', 2145
-'Uraj', 'Russia', 2146
-'Changchun', 'China', 2147
-'Niigata', 'Japan', 2148
-'Arcata CA', 'United States', 2149
-'Austin TX', 'United States', 2150
-'Jacksonville NC', 'United States', 2151
-'Dubuque IA', 'United States', 2152
-'Forde', 'Norway', 2153
-'Yakutia', 'Russia', 2154
-'Nakhchivan', 'Azerbaijan', 2155
-'Ganja', 'Azerbaijan', 2156
-'Ust Kamenogorsk', 'Kazakhstan', 2157
-'Petropavlosk', 'Kazakhstan', 2158
-'Ji-Paraná', 'Brazil', 2159
-'Cajamarca', 'Peru', 2160
-'Yopal', 'Colombia', 2161
-'Esmeraldas', 'Ecuador', 2162
-'Santa Maria', 'Brazil', 2163
-'Lençóis', 'Brazil', 2164
-'Juazeiro Do Norte', 'Brazil', 2165
-'Masbate', 'Philippines', 2166
-'Catarman', 'Philippines', 2167
-'Jolo', 'Philippines', 2168
-'Camiguin', 'Philippines', 2169
-'Chongju', 'South Korea', 2170
-'Sacheon', 'South Korea', 2171
-'Wonju', 'South Korea', 2172
-'Kunsan', 'South Korea', 2173
-'Shonai', 'Japan', 2174
-'Odate Noshiro', 'Japan', 2175
-'Fukushima', 'Japan', 2176
-'Iwami', 'Japan', 2177
-'Saga', 'Japan', 2178
-'Kushiro', 'Japan', 2179
-'Tufi', 'Papua New Guinea', 2180
-'Losuia', 'Papua New Guinea', 2181
-'Londolovit', 'Papua New Guinea', 2182
-'Wrangell', 'United States', 2183
-'Chevak', 'United States', 2184
-'Aniak', 'United States', 2185
-'Mountain Village', 'United States', 2186
-'Mcgrath', 'United States', 2187
-'Kalskag', 'United States', 2188
-'Haines', 'United States', 2189
-'Holy Cross', 'United States', 2190
-'Skagway', 'United States', 2191
-'Gustavus', 'United States', 2192
-'Adak Island', 'United States', 2193
-'Boca de Sábalo', 'Panama', 2194
-'Contadora Island', 'Panama', 2195
-'Bahia Piña', 'Panama', 2196
-'Sayun Intl', 'Yemen', 2197
-'Sulaymaniyah', 'Iraq', 2198
-'Turbat', 'Pakistan', 2199
-'Skardu', 'Pakistan', 2200
-'Dera Ismael Khan', 'Pakistan', 2201
-'Dera Ghazi Khan', 'Pakistan', 2202
-'Dalbandin', 'Pakistan', 2203
-'Chitral', 'Pakistan', 2204
-'Bahawalpur', 'Pakistan', 2205
-'Al Ain', 'United Arab Emirates', 2206
-'Uromiyeh', 'Iran', 2207
-'Ardabil', 'Iran', 2208
-'Lar', 'Iran', 2209
-'Dasht-e-naz', 'Iran', 2210
-'Noshahr', 'Iran', 2211
-'Sabzevar', 'Iran', 2212
-'Bojnourd', 'Iran', 2213
-'Bam', 'Iran', 2214
-'Khorram Abad', 'Iran', 2215
-'Al-Jawf', 'Saudi Arabia', 2216
-'Dawadmi', 'Saudi Arabia', 2217
-'Île des Pins', 'New Caledonia', 2218
-'Waala', 'New Caledonia', 2219
-'Tiga', 'New Caledonia', 2220
-'Ipota', 'Vanuatu', 2221
-'Futuna Island', 'Vanuatu', 2222
-"Dillon's Bay", 'Vanuatu', 2223
-'Aniwa', 'Vanuatu', 2224
-'Anelghowhat', 'Vanuatu', 2225
-'Malekula Island', 'Vanuatu', 2226
-'Valesdir', 'Vanuatu', 2227
-'Ambryn Island', 'Vanuatu', 2228
-'Tongoa Island', 'Vanuatu', 2229
-'Santo', 'Vanuatu', 2230
-'Gaua Island', 'Vanuatu', 2231
-'Norsup', 'Vanuatu', 2232
-'Lonorore', 'Vanuatu', 2233
-'Maewo Island', 'Vanuatu', 2234
-'Lamen Bay', 'Vanuatu', 2235
-'Lamap', 'Vanuatu', 2236
-'Paama Island', 'Vanuatu', 2237
-'Pentecost Island', 'Vanuatu', 2238
-'Longana', 'Vanuatu', 2239
-'Craig Cove', 'Vanuatu', 2240
-'Sangafa', 'Vanuatu', 2241
-'Loh/Linua', 'Vanuatu', 2242
-'Sola', 'Vanuatu', 2243
-'Ablow', 'Vanuatu', 2244
-'Ua Huka', 'French Polynesia', 2245
-'Ua Pou', 'French Polynesia', 2246
-'Hiva-oa', 'French Polynesia', 2247
-'Ahe', 'French Polynesia', 2248
-'Alofi', 'Niue', 2249
-'Vanua Balavu', 'Fiji', 2250
-'Savusavu', 'Fiji', 2251
-'Rotuma', 'Fiji', 2252
-'Matei', 'Fiji', 2253
-'Lambasa', 'Fiji', 2254
-'Lakeba Island', 'Fiji', 2255
-'Vunisea', 'Fiji', 2256
-'Cicia', 'Fiji', 2257
-'Mitiaro Island', 'Cook Islands', 2258
-'Mauke Island', 'Cook Islands', 2259
-'Mangaia Island', 'Cook Islands', 2260
-'Atiu Island', 'Cook Islands', 2261
-'Colonel Hill', 'Bahamas', 2262
-"Arthur's Town", 'Bahamas', 2263
-'Long Banga', 'Malaysia', 2264
-'Cayo Coco', 'Cuba', 2265
-'Puerto Jimenez', 'Costa Rica', 2266
-'Nicoya', 'Costa Rica', 2267
-'Roxana', 'Costa Rica', 2268
-'Jaqué', 'Panama', 2269
-'Jalapa', 'Mexico', 2270
-'Puerto Lempira', 'Honduras', 2271
-'La Isabela', 'Dominican Republic', 2272
-'Samana', 'Dominican Republic', 2273
-'Salt Cay', 'Turks and Caicos Islands', 2274
-'Ubari', 'Libya', 2275
-'Misratah', 'Libya', 2276
-'Balikesir Korfez', 'Turkey', 2277
-'Isparta', 'Turkey', 2278
-'Adiyaman', 'Turkey', 2279
-'Agri', 'Turkey', 2280
-'Kahramanmaras', 'Turkey', 2281
-'Kars', 'Turkey', 2282
-'Banja Luka', 'Bosnia and Herzegovina', 2283
-'Corvo', 'Portugal', 2284
-'Syros Island', 'Greece', 2285
-'Logroño-Agoncillo', 'Spain', 2286
-'Nicosia', 'Cyprus', 2287
-'Yakima', 'United States', 2288
-'Worland', 'United States', 2289
-'Valdosta', 'United States', 2290
-'Quincy', 'United States', 2291
-'Tupelo', 'United States', 2292
-'Salina', 'United States', 2293
-'Saranac Lake', 'United States', 2294
-'Sheridan', 'United States', 2295
-'San Luis Obispo', 'United States', 2296
-'Rutland', 'United States', 2297
-'Rock Springs', 'United States', 2298
-'Rhinelander', 'United States', 2299
-'Portsmouth', 'United States', 2300
-'Pellston', 'United States', 2301
-'Pierre', 'United States', 2302
-'Pocatello', 'United States', 2303
-'Hattiesburg/Laurel', 'United States', 2304
-'Owensboro', 'United States', 2305
-'North Bend', 'United States', 2306
-'Muscle Shoals', 'United States', 2307
-'Muskegon', 'United States', 2308
-'Lynchburg', 'United States', 2309
-'Lancaster', 'United States', 2310
-'Klamath Falls', 'United States', 2311
-'Lebanon', 'United States', 2312
-'North Platte', 'United States', 2313
-'Latrobe', 'United States', 2314
-'Laramie', 'United States', 2315
-'Kirksville', 'United States', 2316
-'Huntington', 'United States', 2317
-'Hot Springs', 'United States', 2318
-'Grand Island', 'United States', 2319
-'Fayetteville', 'United States', 2320
-'New Bedford', 'United States', 2321
-'Elko', 'United States', 2322
-'Eau Claire', 'United States', 2323
-'Du Bois', 'United States', 2324
-'Dodge City', 'United States', 2325
-'Hancock', 'United States', 2326
-'Port Angeles', 'United States', 2327
-'Clarksburg', 'United States', 2328
-'Sault Ste Marie', 'United States', 2329
-'Cape Girardeau', 'United States', 2330
-'Crescent City', 'United States', 2331
-'Brunswick', 'United States', 2332
-'Beckley', 'United States', 2333
-'Scottsbluff', 'United States', 2334
-'Bradford', 'United States', 2335
-'Alpena', 'United States', 2336
-'Walla Walla', 'United States', 2337
-'Gheshm', 'Iran', 2338
-'Diu', 'India', 2339
-'Arua', 'Uganda', 2340
-'Bukoba', 'Tanzania', 2341
-'Port Sudan', 'Sudan', 2342
-'Nyala', 'Sudan', 2343
-"Al Bayda'", 'Libya', 2344
-'Tobruk', 'Libya', 2345
-'Sirt', 'Libya', 2346
-'Nanyuki', 'Kenya', 2347
-'Malindi', 'Kenya', 2348
-'Lokichoggio', 'Kenya', 2349
-'Amboseli National Park', 'Kenya', 2350
-'Asyut', 'Egypt', 2351
-'Galcaio', 'Somalia', 2352
-'Mogadishu', 'Somalia', 2353
-'Bosaso', 'Somalia', 2354
-'Gode', 'Ethiopia', 2355
-'Sao Filipe - Fogo Island', 'Cape Verde', 2356
-'Praia - Santiago Island', 'Cape Verde', 2357
-'El Aroui', 'Morocco', 2358
-'El Aaiún', 'Western Sahara', 2359
-'Essadouira', 'Morocco', 2360
-'Dakhla', 'Western Sahara', 2361
-'Bissau', 'Guinea-Bissau', 2362
-'La Gomera', 'Spain', 2363
-'Lodja', 'Congo (Kinshasa)', 2364
-'Tshikapa', 'Congo (Kinshasa)', 2365
-'Oranjemund', 'Namibia', 2366
-'Ondangwa', 'Namibia', 2367
-'Luderitz', 'Namibia', 2368
-'Chimoio', 'Mozambique', 2369
-'Mocamedes', 'Angola', 2370
-'Ondjiva', 'Angola', 2371
-'Catumbela', 'Angola', 2372
-'Solwesi', 'Zambia', 2373
-'Chipata', 'Zambia', 2374
-'Mpumalanga', 'South Africa', 2375
-'Shire Indasilase', 'Ethiopia', 2376
-'Hemavan', 'Sweden', 2377
-'Ängelholm', 'Sweden', 2378
-'Torsby', 'Sweden', 2379
-'Karlstad', 'Sweden', 2380
-'Hagfors', 'Sweden', 2381
-'Östersund', 'Sweden', 2382
-'Bydgoszcz', 'Poland', 2383
-'Vardø', 'Norway', 2384
-'Sorkjosen', 'Norway', 2385
-'Svolvær', 'Norway', 2386
-'Sogndal', 'Norway', 2387
-'Sandane', 'Norway', 2388
-'Røst', 'Norway', 2389
-'Rørvik', 'Norway', 2390
-'Mo i Rana', 'Norway', 2391
-'Namsos', 'Norway', 2392
-'Leknes', 'Norway', 2393
-'Dongloe', 'Ireland', 2394
-'Barra', 'United Kingdom', 2395
-"Land's End", 'United Kingdom', 2396
-'Westray', 'United Kingdom', 2397
-'Sanday', 'United Kingdom', 2398
-'Stronsay', 'United Kingdom', 2399
-'Papa Westray', 'United Kingdom', 2400
-'North Ronaldsay', 'United Kingdom', 2401
-'Eday', 'United Kingdom', 2402
-'Campbeltown', 'United Kingdom', 2403
-'Doncaster - Sheffield', 'United Kingdom', 2404
-'Heringsdorf', 'Germany', 2405
-'Kumasi', 'Ghana', 2406
-'Guemar', 'Algeria', 2407
-'Bordj Badji Mokhtar', 'Algeria', 2408
-'Béchar', 'Algeria', 2409
-'Batna', 'Algeria', 2410
-'Churchill Falls', 'Canada', 2411
-'Sandy Lake', 'Canada', 2412
-'Round Lake', 'Canada', 2413
-'Sachigo Lake', 'Canada', 2414
-'Masset', 'Canada', 2415
-'Muskrat Dam', 'Canada', 2416
-'Kashechewan', 'Canada', 2417
-'Eastmain River', 'Canada', 2418
-'Bathurst', 'Canada', 2419
-'Salluit', 'Canada', 2420
-'Whale Cove', 'Canada', 2421
-'Webequie', 'Canada', 2422
-'Big Trout Lake', 'Canada', 2423
-'Sanikiluaq', 'Canada', 2424
-'Red Lake', 'Canada', 2425
-'Gamètì', 'Canada', 2426
-'The Pas', 'Canada', 2427
-'Powell River', 'Canada', 2428
-'Peawanuck', 'Canada', 2429
-'Pikangikum', 'Canada', 2430
-'Inukjuak', 'Canada', 2431
-'Wemindji', 'Canada', 2432
-'Umiujaq', 'Canada', 2433
-'Chibougamau', 'Canada', 2434
-'Kangiqsualujjuaq', 'Canada', 2435
-"Lutselk'e", 'Canada', 2436
-'Lansdowne House', 'Canada', 2437
-'Kimmirut', 'Canada', 2438
-'Aupaluk', 'Canada', 2439
-'Waskaganish', 'Canada', 2440
-'Akulivik', 'Canada', 2441
-'Ivujivik', 'Canada', 2442
-'Chevery', 'Canada', 2443
-'Hopedale', 'Canada', 2444
-'Nemiscau', 'Canada', 2445
-'Quaqtaq', 'Canada', 2446
-'Grise Fiord', 'Canada', 2447
-'Gillam', 'Canada', 2448
-'Kuujjuarapik', 'Canada', 2449
-'Igloolik', 'Canada', 2450
-'Makkovik', 'Canada', 2451
-'Fort Hope', 'Canada', 2452
-'Fort Albany', 'Canada', 2453
-'Fort Severn', 'Canada', 2454
-'Nain', 'Canada', 2455
-'Chesterfield Inlet', 'Canada', 2456
-'Lourdes-De-Blanc-Sablon', 'Canada', 2457
-'Attawapiskat', 'Canada', 2458
-'Kangirsuk', 'Canada', 2459
-'Kasabonika', 'Canada', 2460
-'Fort Frances', 'Canada', 2461
-'Cat Lake', 'Canada', 2462
-'Tarapacá', 'Colombia', 2463
-'Apartadó', 'Colombia', 2464
-'Nantong', 'China', 2465
-'La Tabatière', 'Canada', 2466
-'Tête-à-la-Baleine', 'Canada', 2467
-'Chisasibi', 'Canada', 2468
-'Poplar Hill', 'Canada', 2469
-'Ogoki Post', 'Canada', 2470
-'Kingfisher Lake', 'Canada', 2471
-'Bearskin Lake', 'Canada', 2472
-'North Spirit Lake', 'Canada', 2473
-'Wunnumin Lake', 'Canada', 2474
-'Angling Lake', 'Canada', 2475
-'Summer Beaver', 'Canada', 2476
-'Whatì', 'Canada', 2477
-'Rigolet', 'Canada', 2478
-'Anahim Lake', 'Canada', 2479
-'Punta Gorda', 'Belize', 2480
-'Caye Caulker', 'Belize', 2481
-'Puntarenas', 'Costa Rica', 2482
-'Uummannaq', 'Greenland', 2483
-'Upernavik', 'Greenland', 2484
-'Sisimiut', 'Greenland', 2485
-'Qaanaaq', 'Greenland', 2486
-'Narsaq', 'Greenland', 2487
-'Nanortalik', 'Greenland', 2488
-'Maniitsoq', 'Greenland', 2489
-'Qaqortoq', 'Greenland', 2490
-'Paamiut', 'Greenland', 2491
-'Neerlerit Inaat', 'Greenland', 2492
-'Alluitsup Paa', 'Greenland', 2493
-'Wapenamanda', 'Papua New Guinea', 2494
-'Vanimo', 'Papua New Guinea', 2495
-'Tokua', 'Papua New Guinea', 2496
-'Tabubil', 'Papua New Guinea', 2497
-'Tari', 'Papua New Guinea', 2498
-'Misima Island', 'Papua New Guinea', 2499
-'Moro', 'Papua New Guinea', 2500
-'Momote', 'Papua New Guinea', 2501
-'Mendi', 'Papua New Guinea', 2502
-'Kavieng', 'Papua New Guinea', 2503
-'Kiunga', 'Papua New Guinea', 2504
-'Hoskins', 'Papua New Guinea', 2505
-'Girua', 'Papua New Guinea', 2506
-'Gurney', 'Papua New Guinea', 2507
-'Daru', 'Papua New Guinea', 2508
-'Kundiawa', 'Papua New Guinea', 2509
-'Buka Island', 'Papua New Guinea', 2510
-'Ramata', 'Solomon Islands', 2511
-'Kagau Island', 'Solomon Islands', 2512
-'Suavanao', 'Solomon Islands', 2513
-'Marau', 'Solomon Islands', 2514
-'Rennell Island', 'Solomon Islands', 2515
-'Gizo', 'Solomon Islands', 2516
-'Munda', 'Solomon Islands', 2517
-'Santa Cruz/Graciosa Bay/Luova', 'Solomon Islands', 2518
-'Kirakira', 'Solomon Islands', 2519
-'Fera Island', 'Solomon Islands', 2520
-'Atoifi', 'Solomon Islands', 2521
-'Tiksi', 'Russia', 2522
-'Cherskiy', 'Russia', 2523
-'Chokurdah', 'Russia', 2524
-'Kostanay', 'Kazakhstan', 2525
-'Zhezkazgan', 'Kazakhstan', 2526
-'Kokshetau', 'Kazakhstan', 2527
-'Spanish Town', 'British Virgin Islands', 2528
-'Charlestown', 'Saint Kitts and Nevis', 2529
-'El Vigía', 'Venezuela', 2530
-'Huánuco', 'Peru', 2531
-'Riberalta', 'Bolivia', 2532
-'Guayaramerín', 'Bolivia', 2533
-'Puerto Inírida', 'Colombia', 2534
-'Nuquí', 'Colombia', 2535
-'La Pedrera', 'Colombia', 2536
-'Puerto Leguízamo', 'Colombia', 2537
-'La Toma (Catamayo)', 'Ecuador', 2538
-'San Cristóbal', 'Ecuador', 2539
-'Vitória Da Conquista', 'Brazil', 2540
-'Marília', 'Brazil', 2541
-'Macaé', 'Brazil', 2542
-'Roxas City', 'Philippines', 2543
-'Calbayog City', 'Philippines', 2544
-'Virac', 'Philippines', 2545
-'Tuguegarao', 'Philippines', 2546
-'Basco', 'Philippines', 2547
-'Naga', 'Philippines', 2548
-'Sangley Point', 'Philippines', 2549
-'General Santos City', 'Philippines', 2550
-'Sokcho / Gangneung', 'South Korea', 2551
-'Anadyr', 'Russia', 2552
-'Zaporozhye', 'Ukraine', 2553
-'Kharkov', 'Ukraine', 2554
-'Ivano-Frankivsk', 'Ukraine', 2555
-'Uzhgorod', 'Ukraine', 2556
-'Solovetsky Islands', 'Russia', 2557
-'Cherepovets', 'Russia', 2558
-'Petrozavodsk', 'Russia', 2559
-'Kyzyl', 'Russia', 2560
-'Novokuznetsk', 'Russia', 2561
-'Igarka', 'Russia', 2562
-'Grozny', 'Russia', 2563
-'Beslan', 'Russia', 2564
-'Elista', 'Russia', 2565
-'Kearney', 'United States', 2566
-'Kingman', 'United States', 2567
-'Pasco', 'United States', 2568
-'Akutan', 'United States', 2569
-'Silver City', 'United States', 2570
-'Lopez', 'United States', 2571
-'Salekhard', 'Russia', 2572
-'Khanty-Mansiysk', 'Russia', 2573
-'Nyagan', 'Russia', 2574
-'Sovetskiy', 'Russia', 2575
-'Izhevsk', 'Russia', 2576
-'Kirov', 'Russia', 2577
-'Nadym', 'Russia', 2578
-'Kurgan', 'Russia', 2579
-'Khudzhand', 'Tajikistan', 2580
-'Andizhan', 'Uzbekistan', 2581
-'Fergana', 'Uzbekistan', 2582
-'Namangan', 'Uzbekistan', 2583
-'Nukus', 'Uzbekistan', 2584
-'Urgench', 'Uzbekistan', 2585
-'Khanabad', 'Uzbekistan', 2586
-'Termez', 'Uzbekistan', 2587
-'Belgorod', 'Russia', 2588
-'Kursk', 'Russia', 2589
-'Vorkuta', 'Russia', 2590
-'Bugulma', 'Russia', 2591
-'Cheboksary', 'Russia', 2592
-'Orsk', 'Russia', 2593
-'Penza', 'Russia', 2594
-'Saransk', 'Russia', 2595
-'Hubli', 'India', 2596
-'Koggala', 'Sri Lanka', 2597
-'Shillong', 'India', 2598
-'Guwahati', 'India', 2599
-'Dimapur', 'India', 2600
-'Barisal', 'Bangladesh', 2601
-'Bharatpur', 'Nepal', 2602
-'Chandragarhi', 'Nepal', 2603
-'Nepalgunj', 'Nepal', 2604
-'Gan Island', 'Maldives', 2605
-'Haa Dhaalu Atoll', 'Maldives', 2606
-'Laamu Atoll', 'Maldives', 2607
-'Tak', 'Thailand', 2608
-'Buonmethuot', 'Vietnam', 2609
-'Haiphong', 'Vietnam', 2610
-'Nha Trang', 'Vietnam', 2611
-'Conson', 'Vietnam', 2612
-'Can Tho', 'Vietnam', 2613
-'Dienbienphu', 'Vietnam', 2614
-'Phucat', 'Vietnam', 2615
-'Pleiku', 'Vietnam', 2616
-'Vinh', 'Vietnam', 2617
-'Dawei', 'Burma', 2618
-'Kawthoung', 'Burma', 2619
-'Waikabubak-Sumba Island', 'Indonesia', 2620
-'Tanjung Redep-Borneo Island', 'Indonesia', 2621
-'Langgur-Kei Islands', 'Indonesia', 2622
-'Long Datih', 'Malaysia', 2623
-'Long Seridan', 'Malaysia', 2624
-'Mukah', 'Malaysia', 2625
-'Bakalalan', 'Malaysia', 2626
-'Lawas', 'Malaysia', 2627
-'Bario', 'Malaysia', 2628
-'Kudat', 'Malaysia', 2629
-'Bandar Lampung-Sumatra Island', 'Indonesia', 2630
-'Ranai-Natuna Besar Island', 'Indonesia', 2631
-'Laut Island', 'Indonesia', 2632
-'Aurukun', 'Australia', 2633
-'Barcaldine', 'Australia', 2634
-'Birdsville', 'Australia', 2635
-'Broken Hill', 'Australia', 2636
-'Hamilton Island', 'Australia', 2637
-'Bedourie', 'Australia', 2638
-'Burketown', 'Australia', 2639
-'Boulia', 'Australia', 2640
-'Coober Pedy', 'Australia', 2641
-'Cloncurry', 'Australia', 2642
-'Ceduna', 'Australia', 2643
-'Cunnamulla', 'Australia', 2644
-'Coen', 'Australia', 2645
-'Doomadgee', 'Australia', 2646
-'Devonport', 'Australia', 2647
-'Elcho Island', 'Australia', 2648
-'Esperance', 'Australia', 2649
-'Flinders Island', 'Australia', 2650
-'Geraldton', 'Australia', 2651
-'Gladstone', 'Australia', 2652
-'Groote Eylandt', 'Australia', 2653
-'Griffith', 'Australia', 2654
-'Horn Island', 'Australia', 2655
-'Julia Creek', 'Australia', 2656
-'King Island', 'Australia', 2657
-'Kowanyama', 'Australia', 2658
-'Lord Howe Island', 'Australia', 2659
-'Lockhart River', 'Australia', 2660
-'Lismore', 'Australia', 2661
-'Longreach', 'Australia', 2662
-'Merimbula', 'Australia', 2663
-'Milingimbi', 'Australia', 2664
-'Maningrida', 'Australia', 2665
-'McArthur River Mine', 'Australia', 2666
-'Mildura', 'Australia', 2667
-'Moree', 'Australia', 2668
-'Moranbah', 'Australia', 2669
-'Moruya', 'Australia', 2670
-'Mount Gambier', 'Australia', 2671
-'Mornington Island', 'Australia', 2672
-'Narrandera', 'Australia', 2673
-'Normanton', 'Australia', 2674
-'Newman', 'Australia', 2675
-'Olympic Dam', 'Australia', 2676
-'Argyle', 'Australia', 2677
-'Paraburdoo', 'Australia', 2678
-'Cocos Keeling Island', 'Cocos (Keeling) Islands', 2679
-'Gove', 'Australia', 2680
-'Parkes', 'Australia', 2681
-'Port Lincoln', 'Australia', 2682
-'Pormpuraaw', 'Australia', 2683
-'Port Macquarie', 'Australia', 2684
-'Quilpie', 'Australia', 2685
-'Roma', 'Australia', 2686
-'St George', 'Australia', 2687
-'Thargomindah', 'Australia', 2688
-'Windorah', 'Australia', 2689
-'Whyalla', 'Australia', 2690
-'Winton', 'Australia', 2691
-'Burnie', 'Australia', 2692
-'Chifeng', 'China', 2693
-'Changzhi', 'China', 2694
-'Datong', 'China', 2695
-'Hohhot', 'China', 2696
-'Baotou', 'China', 2697
-'Shijiazhuang', 'China', 2698
-'Tongliao', 'China', 2699
-'Ulanhot', 'China', 2700
-'Xilinhot', 'China', 2701
-'Beihai', 'China', 2702
-'Changde', 'China', 2703
-'Dayong', 'China', 2704
-'Meixian', 'China', 2705
-'Zhuhai', 'China', 2706
-'Liuzhou', 'China', 2707
-'Zhanjiang', 'China', 2708
-'Enshi', 'China', 2709
-'Nanyang', 'China', 2710
-'Xiangfan', 'China', 2711
-'Yichang', 'China', 2712
-'Golmud', 'China', 2713
-'Qingyang', 'China', 2714
-'Xining', 'China', 2715
-"Yan'an", 'China', 2716
-'Yulin', 'China', 2717
-'Altai', 'Mongolia', 2718
-'Bayankhongor', 'Mongolia', 2719
-'Dalanzadgad', 'Mongolia', 2720
-'Khovd', 'Mongolia', 2721
-'Muren', 'Mongolia', 2722
-'Shangri-La', 'China', 2723
-'Luxi', 'China', 2724
-'Simao', 'China', 2725
-'Zhaotong', 'China', 2726
-'Ganzhou', 'China', 2727
-'Jingdezhen', 'China', 2728
-'Jiujiang', 'China', 2729
-'Quzhou', 'China', 2730
-'Lianyungang', 'China', 2731
-'Huangyan', 'China', 2732
-'Linyi', 'China', 2733
-'Quanzhou', 'China', 2734
-'Huangshan', 'China', 2735
-'Weifang', 'China', 2736
-'Wuxi', 'China', 2737
-'Wuyishan', 'China', 2738
-'Wenzhou', 'China', 2739
-'Yancheng', 'China', 2740
-'Yiwu', 'China', 2741
-'Zhoushan', 'China', 2742
-'Bangda', 'China', 2743
-'Dazhou', 'China', 2744
-'Guangyuan', 'China', 2745
-'Luzhou', 'China', 2746
-'Mianyang', 'China', 2747
-'Nanchong', 'China', 2748
-'Nyingchi', 'China', 2749
-'Wanxian', 'China', 2750
-'Aksu', 'China', 2751
-'Kuqa', 'China', 2752
-'Korla', 'China', 2753
-'Karamay', 'China', 2754
-'Yining', 'China', 2755
-'Heihe', 'China', 2756
-'Jiamusi', 'China', 2757
-'Jinzhou', 'China', 2758
-'Qiqihar', 'China', 2759
-'Yanji', 'China', 2760
-'Worcester', 'United States', 2761
-'Anqing', 'China', 2762
-'Ji An', 'China', 2763
-'Qinhuangdao', 'China', 2764
-'Yuncheng', 'China', 2765
-'Lanzhou', 'China', 2766
-'Jiayuguan', 'China', 2767
-'Dandong', 'China', 2768
-'Dongsheng', 'China', 2769
-'Panzhihua', 'China', 2770
-'Dibrugarh', 'India', 2771
-'Grand Canyon West', 'United States', 2772
-'Boulder City', 'United States', 2773
-'Provincetown', 'United States', 2774
-'Gustavia', 'France', 2775
-'Belize', 'Belize', 2776
-'Tambow', 'Russia', 2777
-'Shizuoka', 'Japan', 2778
-'Erechim', 'Brazil', 2779
-'Navoi', 'Uzbekistan', 2780
-'Setif', 'Algeria', 2781
-'La Rochelle', 'France', 2782
-'Jining', 'China', 2783
-'Mohe County', 'China', 2784
-'Yaroslavl', 'Russia', 2785
-'Rimatara', 'French Polynesia', 2786
-'Ust-Kut', 'Russia', 2787
-'Bellona', 'Solomon Islands', 2788
-'Wenatchee', 'United States', 2789
-'Choibalsan', 'Mongolia', 2790
-'Taree', 'Australia', 2791
-'Orange', 'Australia', 2792
-'Grafton', 'Australia', 2793
-'Hamadan', 'Iran', 2794
-'St-Augustin', 'Canada', 2795
-'Vieques Island', 'Puerto Rico', 2796
-'Çorlu', 'Turkey', 2797
-'Sinop', 'Turkey', 2798
-'Mus', 'Turkey', 2799
-'Canakkale', 'Turkey', 2800
-'Eskissehir', 'Turkey', 2801
-'Mpacha', 'Namibia', 2802
-'Walvis Bay', 'Namibia', 2803
-'Punta del Este', 'Uruguay', 2804
-'Sialkot', 'Pakistan', 2805
-'Bonaventure', 'Canada', 2806
-'Samburu South', 'Kenya', 2807
-'Chaoyang', 'China', 2808
-'Walaha', 'Vanuatu', 2809
-'Tanjung Manis', 'Malaysia', 2810
-'Long Akah', 'Malaysia', 2811
-'Geneina', 'Sudan', 2812
-'Togiak Village', 'United States', 2813
-'Port Heiden', 'United States', 2814
-'King Cove', 'United States', 2815
-'Igiugig', 'United States', 2816
-'Kangra', 'India', 2817
-'Sege', 'Solomon Islands', 2818
-'Burgos', 'Spain', 2819
-'Leon', 'Spain', 2820
-'Deering', 'United States', 2821
-'Mardin', 'Turkey', 2822
-'Tacheng', 'China', 2823
-'Lago Agrio', 'Ecuador', 2824
-'Parsabad', 'Iran', 2825
-'Ilam', 'Iran', 2826
-'Gorgan', 'Iran', 2827
-'Wuzhou', 'China', 2828
-'Hami', 'China', 2829
-'Sand Point', 'United States', 2830
-'Gorakhpur', 'India', 2831
-'Hagerstown', 'United States', 2832
-'Bella Coola', 'Canada', 2833
-'Pajala', 'Sweden', 2834
-'Governador Valadares', 'Brazil', 2835
-'Apatity', 'Russia', 2836
-'Cauayan', 'Philippines', 2837
-'La Fortuna/San Carlos', 'Costa Rica', 2838
-'Imo', 'Nigeria', 2839
-'Arctic Village', 'United States', 2840
-'Tasiujaq', 'Canada', 2841
-'Puvirnituq', 'Canada', 2842
-'Noatak', 'United States', 2843
-'Savoonga', 'United States', 2844
-'Shishmaref', 'United States', 2845
-'Ruby', 'United States', 2846
-'Point Hope', 'United States', 2847
-'Mekoryuk', 'United States', 2848
-'Kivalina', 'United States', 2849
-"St Mary's", 'United States', 2850
-'Kaltag', 'United States', 2851
-'Hooper Bay', 'United States', 2852
-'Gambell', 'United States', 2853
-'Atqasuk', 'United States', 2854
-'Anvik', 'United States', 2855
-'Anaktuvuk Pass', 'United States', 2856
-'Altay', 'China', 2857
-'Manzhouli', 'China', 2858
-'Wuhai', 'China', 2859
-'Brainerd', 'United States', 2860
-'Lewisburg', 'United States', 2861
-'Chefornak', 'United States', 2862
-'Branson', 'United States', 2863
-'Tongren', 'China', 2864
-'Nizhnekamsk', 'Russia', 2865
-'Osubi', 'Nigeria', 2866
-'St. Augustine Airport', 'United States', 2867
-'Aspen', 'United States', 2868
-'Hilton Head', 'United States', 2869
-'Ulyanovsk', 'Russia', 2870
-'Thief River Falls', 'United States', 2871
-'Gelendzik', 'Russia', 2872
-'Gunnison', 'United States', 2873
-'Manistee', 'United States', 2874
-'Jamestown', 'United States', 2875
-'Weyers Cave', 'United States', 2876
-'Dickinson', 'United States', 2877
-'Sidney', 'United States', 2878
-'Chadron', 'United States', 2879
-'Alliance', 'United States', 2880
-'McCook', 'United States', 2881
-'Glendive', 'United States', 2882
-'Wolf Point', 'United States', 2883
-'Alamosa', 'United States', 2884
-'Moab', 'United States', 2885
-'Vernal', 'United States', 2886
-'Show Low', 'United States', 2887
-'Mammoth Lakes', 'United States', 2888
-'Friday Harbor', 'United States', 2889
-'Eastsound', 'United States', 2890
-'Emmonak', 'United States', 2891
-'Unalakleet', 'United States', 2892
-'Shageluk', 'United States', 2893
-'Chuathbaluk', 'United States', 2894
-'Nuiqsut', 'United States', 2895
-'Eek', 'United States', 2896
-'Kasigluk', 'United States', 2897
-'Kwethluk', 'United States', 2898
-'Kwigillingok', 'United States', 2899
-'Marshall', 'United States', 2900
-'Russian Mission', 'United States', 2901
-'Tuntutuliak', 'United States', 2902
-'Levelock', 'United States', 2903
-'Chalkyitsik', 'United States', 2904
-'Hughes', 'United States', 2905
-'Huslia', 'United States', 2906
-'Minto', 'United States', 2907
-'Nulato', 'United States', 2908
-'Rampart', 'United States', 2909
-'Tanana', 'United States', 2910
-'Venetie', 'United States', 2911
-'Beaver', 'United States', 2912
-'Central', 'United States', 2913
-'Shungnak', 'United States', 2914
-'Brich Creek', 'United States', 2915
-'Coldfoot', 'United States', 2916
-'Visalia', 'United States', 2917
-'Merced', 'United States', 2918
-'Toowoomba', 'Australia', 2919
-'Angoon', 'United States', 2920
-'Elfin Cove', 'United States', 2921
-'Tenakee Springs', 'United States', 2922
-'Pelican', 'United States', 2923
-'Excursion Inlet', 'United States', 2924
-'Hoonah', 'United States', 2925
-'Craig', 'United States', 2926
-'Hollis', 'United States', 2927
-'Metakatla', 'United States', 2928
-'Thorne Bay', 'United States', 2929
-'Hydaburg', 'United States', 2930
-'Point Baker', 'United States', 2931
-'Port Protection', 'United States', 2932
-'North Whale Pass', 'United States', 2933
-'Chignik Lake', 'United States', 2934
-'Egegik', 'United States', 2935
-'Chignik Lagoon', 'United States', 2936
-'Perryville', 'United States', 2937
-'Pilot Point', 'United States', 2938
-'South Naknek', 'United States', 2939
-'Akhiok', 'United States', 2940
-'Karluk', 'United States', 2941
-'Larsen Bay', 'United States', 2942
-'Old Harbor', 'United States', 2943
-'Ouzinkie', 'United States', 2944
-'Port Lions', 'United States', 2945
-'Amook Bay', 'United States', 2946
-'Kitoi Bay', 'United States', 2947
-'Port Williams', 'United States', 2948
-'Seal Bay', 'United States', 2949
-'Zachar Bay', 'United States', 2950
-'Ambler', 'United States', 2951
-'Buckland', 'United States', 2952
-'Kiana', 'United States', 2953
-'Kobuk', 'United States', 2954
-'Noorvik', 'United States', 2955
-'Selawik', 'United States', 2956
-'Brevig Mission', 'United States', 2957
-'Elim', 'United States', 2958
-'Golovin', 'United States', 2959
-'Teller', 'United States', 2960
-'Wales', 'United States', 2961
-'White Mountain', 'United States', 2962
-'Koyuk', 'United States', 2963
-'St. Michael', 'United States', 2964
-'Shaktoolik', 'United States', 2965
-'Stebbins', 'United States', 2966
-'Tin City', 'United States', 2967
-'Atka', 'United States', 2968
-'Nikolski', 'United States', 2969
-'Alakanuk', 'United States', 2970
-'Nunam Iqua', 'United States', 2971
-'Kipnuk', 'United States', 2972
-'False Pass', 'United States', 2973
-'Nelson Lagoon', 'United States', 2974
-'Klawock', 'United States', 2975
-'Quinhagak', 'United States', 2976
-'Kotlik', 'United States', 2977
-'Koyukuk', 'United States', 2978
-'Scammon Bay', 'United States', 2979
-'Nunapitchuk', 'United States', 2980
-'Kongiganak', 'United States', 2981
-'Nikolai', 'United States', 2982
-'Takotna', 'United States', 2983
-'Pilot Station', 'United States', 2984
-'Akiak', 'United States', 2985
-'Tuluksak', 'United States', 2986
-'Grayling', 'United States', 2987
-'Wainwright', 'United States', 2988
-'Circle', 'United States', 2989
-'Coffman Cove', 'United States', 2990
-'Crooked Creek', 'United States', 2991
-'Red Devil', 'United States', 2992
-'Sleetmute', 'United States', 2993
-'Stony River', 'United States', 2994
-'Healy', 'United States', 2995
-'Kake', 'United States', 2996
-'Manley Hot Springs', 'United States', 2997
-'St. George', 'United States', 2998
-'Postville', 'Canada', 2999
-'Kangiqsujuaq', 'Canada', 3000
-'Havre-Saint-Pierre', 'Canada', 3001
-'Rainbow Lake', 'Canada', 3002
-'Bella Bella', 'Canada', 3003
-'Dangriga', 'Belize', 3004
-'Placencia', 'Belize', 3005
-'Christiansted', 'Virgin Islands', 3006
-'Uyuni', 'Bolivia', 3007
-'Rerrenabaque', 'Bolivia', 3008
-'Saravena', 'Colombia', 3009
-'La Chorrera', 'Colombia', 3010
-'La Macarena', 'Colombia', 3011
-'Villa Garzon', 'Colombia', 3012
-'Cabo Frio', 'Brazil', 3013
-'Gurupi', 'Brazil', 3014
-'Santana do Araguaia', 'Brazil', 3015
-'Breves', 'Brazil', 3016
-'Parintins', 'Brazil', 3017
-'Barreiras', 'Brazil', 3018
-'Santa Terezinha', 'Brazil', 3019
-'Minacu', 'Brazil', 3020
-'Araguaina', 'Brazil', 3021
-'Dourados', 'Brazil', 3022
-'Rondonopolis', 'Brazil', 3023
-'Guarapuava', 'Brazil', 3024
-'Joacaba', 'Brazil', 3025
-'Rio Verde', 'Brazil', 3026
-'Araxa', 'Brazil', 3027
-'Coari', 'Brazil', 3028
-'Barcelos', 'Brazil', 3029
-'Guanambi', 'Brazil', 3030
-'Jijiga', 'Ethiopia', 3031
-'Masai Mara', 'Kenya', 3032
-'Enfidha', 'Tunisia', 3033
-'Pakuba', 'Uganda', 3034
-'Hatay', 'Turkey', 3035
-'Raivavae', 'French Polynesia', 3036
-'Foshan', 'China', 3037
-'Lleida', 'Spain', 3038
-'Olgii', 'Mongolia', 3039
-'Iturup Island', 'Russia', 3040
-'Okha', 'Russia', 3041
-'Najaf', 'Iraq', 3042
-'Fuyang', 'China', 3043
-'Longyan', 'China', 3044
-'Baoshan', 'China', 3045
-'Xingyi', 'China', 3046
-'Liping', 'China', 3047
-'Zhijiang', 'China', 3048
-'Lincang', 'China', 3049
-'Wenshan', 'China', 3050
-'Sao Gabriel da Cachoeira', 'Brazil', 3051
-'Parauapebas', 'Brazil', 3052
-'Itaituba', 'Brazil', 3053
-'Khalije Fars', 'Iran', 3054
-'Yasuj', 'Iran', 3055
-'Ulaangom', 'Mongolia', 3056
-'Dickwella', 'Sri Lanka', 3057
-'Kulyab', 'Tajikistan', 3058
-'Ravensthorpe', 'Australia', 3059
-'Provo', 'United States', 3060
-'Los Alamos', 'United States', 3061
-'Ulawa', 'Solomon Islands', 3062
-'Choiseul Bay', 'Solomon Islands', 3063
-'Rundu', 'Namibia', 3064
-'Angmagssalik', 'Greenland', 3065
-'Morristown', 'United States', 3066
-'Latacunga', 'Ecuador', 3067
-'Mysore', 'India', 3068
-'Marktoberdorf', 'Germany', 3069
-'Zonguldak', 'Turkey', 3070
-'Tengchong', 'China', 3071
-'Sevastopol', 'Ukraine', 3072
-'Yushu', 'China', 3073
-'Playon Chico', 'Panama', 3074
-'Huai An', 'China', 3075
-'El Porvenir', 'Panama', 3076
-'Shiquanhe', 'China', 3077
-'Puerto Obaldia', 'Panama', 3078
-'Ukunda', 'Kenya', 3079
-'Mackenzie British Columbia', 'Canada', 3080
-'Zhongwei', 'China', 3081
-'Baise', 'China', 3082
-'NAYPYITAW', 'Burma', 3083
-'Roche Harbor', 'United States', 3084
-'Westsound', 'United States', 3085
-'Juiz de Fora', 'Brazil', 3086
-'Nightmute', 'United States', 3087
-'Toksook Bay', 'United States', 3088
-'Tununak', 'United States', 3089
-'Goodnews Bay', 'United States', 3090
-'Newtok', 'United States', 3091
-'Achutupo', 'Panama', 3092
-'Garachine', 'Panama', 3093
-'Mulatupo', 'Panama', 3094
-'Ittoqqortoormiit', 'Greenland', 3095
-'Vinnitsa', 'Ukraine', 3096
-'Kegaska', 'Canada', 3097
-'Trail', 'Canada', 3098
-'Arctic Bay', 'Canada', 3099
-'Belmopan', 'Belize', 3100
-'Sohag', 'Egypt', 3101
-'Patos de Minas', 'Brazil', 3102
-'Bauru', 'Brazil', 3103
-'Ourilandia do Norte', 'Brazil', 3104
-'Redencao', 'Brazil', 3105
-'Sao Felix do Xingu', 'Brazil', 3106
-'Bointo', 'Brazil', 3107
-'Sao Felix do Araguaia', 'Brazil', 3108
-'Cacador', 'Brazil', 3109
-'Eirunepe', 'Brazil', 3110
-'Sao Paulo de Olivenca', 'Brazil', 3111
-'Santa Isabel do Rio Negro', 'Brazil', 3112
-'Alanya', 'Turkey', 3113
-'Keewaywin', 'Canada', 3114
-'Al-Ula', 'Saudi Arabia', 3115
-'Praya', 'Indonesia', 3116
-'Handan', 'China', 3117
-'Jixi', 'China', 3118
-'Beloyarsky', 'Russia', 3119
-'Lephalale', 'South Africa', 3120
-'Bayannur', 'China', 3121
-'Pomalaa', 'Indonesia', 3122
-'Gorno-Altaysk', 'Russia', 3123
-'Lankaran', 'Azerbaijan', 3124
-'Qabala', 'Azerbaijan', 3125
-'Qianjiang', 'China', 3126
-'Yuzhno-Kurilsk', 'Russia', 3127
-'Baishan', 'China', 3128
-'Lublin', 'Poland', 3129
-'Yongzhou', 'China', 3130
-'Tangshan', 'China', 3131
-'Yangzhou', 'China', 3132
-'Kooddoo', 'Maldives', 3133
-'Rio Hondo', 'Argentina', 3134
-'Kangding', 'China', 3135
-'Veliky Ustyug', 'Russia', 3136
-'Bodaibo', 'Russia', 3137
-'Mattala', 'Sri Lanka', 3138
-'Sir Bani Yas Island', 'United Arab Emirates', 3139
-'Dalma Island', 'United Arab Emirates', 3140
-'Jiagedaqi District', 'China', 3141
-'Bijie', 'China', 3142
-'Lensk', 'Russia', 3143
-'Igdir', 'Turkey', 3144
-'Sanliurfa', 'Turkey', 3145
-'Kutahya', 'Turkey', 3146
-'Brusselton', 'Australia', 3147
-'Yichun', 'China', 3148
-'Thanh Hoa', 'Vietnam', 3149
-'Mamuju', 'Indonesia', 3150
-'Sigiriya', 'Sri Lanka', 3151
-'Bingol', 'Turkey', 3152
-'Kastamonu', 'Turkey', 3153
-'Daocheng', 'China', 3154
-'Xiahe city', 'China', 3155
-'Comiso', 'Italy', 3156
+'London', 'United Kingdom', 242
+'Bournemouth', 'United Kingdom', 243
+'Southampton', 'United Kingdom', 244
+'Alderney', 'Guernsey', 245
+'Guernsey', 'Guernsey', 246
+'Jersey', 'Jersey', 247
+'Southend', 'United Kingdom', 248
+'Blackpool', 'United Kingdom', 249
+'Humberside', 'United Kingdom', 250
+'Leeds', 'United Kingdom', 251
+'Hawarden', 'United Kingdom', 252
+'Isle Of Man', 'Isle of Man', 253
+'Newcastle', 'United Kingdom', 254
+'Teesside', 'United Kingdom', 255
+'East Midlands', 'United Kingdom', 256
+'Kirkwall', 'United Kingdom', 257
+'Sumburgh', 'United Kingdom', 258
+'Wick', 'United Kingdom', 259
+'Aberdeen', 'United Kingdom', 260
+'Inverness', 'United Kingdom', 261
+'Glasgow', 'United Kingdom', 262
+'Edinburgh', 'United Kingdom', 263
+'Islay', 'United Kingdom', 264
+'Prestwick', 'United Kingdom', 265
+'Benbecula', 'United Kingdom', 266
+'Dundee', 'United Kingdom', 267
+'Stornoway', 'United Kingdom', 268
+'Tiree', 'United Kingdom', 269
+'Norwich', 'United Kingdom', 270
+'Exeter', 'United Kingdom', 271
+'Mount Pleasant', 'Falkland Islands', 272
+'Amsterdam', 'Netherlands', 273
+'Maastricht', 'Netherlands', 274
+'Eindhoven', 'Netherlands', 275
+'Groningen', 'Netherlands', 276
+'Rotterdam', 'Netherlands', 277
+'Cork', 'Ireland', 278
+'Dublin', 'Ireland', 279
+'Connaught', 'Ireland', 280
+'Kerry', 'Ireland', 281
+'Shannon', 'Ireland', 282
+'Waterford', 'Ireland', 283
+'Aarhus', 'Denmark', 284
+'Billund', 'Denmark', 285
+'Copenhagen', 'Denmark', 286
+'Esbjerg', 'Denmark', 287
+'Karup', 'Denmark', 288
+'Ronne', 'Denmark', 289
+'Soenderborg', 'Denmark', 290
+'Vagar', 'Faroe Islands', 291
+'Aalborg', 'Denmark', 292
+'Luxemburg', 'Luxembourg', 293
+'Alesund', 'Norway', 294
+'Andoya', 'Norway', 295
+'Alta', 'Norway', 296
+'Bronnoysund', 'Norway', 297
+'Bodo', 'Norway', 298
+'Bergen', 'Norway', 299
+'Batsfjord', 'Norway', 300
+'Kristiansand', 'Norway', 301
+'Bardufoss', 'Norway', 302
+'Harstad/Narvik', 'Norway', 303
+'Fagernes', 'Norway', 304
+'Floro', 'Norway', 305
+'Oslo', 'Norway', 306
+'Haugesund', 'Norway', 307
+'Hasvik', 'Norway', 308
+'Kristiansund', 'Norway', 309
+'Kirkenes', 'Norway', 310
+'Molde', 'Norway', 311
+'Mosjoen', 'Norway', 312
+'Lakselv', 'Norway', 313
+'Orland', 'Norway', 314
+'Roros', 'Norway', 315
+'Rygge', 'Norway', 316
+'Svalbard', 'Norway', 317
+'Skien', 'Norway', 318
+'Stord', 'Norway', 319
+'Sandnessjoen', 'Norway', 320
+'Tromso', 'Norway', 321
+'Sandefjord', 'Norway', 322
+'Trondheim', 'Norway', 323
+'Stavanger', 'Norway', 324
+'Gdansk', 'Poland', 325
+'Krakow', 'Poland', 326
+'Katowice', 'Poland', 327
+'Poznan', 'Poland', 328
+'Rzeszow', 'Poland', 329
+'Szczecin', 'Poland', 330
+'Warsaw', 'Poland', 331
+'Wroclaw', 'Poland', 332
+'Ronneby', 'Sweden', 333
+'Gothenborg', 'Sweden', 334
+'Joenkoeping', 'Sweden', 335
+'Trollhattan', 'Sweden', 336
+'Mora', 'Sweden', 337
+'Stockholm', 'Sweden', 338
+'Kristianstad', 'Sweden', 339
+'Kalkmar', 'Sweden', 340
+'Malmoe', 'Sweden', 341
+'Halmstad', 'Sweden', 342
+'Vaxjo', 'Sweden', 343
+'Sveg', 'Sweden', 344
+'Gallivare', 'Sweden', 345
+'Kramfors', 'Sweden', 346
+'Lycksele', 'Sweden', 347
+'Sundsvall', 'Sweden', 348
+'Ornskoldsvik', 'Sweden', 349
+'Kiruna', 'Sweden', 350
+'Skelleftea', 'Sweden', 351
+'Umea', 'Sweden', 352
+'Vilhelmina', 'Sweden', 353
+'Arvidsjaur', 'Sweden', 354
+'Orebro', 'Sweden', 355
+'Vasteras', 'Sweden', 356
+'Lulea', 'Sweden', 357
+'Borlange', 'Sweden', 358
+'Linkoeping', 'Sweden', 359
+'Norrkoeping', 'Sweden', 360
+'Visby', 'Sweden', 361
+'Laage', 'Germany', 362
+'Bloemfontein', 'South Africa', 363
+'Cape Town', 'South Africa', 364
+'Durban', 'South Africa', 365
+'East London', 'South Africa', 366
+'George', 'South Africa', 367
+'Hoedspruit', 'South Africa', 368
+'Johannesburg', 'South Africa', 369
+'Kimberley', 'South Africa', 370
+'Margate', 'South Africa', 371
+'Port Elizabeth', 'South Africa', 372
+'Phalaborwa', 'South Africa', 373
+'Polokwane', 'South Africa', 374
+'Pietermaritzburg', 'South Africa', 375
+"Richard's Bay", 'South Africa', 376
+'Upington', 'South Africa', 377
+'Umtata', 'South Africa', 378
+'Francistown', 'Botswana', 379
+'Kasane', 'Botswana', 380
+'Maun', 'Botswana', 381
+'Gaberone', 'Botswana', 382
+'Brazzaville', 'Congo (Brazzaville)', 383
+'Pointe-noire', 'Congo (Brazzaville)', 384
+'Manzini', 'Swaziland', 385
+'Bangui', 'Central African Republic', 386
+'Bata', 'Equatorial Guinea', 387
+'Malabo', 'Equatorial Guinea', 388
+'Plaisance', 'Mauritius', 389
+'Rodriguez Island', 'Mauritius', 390
+'Douala', 'Cameroon', 391
+'Maroua', 'Cameroon', 392
+"N'gaoundere", 'Cameroon', 393
+'Garoua', 'Cameroon', 394
+'Livingstone', 'Zambia', 395
+'Lusaka', 'Zambia', 396
+'Mfuwe', 'Zambia', 397
+'Ndola', 'Zambia', 398
+'Moroni', 'Comoros', 399
+'Dzaoudzi', 'Mayotte', 400
+'St.-denis', 'Reunion', 401
+'St.-pierre', 'Reunion', 402
+'Antananarivo', 'Madagascar', 403
+'Sainte Marie', 'Madagascar', 404
+'Toamasina', 'Madagascar', 405
+'Morondava', 'Madagascar', 406
+'Antsiranana', 'Madagascar', 407
+'Mananara', 'Madagascar', 408
+'Antalaha', 'Madagascar', 409
+'Mahajanga', 'Madagascar', 410
+'Nosy-be', 'Madagascar', 411
+'Maroantsetra', 'Madagascar', 412
+'Sambava', 'Madagascar', 413
+'Tolagnaro', 'Madagascar', 414
+'Toliara', 'Madagascar', 415
+"M'banza-congo", 'Angola', 416
+'Cabinda', 'Angola', 417
+'Culebra Island', 'Puerto Rico', 418
+'Huambo', 'Angola', 419
+'Kuito', 'Angola', 420
+'Luanda', 'Angola', 421
+'Malanje', 'Angola', 422
+'Menongue', 'Angola', 423
+'Saurimo', 'Angola', 424
+'Soyo', 'Angola', 425
+'Lubango', 'Angola', 426
+'Luena', 'Angola', 427
+'Port Gentil', 'Gabon', 428
+'Libreville', 'Gabon', 429
+'Sao Tome', 'Sao Tome and Principe', 430
+'Beira', 'Mozambique', 431
+'Inhambane', 'Mozambique', 432
+'Lichinga', 'Mozambique', 433
+'Maputo', 'Mozambique', 434
+'Nampula', 'Mozambique', 435
+'Pemba', 'Mozambique', 436
+'Quelimane', 'Mozambique', 437
+'Tete', 'Mozambique', 438
+'Vilankulu', 'Mozambique', 439
+'Mahe', 'Seychelles', 440
+'Praslin', 'Seychelles', 441
+"N'djamena", 'Chad', 442
+'Bulawayo', 'Zimbabwe', 443
+'Victoria Falls', 'Zimbabwe', 444
+'Harare', 'Zimbabwe', 445
+'Blantyre', 'Malawi', 446
+'Lilongwe', 'Malawi', 447
+'Maseru', 'Lesotho', 448
+'Kinshasa', 'Congo (Kinshasa)', 449
+'Mbandaka', 'Congo (Kinshasa)', 450
+'Gemena', 'Congo (Kinshasa)', 451
+'Kisangani', 'Congo (Kinshasa)', 452
+'Isiro', 'Congo (Kinshasa)', 453
+'Bunia', 'Congo (Kinshasa)', 454
+'Bukavu/kavumu', 'Congo (Kinshasa)', 455
+'Goma', 'Congo (Kinshasa)', 456
+'Kindu', 'Congo (Kinshasa)', 457
+'Lubumashi', 'Congo (Kinshasa)', 458
+'Kalemie', 'Congo (Kinshasa)', 459
+'Kananga', 'Congo (Kinshasa)', 460
+'Mbuji-mayi', 'Congo (Kinshasa)', 461
+'Bamako', 'Mali', 462
+'Banjul', 'Gambia', 463
+'Fuerteventura', 'Spain', 464
+'Hierro', 'Spain', 465
+'Santa Cruz De La Palma', 'Spain', 466
+'Gran Canaria', 'Spain', 467
+'Las Palmas', 'Spain', 468
+'Tenerife', 'Spain', 469
+'Melilla', 'Spain', 470
+'Freetown', 'Sierra Leone', 471
+'Monrovia', 'Liberia', 472
+'Agadir', 'Morocco', 473
+'Tan Tan', 'Morocco', 474
+'Fes', 'Morocco', 475
+'Oujda', 'Morocco', 476
+'Rabat', 'Morocco', 477
+'Casablanca', 'Morocco', 478
+'Marrakech', 'Morocco', 479
+'Ouarzazate', 'Morocco', 480
+'Al Hociema', 'Morocco', 481
+'Tetouan', 'Morocco', 482
+'Tanger', 'Morocco', 483
+'Ziguinchor', 'Senegal', 484
+'Cap Skiring', 'Senegal', 485
+'Dakar', 'Senegal', 486
+'Nouakschott', 'Mauritania', 487
+'Nouadhibou', 'Mauritania', 488
+'Amilcar Cabral', 'Cape Verde', 489
+'Boa Vista', 'Cape Verde', 490
+'Maio', 'Cape Verde', 491
+'Sao Nocolau Island', 'Cape Verde', 492
+'Sao Vicente Island', 'Cape Verde', 493
+'Addis Ababa', 'Ethiopia', 494
+'Arba Minch', 'Ethiopia', 495
+'Axum', 'Ethiopia', 496
+'Bahar Dar', 'Ethiopia', 497
+'Dire Dawa', 'Ethiopia', 498
+'Gambella', 'Ethiopia', 499
+'Gondar', 'Ethiopia', 500
+'Jimma', 'Ethiopia', 501
+'Lalibella', 'Ethiopia', 502
+'Makale', 'Ethiopia', 503
+'Asosa', 'Ethiopia', 504
+'Bujumbura', 'Burundi', 505
+'Hargeisa', 'Somalia', 506
+'Berbera', 'Somalia', 507
+'Abu Simbel', 'Egypt', 508
+'Cairo', 'Egypt', 509
+'Hurghada', 'Egypt', 510
+'Luxor', 'Egypt', 511
+'Aswan', 'Egypt', 512
+'Eldoret', 'Kenya', 513
+'Kisumu', 'Kenya', 514
+'Kitale', 'Kenya', 515
+'Lodwar', 'Kenya', 516
+'Lamu', 'Kenya', 517
+'Mombasa', 'Kenya', 518
+'Nairobi', 'Kenya', 519
+'Wajir', 'Kenya', 520
+'Ghat', 'Libya', 521
+'Kufra', 'Libya', 522
+'Benghazi', 'Libya', 523
+'Tripoli', 'Libya', 524
+'Ghadames', 'Libya', 525
+'Kigali', 'Rwanda', 526
+'Kamembe', 'Rwanda', 527
+'El Fasher', 'Sudan', 528
+'Juba', 'South Sudan', 529
+'Khartoum', 'Sudan', 530
+'Arusha', 'Tanzania', 531
+'Dar Es Salaam', 'Tanzania', 532
+'Kilimanjaro', 'Tanzania', 533
+'Mtwara', 'Tanzania', 534
+'Mwanza', 'Tanzania', 535
+'Zanzibar', 'Tanzania', 536
+'Entebbe', 'Uganda', 537
+'Tirana', 'Albania', 538
+'Bourgas', 'Bulgaria', 539
+'Plovdiv', 'Bulgaria', 540
+'Sofia', 'Bulgaria', 541
+'Varna', 'Bulgaria', 542
+'Larnaca', 'Cyprus', 543
+'Paphos', 'Cyprus', 544
+'Dubrovnik', 'Croatia', 545
+'Osijek', 'Croatia', 546
+'Pula', 'Croatia', 547
+'Rijeka', 'Croatia', 548
+'Split', 'Croatia', 549
+'Zagreb', 'Croatia', 550
+'Zadar', 'Croatia', 551
+'Alicante', 'Spain', 552
+'Almeria', 'Spain', 553
+'Aviles', 'Spain', 554
+'Bilbao', 'Spain', 555
+'Barcelona', 'Spain', 556
+'Badajoz', 'Spain', 557
+'La Coruna', 'Spain', 558
+'Gerona', 'Spain', 559
+'Granada', 'Spain', 560
+'Ibiza', 'Spain', 561
+'Jerez', 'Spain', 562
+'Murcia', 'Spain', 563
+'Madrid', 'Spain', 564
+'Malaga', 'Spain', 565
+'Menorca', 'Spain', 566
+'Pamplona', 'Spain', 567
+'Reus', 'Spain', 568
+'Salamanca', 'Spain', 569
+'San Sebastian', 'Spain', 570
+'Santiago', 'Spain', 571
+'Valencia', 'Spain', 572
+'Valladolid', 'Spain', 573
+'Vigo', 'Spain', 574
+'Santander', 'Spain', 575
+'Zaragoza', 'Spain', 576
+'Sevilla', 'Spain', 577
+'Agen', 'France', 578
+'Bordeaux', 'France', 579
+'Bergerac', 'France', 580
+'Poitiers', 'France', 581
+'Limoges', 'France', 582
+'Toulouse', 'France', 583
+'Pau', 'France', 584
+'Tarbes', 'France', 585
+'Angouleme', 'France', 586
+'Brive', 'France', 587
+'Perigueux', 'France', 588
+'Biarritz-bayonne', 'France', 589
+'Castres', 'France', 590
+'Rodez', 'France', 591
+'Dole', 'France', 592
+'Le Puy', 'France', 593
+'Metz', 'France', 594
+'Bastia', 'France', 595
+'Calvi', 'France', 596
+'Figari', 'France', 597
+'Ajaccio', 'France', 598
+'Clermont-Ferrand', 'France', 599
+'Lyon', 'France', 600
+'Aurillac', 'France', 601
+'St-Etienne', 'France', 602
+'Carcassonne', 'France', 603
+'Marseille', 'France', 604
+'Nice', 'France', 605
+'Perpignan', 'France', 606
+'Montpellier', 'France', 607
+'Beziers', 'France', 608
+'Avignon', 'France', 609
+'Beauvais', 'France', 610
+'Le Havre', 'France', 611
+'Chalons', 'France', 612
+'Tours', 'France', 613
+'Paris', 'France', 614
+'Lille', 'France', 615
+'Brest', 'France', 616
+'Dinard', 'France', 617
+'Deauville', 'France', 618
+'Lorient', 'France', 619
+'Caen', 'France', 620
+'Rennes', 'France', 621
+'Lannion', 'France', 622
+'Quimper', 'France', 623
+'Nantes', 'France', 624
+'Mulhouse', 'France', 625
+'Dijon', 'France', 626
+'Strasbourg', 'France', 627
+'Hyeres', 'France', 628
+'Nimes', 'France', 629
+'St.-pierre', 'Saint Pierre and Miquelon', 630
+'Alexandroupolis', 'Greece', 631
+'Nea Anghialos', 'Greece', 632
+'Chios', 'Greece', 633
+'Ioannina', 'Greece', 634
+'Heraklion', 'Greece', 635
+'Kastoria', 'Greece', 636
+'Kithira', 'Greece', 637
+'Keffallinia', 'Greece', 638
+'Kalamata', 'Greece', 639
+'Kos', 'Greece', 640
+'Karpathos', 'Greece', 641
+'Kerkyra/corfu', 'Greece', 642
+'Kasos', 'Greece', 643
+'Kavala', 'Greece', 644
+'Kozani', 'Greece', 645
+'Leros', 'Greece', 646
+'Limnos', 'Greece', 647
+'Mykonos', 'Greece', 648
+'Mytilini', 'Greece', 649
+'Preveza', 'Greece', 650
+'Rhodos', 'Greece', 651
+'Patras', 'Greece', 652
+'Chania', 'Greece', 653
+'Skiathos', 'Greece', 654
+'Samos', 'Greece', 655
+'Thira', 'Greece', 656
+'Sitia', 'Greece', 657
+'Skiros', 'Greece', 658
+'Thessaloniki', 'Greece', 659
+'Zakynthos', 'Greece', 660
+'Budapest', 'Hungary', 661
+'Debrecen', 'Hungary', 662
+'Bari', 'Italy', 663
+'Pescara', 'Italy', 664
+'Brindisi', 'Italy', 665
+'Lamezia', 'Italy', 666
+'Catania', 'Italy', 667
+'Lampedusa', 'Italy', 668
+'Pantelleria', 'Italy', 669
+'Palermo', 'Italy', 670
+'Reggio Calabria', 'Italy', 671
+'Trapani', 'Italy', 672
+'Alghero', 'Italy', 673
+'Cagliari', 'Italy', 674
+'Olbia', 'Italy', 675
+'Milano', 'Italy', 676
+'Bergamo', 'Italy', 677
+'Torino', 'Italy', 678
+'Genoa', 'Italy', 679
+'Milan', 'Italy', 680
+'Parma', 'Italy', 681
+'Cuneo', 'Italy', 682
+'Bolzano', 'Italy', 683
+'Bologna', 'Italy', 684
+'Treviso', 'Italy', 685
+'Ronchi De Legionari', 'Italy', 686
+'Rimini', 'Italy', 687
+'Villafranca', 'Italy', 688
+'Venice', 'Italy', 689
+'Rome', 'Italy', 690
+'Marina Di Campo', 'Italy', 691
+'Naples', 'Italy', 692
+'Pisa', 'Italy', 693
+'Florence', 'Italy', 694
+'Perugia', 'Italy', 695
+'Ljubljana', 'Slovenia', 696
+'Karlovy Vary', 'Czech Republic', 697
+'Ostrava', 'Czech Republic', 698
+'Pardubice', 'Czech Republic', 699
+'Prague', 'Czech Republic', 700
+'Brno', 'Czech Republic', 701
+'Tel-aviv', 'Israel', 702
+'Elat', 'Israel', 703
+'Haifa', 'Israel', 704
+'Ovda', 'Israel', 705
+'Malta', 'Malta', 706
+'Graz', 'Austria', 707
+'Innsbruck', 'Austria', 708
+'Linz', 'Austria', 709
+'Salzburg', 'Austria', 710
+'Vienna', 'Austria', 711
+'Santa Maria (island)', 'Portugal', 712
+'Flores', 'Portugal', 713
+'Faro', 'Portugal', 714
+'Graciosa Island', 'Portugal', 715
+'Horta', 'Portugal', 716
+'Lajes (terceira Island)', 'Portugal', 717
+'Ponta Delgada', 'Portugal', 718
+'Pico', 'Portugal', 719
+'Porto', 'Portugal', 720
+'Porto Santo', 'Portugal', 721
+'Lisbon', 'Portugal', 722
+'Sao Jorge Island', 'Portugal', 723
+'Pendleton', 'United States', 724
+'Mostar', 'Bosnia and Herzegovina', 725
+'Sarajevo', 'Bosnia and Herzegovina', 726
+'Arad', 'Romania', 727
+'Baia Mare', 'Romania', 728
+'Constanta', 'Romania', 729
+'Cluj-napoca', 'Romania', 730
+'Craiova', 'Romania', 731
+'Iasi', 'Romania', 732
+'Oradea', 'Romania', 733
+'Bucharest', 'Romania', 734
+'Sibiu', 'Romania', 735
+'Satu Mare', 'Romania', 736
+'Tirgu Mures', 'Romania', 737
+'Timisoara', 'Romania', 738
+'Geneva', 'Switzerland', 739
+'Lugano', 'Switzerland', 740
+'Bern', 'Switzerland', 741
+'Zurich', 'Switzerland', 742
+'Altenrhein', 'Switzerland', 743
+'Ankara', 'Turkey', 744
+'Adana', 'Turkey', 745
+'Antalya', 'Turkey', 746
+'Gaziantep', 'Turkey', 747
+'Konya', 'Turkey', 748
+'Merzifon', 'Turkey', 749
+'Sivas', 'Turkey', 750
+'Malatya', 'Turkey', 751
+'Kayseri', 'Turkey', 752
+'Denizli', 'Turkey', 753
+'Istanbul', 'Turkey', 754
+'Izmir', 'Turkey', 755
+'Dalaman', 'Turkey', 756
+'Riverton WY', 'United States', 757
+'Elazig', 'Turkey', 758
+'Diyabakir', 'Turkey', 759
+'Erzincan', 'Turkey', 760
+'Erzurum', 'Turkey', 761
+'Trabzon', 'Turkey', 762
+'Montrose CO', 'United States', 763
+'Van', 'Turkey', 764
+'Batman', 'Turkey', 765
+'Chisinau', 'Moldova', 766
+'Skopje', 'Macedonia', 767
+'Gibraltar', 'Gibraltar', 768
+'Belgrade', 'Serbia', 769
+'Podgorica', 'Montenegro', 770
+'Pristina', 'Serbia', 771
+'Tivat', 'Montenegro', 772
+'Bratislava', 'Slovakia', 773
+'Kosice', 'Slovakia', 774
+'Providenciales', 'Turks and Caicos Islands', 775
+'South Caicos', 'Turks and Caicos Islands', 776
+'La Romana', 'Dominican Republic', 777
+'Punta Cana', 'Dominican Republic', 778
+'Puerto Plata', 'Dominican Republic', 779
+'Santo Domingo', 'Dominican Republic', 780
+'Santiago', 'Dominican Republic', 781
+'Guatemala City', 'Guatemala', 782
+'La Ceiba', 'Honduras', 783
+'San Pedro Sula', 'Honduras', 784
+'Guanaja', 'Honduras', 785
+'Roatan', 'Honduras', 786
+'Tegucigalpa', 'Honduras', 787
+'Kingston', 'Jamaica', 788
+'Montego Bay', 'Jamaica', 789
+'Acapulco', 'Mexico', 790
+'Aguascalientes', 'Mexico', 791
+'Huatulco', 'Mexico', 792
+'Ciudad Del Carmen', 'Mexico', 793
+'Culiacan', 'Mexico', 794
+'Chetumal', 'Mexico', 795
+'Ciudad Obregon', 'Mexico', 796
+'Campeche', 'Mexico', 797
+'Ciudad Juarez', 'Mexico', 798
+'Chihuahua', 'Mexico', 799
+'Ciudad Victoria', 'Mexico', 800
+'Cozumel', 'Mexico', 801
+'Durango', 'Mexico', 802
+'Tepic', 'Mexico', 803
+'Guadalajara', 'Mexico', 804
+'Hermosillo', 'Mexico', 805
+'Colima', 'Mexico', 806
+'Saltillo', 'Mexico', 807
+'Lazard Cardenas', 'Mexico', 808
+'Los Mochis', 'Mexico', 809
+'Del Bajio', 'Mexico', 810
+'La Paz', 'Mexico', 811
+'Loreto', 'Mexico', 812
+'Matamoros', 'Mexico', 813
+'Merida', 'Mexico', 814
+'Mexicali', 'Mexico', 815
+'Morelia', 'Mexico', 816
+'Minatitlan', 'Mexico', 817
+'Mexico City', 'Mexico', 818
+'Monterrey', 'Mexico', 819
+'Mazatlan', 'Mexico', 820
+'Nuevo Laredo', 'Mexico', 821
+'Oaxaca', 'Mexico', 822
+'Poza Rico', 'Mexico', 823
+'Puebla', 'Mexico', 824
+'Piedras Negras', 'Mexico', 825
+'Uruapan', 'Mexico', 826
+'Puerto Vallarta', 'Mexico', 827
+'Puerto Escondido', 'Mexico', 828
+'Queretaro', 'Mexico', 829
+'Reynosa', 'Mexico', 830
+'San Jose Del Cabo', 'Mexico', 831
+'San Luis Potosi', 'Mexico', 832
+'Torreon', 'Mexico', 833
+'Tuxtla Gutierrez', 'Mexico', 834
+'Tijuana', 'Mexico', 835
+'Tampico', 'Mexico', 836
+'Toluca', 'Mexico', 837
+'Tapachula', 'Mexico', 838
+'Cancun', 'Mexico', 839
+'Villahermosa', 'Mexico', 840
+'Vera Cruz', 'Mexico', 841
+'Zacatecas', 'Mexico', 842
+'Zihuatanejo', 'Mexico', 843
+'Manzanillo', 'Mexico', 844
+'Managua', 'Nicaragua', 845
+'Bocas Del Toro', 'Panama', 846
+'Changuinola', 'Panama', 847
+'David', 'Panama', 848
+'Panama', 'Panama', 849
+'Panama City', 'Panama', 850
+'Golfito', 'Costa Rica', 851
+'Liberia', 'Costa Rica', 852
+'Nosara Beach', 'Costa Rica', 853
+'San Jose', 'Costa Rica', 854
+'Palmar Sur', 'Costa Rica', 855
+'Quepos', 'Costa Rica', 856
+'San Salvador', 'El Salvador', 857
+'Cap Haitien', 'Haiti', 858
+'Port-au-prince', 'Haiti', 859
+'Cayo Largo del Sur', 'Cuba', 860
+'Camaguey', 'Cuba', 861
+'Santiago De Cuba', 'Cuba', 862
+'Guantanamo', 'Cuba', 863
+'Havana', 'Cuba', 864
+'Holguin', 'Cuba', 865
+'Santa Clara', 'Cuba', 866
+'Varadero', 'Cuba', 867
+'Cayman Barac', 'Cayman Islands', 868
+'Georgetown', 'Cayman Islands', 869
+'Marsh Harbor', 'Bahamas', 870
+'Spring Point', 'Bahamas', 871
+'Treasure Cay', 'Bahamas', 872
+'Alice Town', 'Bahamas', 873
+'Great Exuma', 'Bahamas', 874
+'North Eleuthera', 'Bahamas', 875
+"Governor's Harbor", 'Bahamas', 876
+'Rock Sound', 'Bahamas', 877
+'Freeport', 'Bahamas', 878
+'Matthew Town', 'Bahamas', 879
+"Dead Man's Cay", 'Bahamas', 880
+'Stella Maris', 'Bahamas', 881
+'Mayaguana', 'Bahamas', 882
+'Nassau', 'Bahamas', 883
+'Cockburn Town', 'Bahamas', 884
+'Belize City', 'Belize', 885
+'Aitutaki', 'Cook Islands', 886
+'Avarua', 'Cook Islands', 887
+'Nandi', 'Fiji', 888
+'Nausori', 'Fiji', 889
+'Tongatapu', 'Tonga', 890
+'Tarawa', 'Kiribati', 891
+'Wallis', 'Wallis and Futuna', 892
+'Faleolo', 'Samoa', 893
+'Pago Pago', 'American Samoa', 894
+'Rurutu', 'French Polynesia', 895
+'Tubuai', 'French Polynesia', 896
+'Tikehau', 'French Polynesia', 897
+'Fakarava', 'French Polynesia', 898
+'Manihi', 'French Polynesia', 899
+'Totegegie', 'French Polynesia', 900
+'Kaukura Atoll', 'French Polynesia', 901
+'Makemo', 'French Polynesia', 902
+'Takapoto', 'French Polynesia', 903
+'Arutua', 'French Polynesia', 904
+'Mataiva', 'French Polynesia', 905
+'Takaroa', 'French Polynesia', 906
+'Nuku Hiva', 'French Polynesia', 907
+'Bora Bora', 'French Polynesia', 908
+'Rangiroa', 'French Polynesia', 909
+'Huahine Island', 'French Polynesia', 910
+'Moorea', 'French Polynesia', 911
+'Hao Island', 'French Polynesia', 912
+'Maupiti', 'French Polynesia', 913
+'Raiatea Island', 'French Polynesia', 914
+'Port-vila', 'Vanuatu', 915
+'Kone', 'New Caledonia', 916
+'Koumac', 'New Caledonia', 917
+'Lifou', 'New Caledonia', 918
+'Noumea', 'New Caledonia', 919
+'Mare', 'New Caledonia', 920
+'Touho', 'New Caledonia', 921
+'Ouvea', 'New Caledonia', 922
+'Auckland', 'New Zealand', 923
+'Taupo', 'New Zealand', 924
+'Christchurch', 'New Zealand', 925
+'Dunedin', 'New Zealand', 926
+'Gisborne', 'New Zealand', 927
+'Hokitika', 'New Zealand', 928
+'Hamilton', 'New Zealand', 929
+'Kerikeri', 'New Zealand', 930
+'Kaitaia', 'New Zealand', 931
+'New Plymouth', 'New Zealand', 932
+'Nelson', 'New Zealand', 933
+'Invercargill', 'New Zealand', 934
+'Palmerston North', 'New Zealand', 935
+'Paraparaumu', 'New Zealand', 936
+'Queenstown International', 'New Zealand', 937
+'Rotorua', 'New Zealand', 938
+'Tauranga', 'New Zealand', 939
+'Timaru', 'New Zealand', 940
+'Woodbourne', 'New Zealand', 941
+'Whakatane', 'New Zealand', 942
+'Wellington', 'New Zealand', 943
+'Whangarei', 'New Zealand', 944
+'Westport', 'New Zealand', 945
+'Wanganui', 'New Zealand', 946
+'Herat', 'Afghanistan', 947
+'Kabul', 'Afghanistan', 948
+'Kandahar', 'Afghanistan', 949
+'Mazar-i-sharif', 'Afghanistan', 950
+'Bahrain', 'Bahrain', 951
+'Abha', 'Saudi Arabia', 952
+'Al-ahsa', 'Saudi Arabia', 953
+'El-baha', 'Saudi Arabia', 954
+'Bisha', 'Saudi Arabia', 955
+'Dammam', 'Saudi Arabia', 956
+'Gizan', 'Saudi Arabia', 957
+'Gassim', 'Saudi Arabia', 958
+'Guriat', 'Saudi Arabia', 959
+'Hail', 'Saudi Arabia', 960
+'Jeddah', 'Saudi Arabia', 961
+'Madinah', 'Saudi Arabia', 962
+'Nejran', 'Saudi Arabia', 963
+'Hafr Al-batin', 'Saudi Arabia', 964
+'Rafha', 'Saudi Arabia', 965
+'Riyadh', 'Saudi Arabia', 966
+'Arar', 'Saudi Arabia', 967
+'Sharurah', 'Saudi Arabia', 968
+'Tabuk', 'Saudi Arabia', 969
+'Taif', 'Saudi Arabia', 970
+'Turaif', 'Saudi Arabia', 971
+'Wejh', 'Saudi Arabia', 972
+'Yenbo', 'Saudi Arabia', 973
+'Abadan', 'Iran', 974
+'Bandar Mahshahr', 'Iran', 975
+'Ahwaz', 'Iran', 976
+'Bushehr', 'Iran', 977
+'Kish Island', 'Iran', 978
+'Bandar Lengeh', 'Iran', 979
+'Bakhtaran', 'Iran', 980
+'Sanandaj', 'Iran', 981
+'Rasht', 'Iran', 982
+'Teheran', 'Iran', 983
+'Bandar Abbas', 'Iran', 984
+'Kerman', 'Iran', 985
+'Birjand', 'Iran', 986
+'Ramsar', 'Iran', 987
+'Shiraz', 'Iran', 988
+'Tabriz', 'Iran', 989
+'Yazd', 'Iran', 990
+'Chah Bahar', 'Iran', 991
+'Zahedan', 'Iran', 992
+'Amman', 'Jordan', 993
+'Aqaba', 'Jordan', 994
+'Kuwait', 'Kuwait', 995
+'Beirut', 'Lebanon', 996
+'Abu Dhabi', 'United Arab Emirates', 997
+'Dubai', 'United Arab Emirates', 998
+'Fujeirah', 'United Arab Emirates', 999
+'Sharjah', 'United Arab Emirates', 1000
+'Khasab', 'Oman', 1001
+'Muscat', 'Oman', 1002
+'Salalah', 'Oman', 1003
+'Faisalabad', 'Pakistan', 1004
+'Gwadar', 'Pakistan', 1005
+'Gilgit', 'Pakistan', 1006
+'Karachi', 'Pakistan', 1007
+'Lahore', 'Pakistan', 1008
+'Moenjodaro', 'Pakistan', 1009
+'Multan', 'Pakistan', 1010
+'Panjgur', 'Pakistan', 1011
+'Peshawar', 'Pakistan', 1012
+'Quetta', 'Pakistan', 1013
+'Rahim Yar Khan', 'Pakistan', 1014
+'Islamabad', 'Pakistan', 1015
+'Sukkur', 'Pakistan', 1016
+'Zhob', 'Pakistan', 1017
+'Basrah', 'Iraq', 1018
+'Doha', 'Qatar', 1019
+'Rota', 'Northern Mariana Islands', 1020
+'Saipan', 'Northern Mariana Islands', 1021
+'Agana', 'Guam', 1022
+'Majuro', 'Marshall Islands', 1023
+'Kwajalein', 'Marshall Islands', 1024
+'Kiritimati', 'Kiribati', 1025
+'Chuuk', 'Micronesia', 1026
+'Pohnpei', 'Micronesia', 1027
+'Babelthuap', 'Palau', 1028
+'Kosrae', 'Micronesia', 1029
+'Yap', 'Micronesia', 1030
+'Kinmen', 'Taiwan', 1031
+'Fengnin', 'Taiwan', 1032
+'Kaohsiung', 'Taiwan', 1033
+'Taichung', 'Taiwan', 1034
+'Tainan', 'Taiwan', 1035
+'Makung', 'Taiwan', 1036
+'Taipei', 'Taiwan', 1037
+'Hualien', 'Taiwan', 1038
+'Tokyo', 'Japan', 1039
+'Matsumoto', 'Japan', 1040
+'Ibaraki', 'Japan', 1041
+'Nanki-shirahama', 'Japan', 1042
+'Obihiro', 'Japan', 1043
+'Sapporo', 'Japan', 1044
+'Hakodate', 'Japan', 1045
+'Memanbetsu', 'Japan', 1046
+'Nakashibetsu', 'Japan', 1047
+'Wakkanai', 'Japan', 1048
+'Iki', 'Japan', 1049
+'Yamaguchi', 'Japan', 1050
+'Tsushima', 'Japan', 1051
+'Monbetsu', 'Japan', 1052
+'Asahikawa', 'Japan', 1053
+'Fukue', 'Japan', 1054
+'Fukuoka', 'Japan', 1055
+'Kagoshima', 'Japan', 1056
+'Miyazaki', 'Japan', 1057
+'Oita', 'Japan', 1058
+'Kitakyushu', 'Japan', 1059
+'Kumamoto', 'Japan', 1060
+'Nagasaki', 'Japan', 1061
+'Amami', 'Japan', 1062
+'Kanazawa', 'Japan', 1063
+'Toyama', 'Japan', 1064
+'Hiroshima', 'Japan', 1065
+'Okayama', 'Japan', 1066
+'Izumo', 'Japan', 1067
+'Miho', 'Japan', 1068
+'Kochi', 'Japan', 1069
+'Matsuyama', 'Japan', 1070
+'Osaka', 'Japan', 1071
+'Tottori', 'Japan', 1072
+'Tokushima', 'Japan', 1073
+'Takamatsu', 'Japan', 1074
+'Aomori', 'Japan', 1075
+'Yamagata', 'Japan', 1076
+'Hanamaki', 'Japan', 1077
+'Akita', 'Japan', 1078
+'Misawa', 'Japan', 1079
+'Sendai', 'Japan', 1080
+'Hachijojima', 'Japan', 1081
+'Oshima', 'Japan', 1082
+'Kwangju', 'South Korea', 1083
+'Yeosu', 'South Korea', 1084
+'Cheju', 'South Korea', 1085
+'Busan', 'South Korea', 1086
+'Ulsan', 'South Korea', 1087
+'Seoul', 'South Korea', 1088
+'Pohang', 'South Korea', 1089
+'Taegu', 'South Korea', 1090
+'Okinawa', 'Japan', 1091
+'Ishigaki', 'Japan', 1092
+'Kumejima', 'Japan', 1093
+'Miyako', 'Japan', 1094
+'Manila', 'Philippines', 1095
+'Cotabato', 'Philippines', 1096
+'Ladag', 'Philippines', 1097
+'Pagadian', 'Philippines', 1098
+'Zamboanga', 'Philippines', 1099
+'Tacloban', 'Philippines', 1100
+'Bacolod', 'Philippines', 1101
+'Dumaguete', 'Philippines', 1102
+'Iloilo', 'Philippines', 1103
+'Kalibo', 'Philippines', 1104
+'Puerto Princesa', 'Philippines', 1105
+'San Jose', 'Philippines', 1106
+'Parana', 'Argentina', 1107
+'Rosario', 'Argentina', 1108
+'Santa Fe', 'Argentina', 1109
+'Buenos Aires', 'Argentina', 1110
+'Cordoba', 'Argentina', 1111
+'Mendoza', 'Argentina', 1112
+'San Rafael', 'Argentina', 1113
+'Catamarca', 'Argentina', 1114
+'Santiago Del Estero', 'Argentina', 1115
+'La Rioja', 'Argentina', 1116
+'Tucuman', 'Argentina', 1117
+'San Julian', 'Argentina', 1118
+'San Luis', 'Argentina', 1119
+'Resistencia', 'Argentina', 1120
+'Formosa', 'Argentina', 1121
+'Iguazu Falls', 'Argentina', 1122
+'Posadas', 'Argentina', 1123
+'Salta', 'Argentina', 1124
+'Jujuy', 'Argentina', 1125
+'Comodoro Rivadavia', 'Argentina', 1126
+'Esquel', 'Argentina', 1127
+'Trelew', 'Argentina', 1128
+'Viedma', 'Argentina', 1129
+'Puerto Madryn', 'Argentina', 1130
+'Rio Grande', 'Argentina', 1131
+'Rio Gallegos', 'Argentina', 1132
+'Ushuaia', 'Argentina', 1133
+'Bahia Blanca', 'Argentina', 1134
+'Mar Del Plata', 'Argentina', 1135
+'Neuquen', 'Argentina', 1136
+'Santa Rosa', 'Argentina', 1137
+'San Carlos De Bariloche', 'Argentina', 1138
+'San Martin Des Andes', 'Argentina', 1139
+'Conceicao Do Araguaia', 'Brazil', 1140
+'Araracuara', 'Brazil', 1141
+'Aracaju', 'Brazil', 1142
+'Alta Floresta', 'Brazil', 1143
+'Aracatuba', 'Brazil', 1144
+'Belem', 'Brazil', 1145
+'Belo Horizonte', 'Brazil', 1146
+'Brasilia', 'Brazil', 1147
+'Boa Vista', 'Brazil', 1148
+'Cascavel', 'Brazil', 1149
+'Campo Grande', 'Brazil', 1150
+'Chapeco', 'Brazil', 1151
+'Criciuma', 'Brazil', 1152
+'Campos', 'Brazil', 1153
+'Corumba', 'Brazil', 1154
+'Curitiba', 'Brazil', 1155
+'Caxias Do Sul', 'Brazil', 1156
+'Cuiaba', 'Brazil', 1157
+'Cruzeiro do Sul', 'Brazil', 1158
+'President Prudente', 'Brazil', 1159
+'Manaus', 'Brazil', 1160
+'Foz Do Iguacu', 'Brazil', 1161
+'Florianopolis', 'Brazil', 1162
+'Fernando Do Noronha', 'Brazil', 1163
+'Fortaleza', 'Brazil', 1164
+'Rio De Janeiro', 'Brazil', 1165
+'Goiania', 'Brazil', 1166
+'Sao Paulo', 'Brazil', 1167
+'Altamira', 'Brazil', 1168
+'Ilheus', 'Brazil', 1169
+'Ipatinga', 'Brazil', 1170
+'Imperatriz', 'Brazil', 1171
+'Joao Pessoa', 'Brazil', 1172
+'Joinville', 'Brazil', 1173
+'Campina Grande', 'Brazil', 1174
+'Campinas', 'Brazil', 1175
+'Londrina', 'Brazil', 1176
+'Bom Jesus Da Lapa', 'Brazil', 1177
+'Maraba', 'Brazil', 1178
+'Maringa', 'Brazil', 1179
+'Montes Claros', 'Brazil', 1180
+'Maceio', 'Brazil', 1181
+'Macapa', 'Brazil', 1182
+'Navegantes', 'Brazil', 1183
+'Santo Angelo', 'Brazil', 1184
+'Natal', 'Brazil', 1185
+'Porto Alegre', 'Brazil', 1186
+'Passo Fundo', 'Brazil', 1187
+'Pelotas', 'Brazil', 1188
+'Petrolina', 'Brazil', 1189
+'Porto Velho', 'Brazil', 1190
+'Rio Branco', 'Brazil', 1191
+'Recife', 'Brazil', 1192
+'Rio Grande', 'Brazil', 1193
+'Ribeirao Preto', 'Brazil', 1194
+'Sao Jose Dos Campos', 'Brazil', 1195
+'Sao Luis', 'Brazil', 1196
+'Sao Jose Do Rio Preto', 'Brazil', 1197
+'Salvador', 'Brazil', 1198
+'Oriximina', 'Brazil', 1199
+'Teresina', 'Brazil', 1200
+'Tefe', 'Brazil', 1201
+'Tabatinga', 'Brazil', 1202
+'Tucurui', 'Brazil', 1203
+'Paulo Alfonso', 'Brazil', 1204
+'Uruguaiana', 'Brazil', 1205
+'Uberlandia', 'Brazil', 1206
+'Uberaba', 'Brazil', 1207
+'Vilhena', 'Brazil', 1208
+'Vitoria', 'Brazil', 1209
+'Arica', 'Chile', 1210
+'Balmaceda', 'Chile', 1211
+'Calama', 'Chile', 1212
+'Punta Arenas', 'Chile', 1213
+'Iquique', 'Chile', 1214
+'Santiago', 'Chile', 1215
+'Antofagasta', 'Chile', 1216
+'Concepcion', 'Chile', 1217
+'Easter Island', 'Chile', 1218
+'Osorno', 'Chile', 1219
+'La Serena', 'Chile', 1220
+'Temuco', 'Chile', 1221
+'Puerto Montt', 'Chile', 1222
+'Valdivia', 'Chile', 1223
+'Coca', 'Ecuador', 1224
+'Cuenca', 'Ecuador', 1225
+'Galapagos', 'Ecuador', 1226
+'Guayaquil', 'Ecuador', 1227
+'Macas', 'Ecuador', 1228
+'Manta', 'Ecuador', 1229
+'Quito', 'Ecuador', 1230
+'Tulcan', 'Ecuador', 1231
+'Asuncion', 'Paraguay', 1232
+'Armenia', 'Colombia', 1233
+'Puerto Asis', 'Colombia', 1234
+'Bucaramanga', 'Colombia', 1235
+'Bogota', 'Colombia', 1236
+'Barranquilla', 'Colombia', 1237
+'Bahia Solano', 'Colombia', 1238
+'Buenaventura', 'Colombia', 1239
+'Cucuta', 'Colombia', 1240
+'Cartagena', 'Colombia', 1241
+'Cali', 'Colombia', 1242
+'Tumaco', 'Colombia', 1243
+'Corozal', 'Colombia', 1244
+'Barrancabermeja', 'Colombia', 1245
+'Florencia', 'Colombia', 1246
+'Guapi', 'Colombia', 1247
+'Ibague', 'Colombia', 1248
+'Ipiales', 'Colombia', 1249
+'Leticia', 'Colombia', 1250
+'Medellin', 'Colombia', 1251
+'Monteria', 'Colombia', 1252
+'Mitu', 'Colombia', 1253
+'Manizales', 'Colombia', 1254
+'Neiva', 'Colombia', 1255
+'Puerto Carreno', 'Colombia', 1256
+'Pereira', 'Colombia', 1257
+'Popayan', 'Colombia', 1258
+'Pasto', 'Colombia', 1259
+'Providencia', 'Colombia', 1260
+'Rio Negro', 'Colombia', 1261
+'Rio Hacha', 'Colombia', 1262
+'San Jose Del Guaviare', 'Colombia', 1263
+'Santa Marta', 'Colombia', 1264
+'San Andres Island', 'Colombia', 1265
+'San Vincente De Caguan', 'Colombia', 1266
+'Tame', 'Colombia', 1267
+'Arauca', 'Colombia', 1268
+'Quibdo', 'Colombia', 1269
+'Valledupar', 'Colombia', 1270
+'Villavicencio', 'Colombia', 1271
+'Cochabamba', 'Bolivia', 1272
+'Cobija', 'Bolivia', 1273
+'La Paz', 'Bolivia', 1274
+'Potosi', 'Bolivia', 1275
+'Sucre', 'Bolivia', 1276
+'Tarija', 'Bolivia', 1277
+'Trinidad', 'Bolivia', 1278
+'Santa Cruz', 'Bolivia', 1279
+'Yacuiba', 'Bolivia', 1280
+'Zandery', 'Suriname', 1281
+'Cayenne', 'French Guiana', 1282
+'Pucallpa', 'Peru', 1283
+'Chiclayo', 'Peru', 1284
+'Ayacucho', 'Peru', 1285
+'Andahuaylas', 'Peru', 1286
+'Anta', 'Peru', 1287
+'Lima', 'Peru', 1288
+'Juliaca', 'Peru', 1289
+'Tumbes', 'Peru', 1290
+'Iquitos', 'Peru', 1291
+'Arequipa', 'Peru', 1292
+'Trujillo', 'Peru', 1293
+'Tarapoto', 'Peru', 1294
+'Tacna', 'Peru', 1295
+'Puerto Maldonado', 'Peru', 1296
+'Piura', 'Peru', 1297
+'Cuzco', 'Peru', 1298
+'Montevideo', 'Uruguay', 1299
+'Barcelona', 'Venezuela', 1300
+'Barinas', 'Venezuela', 1301
+'Barquisimeto', 'Venezuela', 1302
+'Canaima', 'Venezuela', 1303
+'Coro', 'Venezuela', 1304
+'Cumana', 'Venezuela', 1305
+'Paraguana', 'Venezuela', 1306
+'La Fria', 'Venezuela', 1307
+'Maracaibo', 'Venezuela', 1308
+'Merida', 'Venezuela', 1309
+'Porlamar', 'Venezuela', 1310
+'Caracas', 'Venezuela', 1311
+'Maturin', 'Venezuela', 1312
+'Puerto Ayacucho', 'Venezuela', 1313
+'Puerto Cabello', 'Venezuela', 1314
+'Guayana', 'Venezuela', 1315
+'San Antonio', 'Venezuela', 1316
+'Santo Domingo', 'Venezuela', 1317
+'San Tome', 'Venezuela', 1318
+'Valencia', 'Venezuela', 1319
+'Valera', 'Venezuela', 1320
+'Antigua', 'Antigua and Barbuda', 1321
+'Bridgetown', 'Barbados', 1322
+'Dominica', 'Dominica', 1323
+'Fort-de-france', 'Martinique', 1324
+'St. Martin', 'Guadeloupe', 1325
+'Pointe-a-pitre', 'Guadeloupe', 1326
+'Point Salines', 'Grenada', 1327
+'St. Thomas', 'Virgin Islands', 1328
+'St. Croix Island', 'Virgin Islands', 1329
+'Aguadilla', 'Puerto Rico', 1330
+'Mayaguez', 'Puerto Rico', 1331
+'Ponce', 'Puerto Rico', 1332
+'San Juan', 'Puerto Rico', 1333
+'Basse Terre', 'Saint Kitts and Nevis', 1334
+'Castries', 'Saint Lucia', 1335
+'Hewandorra', 'Saint Lucia', 1336
+'Oranjestad', 'Aruba', 1337
+'Kralendijk', 'Netherlands Antilles', 1338
+'Willemstad', 'Netherlands Antilles', 1339
+'Oranjestad', 'Netherlands Antilles', 1340
+'Philipsburg', 'Netherlands Antilles', 1341
+'The Valley', 'Anguilla', 1342
+'Scarborough', 'Trinidad and Tobago', 1343
+'Port-of-spain', 'Trinidad and Tobago', 1344
+'Tortola', 'British Virgin Islands', 1345
+'Allakaket', 'United States', 1346
+'Kingstown', 'Saint Vincent and the Grenadines', 1347
+'Alma-ata', 'Kazakhstan', 1348
+'Tselinograd', 'Kazakhstan', 1349
+'Dzhambul', 'Kazakhstan', 1350
+'Bishkek', 'Kyrgyzstan', 1351
+'Osh', 'Kyrgyzstan', 1352
+'Chimkent', 'Kazakhstan', 1353
+'Yakutat', 'United States', 1354
+'Uralsk', 'Kazakhstan', 1355
+'Pavlodar', 'Kazakhstan', 1356
+'Semiplatinsk', 'Kazakhstan', 1357
+'Aktyubinsk', 'Kazakhstan', 1358
+'Baku', 'Azerbaijan', 1359
+'Yakutsk', 'Russia', 1360
+'Mirnyj', 'Russia', 1361
+'Blagoveschensk', 'Russia', 1362
+'Khabarovsk', 'Russia', 1363
+'Marquette', 'United States', 1364
+'Magadan', 'Russia', 1365
+'Pevek', 'Russia', 1366
+'Petropavlovsk', 'Russia', 1367
+'Yuzhno-sakhalinsk', 'Russia', 1368
+'Vladivostok', 'Russia', 1369
+'Chita', 'Russia', 1370
+'Bratsk', 'Russia', 1371
+'Irkutsk', 'Russia', 1372
+'Ulan-ude', 'Russia', 1373
+'Kiev', 'Ukraine', 1374
+'Donetsk', 'Ukraine', 1375
+'Dnepropetrovsk', 'Ukraine', 1376
+'Simferopol', 'Ukraine', 1377
+'Lvov', 'Ukraine', 1378
+'Iron Mountain', 'United States', 1379
+'Odessa', 'Ukraine', 1380
+'St. Petersburg', 'Russia', 1381
+'Murmansk', 'Russia', 1382
+'Kaliningrad', 'Russia', 1383
+'Minsk 2', 'Belarus', 1384
+'Abakan', 'Russia', 1385
+'Barnaul', 'Russia', 1386
+'Kemorovo', 'Russia', 1387
+'Omsk', 'Russia', 1388
+'Krasnodar', 'Russia', 1389
+'Makhachkala', 'Russia', 1390
+'Mineralnye Vody', 'Russia', 1391
+'Stavropol', 'Russia', 1392
+'Rostov', 'Russia', 1393
+'Sochi', 'Russia', 1394
+'Astrakhan', 'Russia', 1395
+'Volgograd', 'Russia', 1396
+'Chelyabinsk', 'Russia', 1397
+'Magnetiogorsk', 'Russia', 1398
+'Nizhnevartovsk', 'Russia', 1399
+'Perm', 'Russia', 1400
+'Surgut', 'Russia', 1401
+'Yekaterinburg', 'Russia', 1402
+'Ashkhabad', 'Turkmenistan', 1403
+'Dushanbe', 'Tajikistan', 1404
+'Bukhara', 'Uzbekistan', 1405
+'Samarkand', 'Uzbekistan', 1406
+'Tashkent', 'Uzbekistan', 1407
+'Moscow', 'Russia', 1408
+'Voronezh', 'Russia', 1409
+'Syktyvkar', 'Russia', 1410
+'Kazan', 'Russia', 1411
+'Orenburg', 'Russia', 1412
+'Ufa', 'Russia', 1413
+'Ahmedabad', 'India', 1414
+'Aurangabad', 'India', 1415
+'Mumbai', 'India', 1416
+'Bhuj', 'India', 1417
+'Belgaum', 'India', 1418
+'Baroda', 'India', 1419
+'Bhopal', 'India', 1420
+'Bhaunagar', 'India', 1421
+'Goa', 'India', 1422
+'Indore', 'India', 1423
+'Jabalpur', 'India', 1424
+'Jamnagar', 'India', 1425
+'Khajuraho', 'India', 1426
+'Nagpur', 'India', 1427
+'Pune', 'India', 1428
+'Porbandar', 'India', 1429
+'Rajkot', 'India', 1430
+'Raipur', 'India', 1431
+'Surat', 'India', 1432
+'Udaipur', 'India', 1433
+'Colombo', 'Sri Lanka', 1434
+'Trinciomalee', 'Sri Lanka', 1435
+'Phnom-penh', 'Cambodia', 1436
+'Siem-reap', 'Cambodia', 1437
+'Agartala', 'India', 1438
+'Aizwal', 'India', 1439
+'Baghdogra', 'India', 1440
+'Bhubaneswar', 'India', 1441
+'Kolkata', 'India', 1442
+'Escanaba', 'United States', 1443
+'Imphal', 'India', 1444
+'Silchar', 'India', 1445
+'Patina', 'India', 1446
+'Ranchi', 'India', 1447
+'Vishakhapatnam', 'India', 1448
+"Cox's Bazar", 'Bangladesh', 1449
+'Chittagong', 'Bangladesh', 1450
+'Jessore', 'Bangladesh', 1451
+'Rajshahi', 'Bangladesh', 1452
+'Saidpur', 'Bangladesh', 1453
+'Sylhet Osmani', 'Bangladesh', 1454
+'Dhaka', 'Bangladesh', 1455
+'Hong Kong', 'Hong Kong', 1456
+'Agra', 'India', 1457
+'Allahabad', 'India', 1458
+'Amritsar', 'India', 1459
+'Varanasi', 'India', 1460
+'Kulu', 'India', 1461
+'Chandigarh', 'India', 1462
+'Dehra Dun', 'India', 1463
+'Delhi', 'India', 1464
+'Gwalior', 'India', 1465
+'Jodhpur', 'India', 1466
+'Jaipur', 'India', 1467
+'Jammu', 'India', 1468
+'Kanpur', 'India', 1469
+'Ludhiaha', 'India', 1470
+'Leh', 'India', 1471
+'Lucknow', 'India', 1472
+'Srinagar', 'India', 1473
+'Luang Prabang', 'Laos', 1474
+'Pakse', 'Laos', 1475
+'Savannakhet', 'Laos', 1476
+'Vientiane', 'Laos', 1477
+'Macau', 'Macau', 1478
+'Bhairawa', 'Nepal', 1479
+'Kathmandu', 'Nepal', 1480
+'Pokhara', 'Nepal', 1481
+'Biratnagar', 'Nepal', 1482
+'Agatti Island', 'India', 1483
+'Bangalore', 'India', 1484
+'Vijayawada', 'India', 1485
+'Coimbatore', 'India', 1486
+'Kochi', 'India', 1487
+'Calicut', 'India', 1488
+'Hyderabad', 'India', 1489
+'Madurai', 'India', 1490
+'Mangalore', 'India', 1491
+'Madras', 'India', 1492
+'Port Blair', 'India', 1493
+'Rajahmundry', 'India', 1494
+'Tirupeti', 'India', 1495
+'Tiruchirappalli', 'India', 1496
+'Trivandrum', 'India', 1497
+'Thimphu', 'Bhutan', 1498
+'Male', 'Maldives', 1499
+'Bangkok', 'Thailand', 1500
+'Naha', 'Indonesia', 1501
+'Pattaya', 'Thailand', 1502
+'Lampang', 'Thailand', 1503
+'Phrae', 'Thailand', 1504
+'Phitsanulok', 'Thailand', 1505
+'Narathiwat', 'Thailand', 1506
+'Krabi', 'Thailand', 1507
+'Ko Samui', 'Thailand', 1508
+'Phuket', 'Thailand', 1509
+'Hat Yai', 'Thailand', 1510
+'Trang', 'Thailand', 1511
+'Udon Thani', 'Thailand', 1512
+'Sakon Nakhon', 'Thailand', 1513
+'Loei', 'Thailand', 1514
+'Danang', 'Vietnam', 1515
+'Hanoi', 'Vietnam', 1516
+'Ho Chi Minh City', 'Vietnam', 1517
+'Heho', 'Burma', 1518
+'Kengtung', 'Burma', 1519
+'Marion', 'United States', 1520
+'Kyaukpyu', 'Burma', 1521
+'Mandalay', 'Burma', 1522
+'Myeik', 'Burma', 1523
+'Myitkyina', 'Burma', 1524
+'Putao', 'Burma', 1525
+'Sittwe', 'Burma', 1526
+'Thandwe', 'Burma', 1527
+'Tachilek', 'Burma', 1528
+'Yangon', 'Burma', 1529
+'Ujung Pandang', 'Indonesia', 1530
+'Biak', 'Indonesia', 1531
+'Nabire', 'Indonesia', 1532
+'Timika', 'Indonesia', 1533
+'Jayapura', 'Indonesia', 1534
+'Wamena', 'Indonesia', 1535
+'Merauke', 'Indonesia', 1536
+'Gorontalo', 'Indonesia', 1537
+'Palu', 'Indonesia', 1538
+'Manado', 'Indonesia', 1539
+'Poso', 'Indonesia', 1540
+'Ternate', 'Indonesia', 1541
+'Luwuk', 'Indonesia', 1542
+'Ambon', 'Indonesia', 1543
+'Fak Fak', 'Indonesia', 1544
+'Kaimana', 'Indonesia', 1545
+'Babo', 'Indonesia', 1546
+'Manokwari', 'Indonesia', 1547
+'Sorong', 'Indonesia', 1548
+'Bintulu', 'Malaysia', 1549
+'Kuching', 'Malaysia', 1550
+'Limbang', 'Malaysia', 1551
+'Marudi', 'Malaysia', 1552
+'Miri', 'Malaysia', 1553
+'Sibu', 'Malaysia', 1554
+'Lahad Datu', 'Malaysia', 1555
+'Kota Kinabalu', 'Malaysia', 1556
+'Labuan', 'Malaysia', 1557
+'Tawau', 'Malaysia', 1558
+'Bandar Seri Begawan', 'Brunei', 1559
+'Pekanbaru', 'Indonesia', 1560
+'Jakarta', 'Indonesia', 1561
+'Padang', 'Indonesia', 1562
+'Ketapang', 'Indonesia', 1563
+'Pontianak', 'Indonesia', 1564
+'Jambi', 'Indonesia', 1565
+'Bengkulu', 'Indonesia', 1566
+'Palembang', 'Indonesia', 1567
+'Banda Aceh', 'Indonesia', 1568
+'Alor Setar', 'Malaysia', 1569
+'Kota Bahru', 'Malaysia', 1570
+'Kuantan', 'Malaysia', 1571
+'Kerteh', 'Malaysia', 1572
+'Ipoh', 'Malaysia', 1573
+'Johor Bahru', 'Malaysia', 1574
+'Kuala Lumpur', 'Malaysia', 1575
+'Pulau', 'Malaysia', 1576
+'Kuala Terengganu', 'Malaysia', 1577
+'Penang', 'Malaysia', 1578
+'Dili', 'East Timor', 1579
+'Singapore', 'Singapore', 1580
+'Amberley', 'Australia', 1581
+'Alice Springs', 'Australia', 1582
+'Brisbane', 'Australia', 1583
+'Coolangatta', 'Australia', 1584
+'Cairns', 'Australia', 1585
+'Charlieville', 'Australia', 1586
+'Mount Isa', 'Australia', 1587
+'Maroochydore', 'Australia', 1588
+'Mackay', 'Australia', 1589
+'Prosserpine', 'Australia', 1590
+'Rockhampton', 'Australia', 1591
+'Townsville', 'Australia', 1592
+'Weipa', 'Australia', 1593
+'Avalon', 'Australia', 1594
+'Albury', 'Australia', 1595
+'Melbourne', 'Australia', 1596
+'Hobart', 'Australia', 1597
+'Launceston', 'Australia', 1598
+'Adelaide', 'Australia', 1599
+'Karratha', 'Australia', 1600
+'Kalgoorlie', 'Australia', 1601
+'Kununurra', 'Australia', 1602
+'Learmonth', 'Australia', 1603
+'Port Hedland', 'Australia', 1604
+'Perth', 'Australia', 1605
+'Christmas Island', 'Christmas Island', 1606
+'Canberra', 'Australia', 1607
+"Coff's Harbour", 'Australia', 1608
+'Dubbo', 'Australia', 1609
+'Norfolk Island', 'Norfolk Island', 1610
+'Richmond', 'Australia', 1611
+'Sydney', 'Australia', 1612
+'Tamworth', 'Australia', 1613
+'Wagga Wagga', 'Australia', 1614
+'Beijing', 'China', 1615
+'Hailar', 'China', 1616
+'Tianjin', 'China', 1617
+'Taiyuan', 'China', 1618
+'Guangzhou', 'China', 1619
+'Changcha', 'China', 1620
+'Guilin', 'China', 1621
+'Nanning', 'China', 1622
+'Shenzhen', 'China', 1623
+'Zhengzhou', 'China', 1624
+'Wuhan', 'China', 1625
+'Pyongyang', 'Korea', 1626
+"Xi'an", 'China', 1627
+'Ulan Bator', 'Mongolia', 1628
+'Kunming', 'China', 1629
+'Xiamen', 'China', 1630
+'Nanchang', 'China', 1631
+'Fuzhou', 'China', 1632
+'Hangzhou', 'China', 1633
+'Ninbo', 'China', 1634
+'Nanjing', 'China', 1635
+'Hefei', 'China', 1636
+'Qingdao', 'China', 1637
+'Shanghai', 'China', 1638
+'Yantai', 'China', 1639
+'Chongqing', 'China', 1640
+'Guiyang', 'China', 1641
+'Chengdu', 'China', 1642
+'Xichang', 'China', 1643
+'Kashi', 'China', 1644
+'Hotan', 'China', 1645
+'Urumqi', 'China', 1646
+'Harbin', 'China', 1647
+'Dalian', 'China', 1648
+'Wajima', 'Japan', 1649
+'Alexandria', 'Egypt', 1650
+'Barter Island', 'United States', 1651
+'Cape Lisburne', 'United States', 1652
+'Point Lay', 'United States', 1653
+'Hilo', 'United States', 1654
+'Bettles', 'United States', 1655
+'Fort Yukon', 'United States', 1656
+'Tatalina', 'United States', 1657
+'St. Paul Island', 'United States', 1658
+'Iliamna', 'United States', 1659
+'Port Moller', 'United States', 1660
+'Fort Smith', 'United States', 1661
+'Grand Forks', 'United States', 1662
+'Hana', 'United States', 1663
+'Prescott', 'United States', 1664
+'Trenton', 'United States', 1665
+'Boston', 'United States', 1666
+'Oakland', 'United States', 1667
+'Omaha', 'United States', 1668
+'Kahului', 'United States', 1669
+'Wichita', 'United States', 1670
+'Kansas City', 'United States', 1671
+'Madison', 'United States', 1672
+'Dillingham', 'United States', 1673
+'Harrison', 'United States', 1674
+'Phoenix', 'United States', 1675
+'Bangor', 'United States', 1676
+'Longview', 'United States', 1677
+'Spokane', 'United States', 1678
+'San Francisco', 'United States', 1679
+'Gainesville', 'United States', 1680
+'Memphis', 'United States', 1681
+'Los Angeles', 'United States', 1682
+'Cleveland', 'United States', 1683
+'Cincinnati', 'United States', 1684
+'Huron', 'United States', 1685
+'Juneau', 'United States', 1686
+'Lafayette', 'United States', 1687
+'Newark', 'United States', 1688
+'Boise', 'United States', 1689
+'Garden City', 'United States', 1690
+'Minot', 'United States', 1691
+'Dallas', 'United States', 1692
+'Helena', 'United States', 1693
+'Lake Charles', 'United States', 1694
+'Kona', 'United States', 1695
+'Myrtle Beach', 'United States', 1696
+'Nantucket', 'United States', 1697
+'Washington', 'United States', 1698
+'Atlantic City', 'United States', 1699
+'Pueblo', 'United States', 1700
+'Presque Isle', 'United States', 1701
+'Kodiak', 'United States', 1702
+'Fort Lauderdale', 'United States', 1703
+'International Falls', 'United States', 1704
+'Salt Lake City', 'United States', 1705
+'Harrisburg', 'United States', 1706
+'Lincoln', 'United States', 1707
+'Lansing', 'United States', 1708
+'Kamuela', 'United States', 1709
+'Massena', 'United States', 1710
+'Houston', 'United States', 1711
+'Bakersfield', 'United States', 1712
+'El Paso', 'United States', 1713
+'Harlingen', 'United States', 1714
+'Columbia', 'United States', 1715
+'Pensacola', 'United States', 1716
+'Pittsburgh', 'United States', 1717
+'Barrow', 'United States', 1718
+'Miami', 'United States', 1719
+'Seattle', 'United States', 1720
+'Chattanooga', 'United States', 1721
+'Jackson', 'United States', 1722
+'Long Beach', 'United States', 1723
+'Williamsport', 'United States', 1724
+'Indianapolis', 'United States', 1725
+'White Plains', 'United States', 1726
+'Jonesboro', 'United States', 1727
+'Yuma', 'United States', 1728
+'Carlsbad', 'United States', 1729
+'Duluth', 'United States', 1730
+'Bethel', 'United States', 1731
+'Lihue', 'United States', 1732
+'Havre', 'United States', 1733
+'Richmond', 'United States', 1734
+'Shreveport', 'United States', 1735
+'Cordova', 'United States', 1736
+'Norfolk', 'United States', 1737
+'Beaumont', 'United States', 1738
+'Savannah', 'United States', 1739
+'Nome', 'United States', 1740
+'San Luis', 'United States', 1741
+'St. Petersburg', 'United States', 1742
+'Deadhorse', 'United States', 1743
+'San Antonio', 'United States', 1744
+'Rochester', 'United States', 1745
+'Teterboro', 'United States', 1746
+'Raleigh-durham', 'United States', 1747
+'Dayton', 'United States', 1748
+'Kenai', 'United States', 1749
+'Niagara Falls', 'United States', 1750
+'Newport News', 'United States', 1751
+'Tucson', 'United States', 1752
+'Providence', 'United States', 1753
+'Salisbury', 'United States', 1754
+'Burbank', 'United States', 1755
+'Detroit', 'United States', 1756
+'Tampa', 'United States', 1757
+'Hibbing', 'United States', 1758
+'Midland', 'United States', 1759
+'Green Bay', 'United States', 1760
+'Bush Field', 'United States', 1761
+'Williston', 'United States', 1762
+'Little Rock', 'United States', 1763
+'Newburgh', 'United States', 1764
+'Homer', 'United States', 1765
+'Fort Leonardwood', 'United States', 1766
+'Dallas-Fort Worth', 'United States', 1767
+'Melbourne', 'United States', 1768
+'Austin', 'United States', 1769
+'Columbus', 'United States', 1770
+'Knoxville', 'United States', 1771
+'St. Louis', 'United States', 1772
+'Wichita Falls', 'United States', 1773
+'Atlanta', 'United States', 1774
+'Grand Rapids', 'United States', 1775
+'Fresno', 'United States', 1776
+'Imperial', 'United States', 1777
+'Nashville', 'United States', 1778
+'Laredo', 'United States', 1779
+'Kotzebue', 'United States', 1780
+'Altoona', 'United States', 1781
+'El Dorado', 'United States', 1782
+'New York', 'United States', 1783
+'Tallahassee', 'United States', 1784
+'Waco', 'United States', 1785
+'Augusta', 'United States', 1786
+'Molokai', 'United States', 1787
+'San Angelo', 'United States', 1788
+'Chico', 'United States', 1789
+'Burlington', 'United States', 1790
+'Jacksonville', 'United States', 1791
+'Durango', 'United States', 1792
+'College Station', 'United States', 1793
+'Milwaukee', 'United States', 1794
+'Abilene', 'United States', 1795
+'Portland', 'United States', 1796
+'West Palm Beach', 'United States', 1797
+'Ogdensburg', 'United States', 1798
+'Honolulu', 'United States', 1799
+'Des Moines', 'United States', 1800
+'New Bern', 'United States', 1801
+'San Diego', 'United States', 1802
+'Monroe', 'United States', 1803
+'Ontario', 'United States', 1804
+'Roswell', 'United States', 1805
+'Brownsville', 'United States', 1806
+'Dothan', 'United States', 1807
+'Farmington', 'United States', 1808
+'Corpus Christi', 'United States', 1809
+'Syracuse', 'United States', 1810
+'Chicago', 'United States', 1811
+'San Jose', 'United States', 1812
+'Hobbs', 'United States', 1813
+'Denver', 'United States', 1814
+'Philadelphia', 'United States', 1815
+'Sioux City', 'United States', 1816
+'Macon', 'United States', 1817
+'Galena', 'United States', 1818
+'Texarkana', 'United States', 1819
+'Plattsburgh', 'United States', 1820
+'Anchorage', 'United States', 1821
+'Killeen', 'United States', 1822
+'Bellingham', 'United States', 1823
+'Mobile', 'United States', 1824
+'Santa Fe', 'United States', 1825
+'Belleville', 'United States', 1826
+'Fort Myers', 'United States', 1827
+'King Salmon', 'United States', 1828
+'Lahania-kapalua', 'United States', 1829
+'Cheyenne', 'United States', 1830
+'Stockton', 'United States', 1831
+'Charleston', 'United States', 1832
+'Reno', 'United States', 1833
+'Ketchikan', 'United States', 1834
+'Birmingham', 'United States', 1835
+'Modesto', 'United States', 1836
+'Sacramento', 'United States', 1837
+'Colorado Springs', 'United States', 1838
+'Buffalo', 'United States', 1839
+'Cedar City', 'United States', 1840
+'Windsor Locks', 'United States', 1841
+'Mcallen', 'United States', 1842
+'Lubbock', 'United States', 1843
+'Fairbanks', 'United States', 1844
+'Watertown', 'United States', 1845
+'Palm Springs', 'United States', 1846
+'Amarillo', 'United States', 1847
+'Topeka', 'United States', 1848
+'Wilmington', 'United States', 1849
+'Baton Rouge', 'United States', 1850
+'Tyler', 'United States', 1851
+'Baltimore', 'United States', 1852
+'Lanai', 'United States', 1853
+'Alexandria', 'United States', 1854
+'Cold Bay', 'United States', 1855
+'Tulsa', 'United States', 1856
+'Sitka', 'United States', 1857
+'Islip', 'United States', 1858
+'Minneapolis', 'United States', 1859
+'Unalaska', 'United States', 1860
+'New Orleans', 'United States', 1861
+'Oklahoma City', 'United States', 1862
+'Albany', 'United States', 1863
+'Valdez', 'United States', 1864
+'Santa Ana', 'United States', 1865
+'Casper', 'United States', 1866
+'Valparaiso', 'United States', 1867
+'Key West', 'United States', 1868
+'Charlotte', 'United States', 1869
+'Las Vegas', 'United States', 1870
+'Orlando', 'United States', 1871
+'Florence', 'United States', 1872
+'Great Falls', 'United States', 1873
+'Youngstown', 'United States', 1874
+'Kendari', 'Indonesia', 1875
+'Malang', 'Indonesia', 1876
+'Bandung', 'Indonesia', 1877
+'Yogyakarta', 'Indonesia', 1878
+'Semarang', 'Indonesia', 1879
+'Batam', 'Indonesia', 1880
+'Tanjung Pandan', 'Indonesia', 1881
+'Pangkal Pinang', 'Indonesia', 1882
+'Tanjung Pinang', 'Indonesia', 1883
+'Banjarmasin', 'Indonesia', 1884
+'Pangkalan Bun', 'Indonesia', 1885
+'Palangkaraya', 'Indonesia', 1886
+'Maumere', 'Indonesia', 1887
+'Ende', 'Indonesia', 1888
+'Kupang', 'Indonesia', 1889
+'Labuhan Bajo', 'Indonesia', 1890
+'Balikpapan', 'Indonesia', 1891
+'Taraken', 'Indonesia', 1892
+'Bima', 'Indonesia', 1893
+'Waingapu', 'Indonesia', 1894
+'Surabaya', 'Indonesia', 1895
+'Solo City', 'Indonesia', 1896
+'Chiang Mai', 'Thailand', 1897
+'Chiang Rai', 'Thailand', 1898
+'Nakhon Si Thammarat', 'Thailand', 1899
+'Denpasar', 'Indonesia', 1900
+'Nakhon Phanom', 'Thailand', 1901
+'Ubon Ratchathani', 'Thailand', 1902
+'Khon Kaen', 'Thailand', 1903
+'Sukhothai', 'Thailand', 1904
+'Athens', 'Greece', 1905
+'Nagoya', 'Japan', 1906
+'Kobe', 'Japan', 1907
+'Pullman', 'United States', 1908
+'Lewiston', 'United States', 1909
+'Elmira', 'United States', 1910
+'Ithaca', 'United States', 1911
+'Monterey', 'United States', 1912
+'Santa Barbara', 'United States', 1913
+'Daytona Beach', 'United States', 1914
+'Riga', 'Latvia', 1915
+'Kaunas', 'Lithuania', 1916
+'Palanga', 'Lithuania', 1917
+'Vilnius', 'Lithuania', 1918
+'Yerevan', 'Armenia', 1919
+'Gyumri', 'Armenia', 1920
+'Asmara', 'Eritrea', 1921
+'Massawa', 'Eritrea', 1922
+'Mukalla', 'Yemen', 1923
+'Batumi', 'Georgia', 1924
+'Kutaisi', 'Georgia', 1925
+'Tbilisi', 'Georgia', 1926
+'Taiz', 'Yemen', 1927
+'Hodeidah', 'Yemen', 1928
+'Aden', 'Yemen', 1929
+'Ataq', 'Yemen', 1930
+'Al Ghaidah Intl', 'Yemen', 1931
+'Sanaa', 'Yemen', 1932
+'Memmingen', 'Germany', 1933
+'Socotra', 'Yemen', 1934
+'Nevsehir', 'Turkey', 1935
+'Erbil', 'Iraq', 1936
+'Emerald', 'Australia', 1937
+'Tagbilaran', 'Philippines', 1938
+'Ilulissat', 'Greenland', 1939
+'Aasiaat', 'Greenland', 1940
+'Palma de Mallorca', 'Spain', 1941
+'Darwin', 'Australia', 1942
+'Surat Thani', 'Thailand', 1943
+'Nyuang U', 'Burma', 1944
+'Caticlan', 'Philippines', 1945
+'New Haven', 'United States', 1946
+'Asheville', 'United States', 1947
+'Greensboro', 'United States', 1948
+'Sioux Falls', 'United States', 1949
+'Uluru', 'Australia', 1950
+'Manchester NH', 'United States', 1951
+'Naples', 'United States', 1952
+'Redang', 'Malaysia', 1953
+'Louisville', 'United States', 1954
+'Charlottesville VA', 'United States', 1955
+'Roanoke VA', 'United States', 1956
+'Lexington KY', 'United States', 1957
+'Evansville', 'United States', 1958
+'Albuquerque', 'United States', 1959
+'Bozeman', 'United States', 1960
+'Billings', 'United States', 1961
+'Butte', 'United States', 1962
+'Traverse City', 'United States', 1963
+'Flores', 'Guatemala', 1964
+'Bar Harbor', 'United States', 1965
+'Rockland', 'United States', 1966
+'Jacksn Hole', 'United States', 1967
+'Rockford', 'United States', 1968
+'Sanya', 'China', 1969
+'Lijiang', 'China', 1970
+'Greenville', 'United States', 1971
+'Bloomington', 'United States', 1972
+'Gulfport', 'United States', 1973
+'Kalamazoo', 'United States', 1974
+'Toledo', 'United States', 1975
+'Fort Wayne', 'United States', 1976
+'Decatur', 'United States', 1977
+'Cedar Rapids', 'United States', 1978
+'La Crosse', 'United States', 1979
+'Wassau', 'United States', 1980
+'Peoria', 'United States', 1981
+'Appleton', 'United States', 1982
+'Champaign', 'United States', 1983
+'Manhattan', 'United States', 1984
+'Kingscote', 'Australia', 1985
+'Hervey Bay', 'Australia', 1986
+'Basel', 'Switzerland', 1987
+'Dali', 'China', 1988
+'Jinghong', 'China', 1989
+'Mulu', 'Malaysia', 1990
+'Sharm El Sheikh', 'Egypt', 1991
+'Franklin', 'United States', 1992
+'El Calafate', 'Argentina', 1993
+'Armidale', 'Australia', 1994
+'Grand Junction', 'United States', 1995
+'Saint George', 'United States', 1996
+'Sarasota', 'United States', 1997
+'Bermuda', 'Bermuda', 1998
+'Moline', 'United States', 1999
+'Honiara', 'Solomon Islands', 2000
+'Papeete', 'French Polynesia', 2001
+'Nauru', 'Nauru', 2002
+'Funafuti', 'Tuvalu', 2003
+'Novosibirsk', 'Russia', 2004
+'Phon Savan', 'Laos', 2005
+'Hue', 'Vietnam', 2006
+'Bismarck', 'United States', 2007
+'Yinchuan', 'China', 2008
+'Mae Hong Son', 'Thailand', 2009
+'Rapid City', 'United States', 2010
+'Flint', 'United States', 2011
+'Davao', 'Philippines', 2012
+'Funchal', 'Portugal', 2013
+'Santarem', 'Brazil', 2014
+'Sihanoukville', 'Cambodia', 2015
+'NAPIER', 'New Zealand', 2016
+'Lhasa', 'China', 2017
+'Redding', 'United States', 2018
+'Eugene', 'United States', 2019
+'Idaho Falls', 'United States', 2020
+'Medford', 'United States', 2021
+'Redmond-Bend', 'United States', 2022
+'Windhoek', 'Namibia', 2023
+'Jinan', 'China', 2024
+'Changzhou', 'China', 2025
+'Yibin', 'China', 2026
+'Tyumen', 'Russia', 2027
+'Akron', 'United States', 2028
+'Huntsville', 'United States', 2029
+'PARKERSBURG', 'United States', 2030
+'MONTGOMERY', 'United States', 2031
+'BRISTOL', 'United States', 2032
+'PADUCAH', 'United States', 2033
+'Samara', 'Russia', 2034
+'Djibouti', 'Djibouti', 2035
+'Haikou', 'China', 2036
+'Kalispell', 'United States', 2037
+'Page', 'United States', 2038
+'Utila', 'Honduras', 2039
+'Santa Elena de Uairen', 'Venezuela', 2040
+'Saginaw', 'United States', 2041
+'Binghamton', 'United States', 2042
+'Baghdad', 'Iraq', 2043
+'Nan', 'Thailand', 2044
+'Roi Et', 'Thailand', 2045
+'Buri Ram', 'Thailand', 2046
+'Ranong', 'Thailand', 2047
+'Trat', 'Thailand', 2048
+'Angeles City', 'Philippines', 2049
+'Sandakan', 'Malaysia', 2050
+'Luang Namtha', 'Laos', 2051
+'Muang Xay', 'Laos', 2052
+'Shenyang', 'China', 2053
+'Dongying', 'China', 2054
+'Petersburg', 'United States', 2055
+'Luoyang', 'China', 2056
+'Xuzhou', 'China', 2057
+'Isfahan', 'Iran', 2058
+'Dalat', 'Vietnam', 2059
+'Dong Hoi', 'Vietnam', 2060
+'Rach Gia', 'Vietnam', 2061
+'Ca Mau', 'Vietnam', 2062
+'Chu Lai', 'Vietnam', 2063
+'Tuy Hoa', 'Vietnam', 2064
+'Pai', 'Thailand', 2065
+'Brac', 'Croatia', 2066
+'Yaounde', 'Cameroon', 2067
+'Conakry', 'Guinea', 2068
+'Karlsruhe/Baden-Baden', 'Germany', 2069
+'Sanford', 'United States', 2070
+'Phu Quoc', 'Vietnam', 2071
+'Johnstown', 'United States', 2072
+'Tumling Tar', 'Nepal', 2073
+'Dhangarhi', 'Nepal', 2074
+'Muan', 'South Korea', 2075
+'Astypalaia', 'Greece', 2076
+'Ikaria', 'Greece', 2077
+'Kalymnos', 'Greece', 2078
+'Milos', 'Greece', 2079
+'Cyclades Islands', 'Greece', 2080
+'Paros', 'Greece', 2081
+'Kastelorizo', 'Greece', 2082
+'Marsa Alam', 'Egypt', 2083
+'Weeze', 'Germany', 2084
+'Busuanga', 'Philippines', 2085
+'Butuan', 'Philippines', 2086
+'Dipolog', 'Philippines', 2087
+'Laoag', 'Philippines', 2088
+'Legazpi', 'Philippines', 2089
+'Ozamis', 'Philippines', 2090
+'Zweibruecken', 'Germany', 2091
+'Cebu', 'Philippines', 2092
+'Porto Seguro', 'Brazil', 2093
+'Palmas', 'Brazil', 2094
+'Caldas Novas', 'Brazil', 2095
+'Missoula', 'United States', 2096
+'Blackall', 'Australia', 2097
+'Bundaberg', 'Australia', 2098
+'Grand Canyon', 'United States', 2099
+'Kaadedhdhoo', 'Maldives', 2100
+'Deline', 'Canada', 2101
+'Tulita', 'Canada', 2102
+'Fort Good Hope', 'Canada', 2103
+'Tanna', 'Vanuatu', 2104
+'Paulatuk', 'Canada', 2105
+'Kulusuk', 'Greenland', 2106
+'Saba', 'Netherlands Antilles', 2107
+'Vail', 'United States', 2108
+'Stokmarknes', 'Norway', 2109
+'Lawton', 'United States', 2110
+'Flagstaff', 'United States', 2111
+'Twin Falls', 'United States', 2112
+'Monaco', 'Monaco', 2113
+'Vineyard Haven MA', 'United States', 2114
+'Saint Cloud', 'United States', 2115
+'Columbus Mississippi', 'United States', 2116
+'Nizhniy Novgorod', 'Russia', 2117
+'Erie', 'United States', 2118
+'Barnstable', 'United States', 2119
+'San Pedro', 'Belize', 2120
+'Morgantown', 'United States', 2121
+'Scranton', 'United States', 2122
+'Bemidji', 'United States', 2123
+'Ballina Byron Bay', 'Australia', 2124
+'Fargo', 'United States', 2125
+'Mesa', 'United States', 2126
+'Gillette', 'United States', 2127
+'Tomsk', 'Russia', 2128
+'Chumphon', 'Thailand', 2129
+'Jiuzhaigou', 'China', 2130
+'Shantou', 'China', 2131
+'Georgetown', 'Guyana', 2132
+'Ciudad del Este', 'Paraguay', 2133
+'Dunhuang', 'China', 2134
+'Ancona', 'Italy', 2135
+'Copiapo', 'Chile', 2136
+'Little Cayman', 'Cayman Islands', 2137
+'Bodrum', 'Turkey', 2138
+'State College Pennsylvania', 'United States', 2139
+'Broome', 'Australia', 2140
+'Newcastle', 'Australia', 2141
+'Klagenfurt', 'Austria', 2142
+'Hammerfest', 'Norway', 2143
+'Honningsvag', 'Norway', 2144
+'Mehamn', 'Norway', 2145
+'Vadso', 'Norway', 2146
+'Tehran', 'Iran', 2147
+'Mashhad', 'Iran', 2148
+'Mudanjiang', 'China', 2149
+'Meridian', 'United States', 2150
+'Springfield', 'United States', 2151
+'Cortez', 'United States', 2152
+'Hayden', 'United States', 2153
+'Liberal', 'United States', 2154
+'Cody', 'United States', 2155
+'Orsta-Volda', 'Norway', 2156
+"ST MARY'S", 'United Kingdom', 2157
+'Narvik', 'Norway', 2158
+'Berlevag', 'Norway', 2159
+'Norilsk', 'Russia', 2160
+'Anapa', 'Russia', 2161
+'Joplin', 'United States', 2162
+'Allentown', 'United States', 2163
+'Bentonville', 'United States', 2164
+'Atyrau', 'Kazakhstan', 2165
+'Kzyl-Orda', 'Kazakhstan', 2166
+'South Bend', 'United States', 2167
+'Arkhangelsk', 'Russia', 2168
+'Saratov', 'Russia', 2169
+'Novy Urengoy', 'Russia', 2170
+'Noyabrsk', 'Russia', 2171
+'Aktau', 'Kazakhstan', 2172
+'Ukhta', 'Russia', 2173
+'Usinsk', 'Russia', 2174
+'Naryan-Mar', 'Russia', 2175
+'Kogalym', 'Russia', 2176
+'Krasnoyarsk', 'Russia', 2177
+'Karaganda', 'Kazakhstan', 2178
+'Uraj', 'Russia', 2179
+'Changchun', 'China', 2180
+'Niigata', 'Japan', 2181
+'Arcata CA', 'United States', 2182
+'Austin TX', 'United States', 2183
+'Jacksonville NC', 'United States', 2184
+'Dubuque IA', 'United States', 2185
+'Forde', 'Norway', 2186
+'Yakutia', 'Russia', 2187
+'Nakhchivan', 'Azerbaijan', 2188
+'Ganja', 'Azerbaijan', 2189
+'Ust Kamenogorsk', 'Kazakhstan', 2190
+'Petropavlosk', 'Kazakhstan', 2191
+'Ji-Paraná', 'Brazil', 2192
+'Cajamarca', 'Peru', 2193
+'Yopal', 'Colombia', 2194
+'Esmeraldas', 'Ecuador', 2195
+'Santa Maria', 'Brazil', 2196
+'Lençóis', 'Brazil', 2197
+'Juazeiro Do Norte', 'Brazil', 2198
+'Masbate', 'Philippines', 2199
+'Catarman', 'Philippines', 2200
+'Jolo', 'Philippines', 2201
+'Camiguin', 'Philippines', 2202
+'Chongju', 'South Korea', 2203
+'Sacheon', 'South Korea', 2204
+'Wonju', 'South Korea', 2205
+'Kunsan', 'South Korea', 2206
+'Shonai', 'Japan', 2207
+'Odate Noshiro', 'Japan', 2208
+'Fukushima', 'Japan', 2209
+'Iwami', 'Japan', 2210
+'Saga', 'Japan', 2211
+'Kushiro', 'Japan', 2212
+'Tufi', 'Papua New Guinea', 2213
+'Losuia', 'Papua New Guinea', 2214
+'Londolovit', 'Papua New Guinea', 2215
+'Wrangell', 'United States', 2216
+'Chevak', 'United States', 2217
+'Aniak', 'United States', 2218
+'Mountain Village', 'United States', 2219
+'Mcgrath', 'United States', 2220
+'Kalskag', 'United States', 2221
+'Haines', 'United States', 2222
+'Holy Cross', 'United States', 2223
+'Skagway', 'United States', 2224
+'Gustavus', 'United States', 2225
+'Adak Island', 'United States', 2226
+'Boca de Sábalo', 'Panama', 2227
+'Contadora Island', 'Panama', 2228
+'Bahia Piña', 'Panama', 2229
+'Sayun Intl', 'Yemen', 2230
+'Sulaymaniyah', 'Iraq', 2231
+'Turbat', 'Pakistan', 2232
+'Skardu', 'Pakistan', 2233
+'Dera Ismael Khan', 'Pakistan', 2234
+'Dera Ghazi Khan', 'Pakistan', 2235
+'Dalbandin', 'Pakistan', 2236
+'Chitral', 'Pakistan', 2237
+'Bahawalpur', 'Pakistan', 2238
+'Al Ain', 'United Arab Emirates', 2239
+'Uromiyeh', 'Iran', 2240
+'Ardabil', 'Iran', 2241
+'Lar', 'Iran', 2242
+'Dasht-e-naz', 'Iran', 2243
+'Noshahr', 'Iran', 2244
+'Sabzevar', 'Iran', 2245
+'Bojnourd', 'Iran', 2246
+'Bam', 'Iran', 2247
+'Khorram Abad', 'Iran', 2248
+'Al-Jawf', 'Saudi Arabia', 2249
+'Dawadmi', 'Saudi Arabia', 2250
+'Île des Pins', 'New Caledonia', 2251
+'Waala', 'New Caledonia', 2252
+'Tiga', 'New Caledonia', 2253
+'Ipota', 'Vanuatu', 2254
+'Futuna Island', 'Vanuatu', 2255
+"Dillon's Bay", 'Vanuatu', 2256
+'Aniwa', 'Vanuatu', 2257
+'Anelghowhat', 'Vanuatu', 2258
+'Malekula Island', 'Vanuatu', 2259
+'Valesdir', 'Vanuatu', 2260
+'Ambryn Island', 'Vanuatu', 2261
+'Tongoa Island', 'Vanuatu', 2262
+'Santo', 'Vanuatu', 2263
+'Gaua Island', 'Vanuatu', 2264
+'Norsup', 'Vanuatu', 2265
+'Lonorore', 'Vanuatu', 2266
+'Maewo Island', 'Vanuatu', 2267
+'Lamen Bay', 'Vanuatu', 2268
+'Lamap', 'Vanuatu', 2269
+'Paama Island', 'Vanuatu', 2270
+'Pentecost Island', 'Vanuatu', 2271
+'Longana', 'Vanuatu', 2272
+'Craig Cove', 'Vanuatu', 2273
+'Sangafa', 'Vanuatu', 2274
+'Loh/Linua', 'Vanuatu', 2275
+'Sola', 'Vanuatu', 2276
+'Ablow', 'Vanuatu', 2277
+'Ua Huka', 'French Polynesia', 2278
+'Ua Pou', 'French Polynesia', 2279
+'Hiva-oa', 'French Polynesia', 2280
+'Ahe', 'French Polynesia', 2281
+'Futuna Island', 'Wallis and Futuna', 2282
+'Alofi', 'Niue', 2283
+'Vanua Balavu', 'Fiji', 2284
+'Savusavu', 'Fiji', 2285
+'Rotuma', 'Fiji', 2286
+'Matei', 'Fiji', 2287
+'Lambasa', 'Fiji', 2288
+'Lakeba Island', 'Fiji', 2289
+'Vunisea', 'Fiji', 2290
+'Cicia', 'Fiji', 2291
+'Mitiaro Island', 'Cook Islands', 2292
+'Mauke Island', 'Cook Islands', 2293
+'Mangaia Island', 'Cook Islands', 2294
+'Atiu Island', 'Cook Islands', 2295
+'Colonel Hill', 'Bahamas', 2296
+"Arthur's Town", 'Bahamas', 2297
+'Long Banga', 'Malaysia', 2298
+'Cayo Coco', 'Cuba', 2299
+'Puerto Jimenez', 'Costa Rica', 2300
+'Nicoya', 'Costa Rica', 2301
+'Roxana', 'Costa Rica', 2302
+'Jaqué', 'Panama', 2303
+'Jalapa', 'Mexico', 2304
+'Puerto Lempira', 'Honduras', 2305
+'La Isabela', 'Dominican Republic', 2306
+'Samana', 'Dominican Republic', 2307
+'Salt Cay', 'Turks and Caicos Islands', 2308
+'Cockburn Town', 'Turks and Caicos Islands', 2309
+'Ubari', 'Libya', 2310
+'Misratah', 'Libya', 2311
+'Balikesir Korfez', 'Turkey', 2312
+'Isparta', 'Turkey', 2313
+'Adiyaman', 'Turkey', 2314
+'Agri', 'Turkey', 2315
+'Kahramanmaras', 'Turkey', 2316
+'Kars', 'Turkey', 2317
+'Banja Luka', 'Bosnia and Herzegovina', 2318
+'Corvo', 'Portugal', 2319
+'Syros Island', 'Greece', 2320
+'Logroño-Agoncillo', 'Spain', 2321
+'Nicosia', 'Cyprus', 2322
+'Yakima', 'United States', 2323
+'Worland', 'United States', 2324
+'Valdosta', 'United States', 2325
+'Victoria', 'United States', 2326
+'Quincy', 'United States', 2327
+'Tupelo', 'United States', 2328
+'Santa Maria', 'United States', 2329
+'Salina', 'United States', 2330
+'Saranac Lake', 'United States', 2331
+'Sheridan', 'United States', 2332
+'San Luis Obispo', 'United States', 2333
+'Rutland', 'United States', 2334
+'Rock Springs', 'United States', 2335
+'Rhinelander', 'United States', 2336
+'Portsmouth', 'United States', 2337
+'Pellston', 'United States', 2338
+'Pierre', 'United States', 2339
+'Pocatello', 'United States', 2340
+'Hattiesburg/Laurel', 'United States', 2341
+'Owensboro', 'United States', 2342
+'North Bend', 'United States', 2343
+'Muscle Shoals', 'United States', 2344
+'Muskegon', 'United States', 2345
+'Lynchburg', 'United States', 2346
+'Lancaster', 'United States', 2347
+'Klamath Falls', 'United States', 2348
+'Lebanon', 'United States', 2349
+'North Platte', 'United States', 2350
+'Latrobe', 'United States', 2351
+'Laramie', 'United States', 2352
+'Kirksville', 'United States', 2353
+'Huntington', 'United States', 2354
+'Hot Springs', 'United States', 2355
+'Grand Island', 'United States', 2356
+'Glasgow', 'United States', 2357
+'Fayetteville', 'United States', 2358
+'New Bedford', 'United States', 2359
+'Elko', 'United States', 2360
+'Eau Claire', 'United States', 2361
+'Du Bois', 'United States', 2362
+'Dodge City', 'United States', 2363
+'Hancock', 'United States', 2364
+'Port Angeles', 'United States', 2365
+'Clarksburg', 'United States', 2366
+'Sault Ste Marie', 'United States', 2367
+'Cape Girardeau', 'United States', 2368
+'Crescent City', 'United States', 2369
+'Brunswick', 'United States', 2370
+'Beckley', 'United States', 2371
+'Scottsbluff', 'United States', 2372
+'Bradford', 'United States', 2373
+'Alpena', 'United States', 2374
+'Walla Walla', 'United States', 2375
+'Waterloo', 'United States', 2376
+'Athens', 'United States', 2377
+'Aberdeen', 'United States', 2378
+'Gheshm', 'Iran', 2379
+'Diu', 'India', 2380
+'Arua', 'Uganda', 2381
+'Bukoba', 'Tanzania', 2382
+'Port Sudan', 'Sudan', 2383
+'Nyala', 'Sudan', 2384
+"Al Bayda'", 'Libya', 2385
+'Tobruk', 'Libya', 2386
+'Sirt', 'Libya', 2387
+'Nanyuki', 'Kenya', 2388
+'Malindi', 'Kenya', 2389
+'Lokichoggio', 'Kenya', 2390
+'Amboseli National Park', 'Kenya', 2391
+'Asyut', 'Egypt', 2392
+'Galcaio', 'Somalia', 2393
+'Mogadishu', 'Somalia', 2394
+'Bosaso', 'Somalia', 2395
+'Gode', 'Ethiopia', 2396
+'Sao Filipe - Fogo Island', 'Cape Verde', 2397
+'Praia - Santiago Island', 'Cape Verde', 2398
+'El Aroui', 'Morocco', 2399
+'El Aaiún', 'Western Sahara', 2400
+'Essadouira', 'Morocco', 2401
+'Dakhla', 'Western Sahara', 2402
+'Bissau', 'Guinea-Bissau', 2403
+'La Gomera', 'Spain', 2404
+'Lodja', 'Congo (Kinshasa)', 2405
+'Tshikapa', 'Congo (Kinshasa)', 2406
+'Oranjemund', 'Namibia', 2407
+'Ondangwa', 'Namibia', 2408
+'Luderitz', 'Namibia', 2409
+'Chimoio', 'Mozambique', 2410
+'Mocamedes', 'Angola', 2411
+'Ondjiva', 'Angola', 2412
+'Catumbela', 'Angola', 2413
+'Solwesi', 'Zambia', 2414
+'Chipata', 'Zambia', 2415
+'Mpumalanga', 'South Africa', 2416
+'Shire Indasilase', 'Ethiopia', 2417
+'Hemavan', 'Sweden', 2418
+'Ängelholm', 'Sweden', 2419
+'Torsby', 'Sweden', 2420
+'Karlstad', 'Sweden', 2421
+'Hagfors', 'Sweden', 2422
+'Östersund', 'Sweden', 2423
+'Bydgoszcz', 'Poland', 2424
+'Vardø', 'Norway', 2425
+'Sorkjosen', 'Norway', 2426
+'Svolvær', 'Norway', 2427
+'Sogndal', 'Norway', 2428
+'Sandane', 'Norway', 2429
+'Røst', 'Norway', 2430
+'Rørvik', 'Norway', 2431
+'Mo i Rana', 'Norway', 2432
+'Namsos', 'Norway', 2433
+'Leknes', 'Norway', 2434
+'Dongloe', 'Ireland', 2435
+'Barra', 'United Kingdom', 2436
+"Land's End", 'United Kingdom', 2437
+'Westray', 'United Kingdom', 2438
+'Sanday', 'United Kingdom', 2439
+'Stronsay', 'United Kingdom', 2440
+'Papa Westray', 'United Kingdom', 2441
+'North Ronaldsay', 'United Kingdom', 2442
+'Eday', 'United Kingdom', 2443
+'Campbeltown', 'United Kingdom', 2444
+'Doncaster - Sheffield', 'United Kingdom', 2445
+'Heringsdorf', 'Germany', 2446
+'Kumasi', 'Ghana', 2447
+'Guemar', 'Algeria', 2448
+'Bordj Badji Mokhtar', 'Algeria', 2449
+'Béchar', 'Algeria', 2450
+'Batna', 'Algeria', 2451
+'Churchill Falls', 'Canada', 2452
+'Sandy Lake', 'Canada', 2453
+'Round Lake', 'Canada', 2454
+'Sachigo Lake', 'Canada', 2455
+'Masset', 'Canada', 2456
+'Muskrat Dam', 'Canada', 2457
+'Kashechewan', 'Canada', 2458
+'Eastmain River', 'Canada', 2459
+'Bathurst', 'Canada', 2460
+'Salluit', 'Canada', 2461
+'Whale Cove', 'Canada', 2462
+'Webequie', 'Canada', 2463
+'Big Trout Lake', 'Canada', 2464
+'Sanikiluaq', 'Canada', 2465
+'Red Lake', 'Canada', 2466
+'Gamètì', 'Canada', 2467
+'The Pas', 'Canada', 2468
+'Powell River', 'Canada', 2469
+'Peawanuck', 'Canada', 2470
+'Pikangikum', 'Canada', 2471
+'Inukjuak', 'Canada', 2472
+'Wemindji', 'Canada', 2473
+'Umiujaq', 'Canada', 2474
+'Chibougamau', 'Canada', 2475
+'Kangiqsualujjuaq', 'Canada', 2476
+"Lutselk'e", 'Canada', 2477
+'Lansdowne House', 'Canada', 2478
+'Kimmirut', 'Canada', 2479
+'Aupaluk', 'Canada', 2480
+'Waskaganish', 'Canada', 2481
+'Akulivik', 'Canada', 2482
+'Ivujivik', 'Canada', 2483
+'Chevery', 'Canada', 2484
+'Hopedale', 'Canada', 2485
+'Nemiscau', 'Canada', 2486
+'Quaqtaq', 'Canada', 2487
+'Grise Fiord', 'Canada', 2488
+'Gillam', 'Canada', 2489
+'Kuujjuarapik', 'Canada', 2490
+'Igloolik', 'Canada', 2491
+'Makkovik', 'Canada', 2492
+'Fort Hope', 'Canada', 2493
+'Fort Albany', 'Canada', 2494
+'Fort Severn', 'Canada', 2495
+'Nain', 'Canada', 2496
+'Chesterfield Inlet', 'Canada', 2497
+'Lourdes-De-Blanc-Sablon', 'Canada', 2498
+'Attawapiskat', 'Canada', 2499
+'Kangirsuk', 'Canada', 2500
+'Kasabonika', 'Canada', 2501
+'Fort Frances', 'Canada', 2502
+'Cat Lake', 'Canada', 2503
+'Tarapacá', 'Colombia', 2504
+'Apartadó', 'Colombia', 2505
+'Nantong', 'China', 2506
+'La Tabatière', 'Canada', 2507
+'Tête-à-la-Baleine', 'Canada', 2508
+'Chisasibi', 'Canada', 2509
+'Poplar Hill', 'Canada', 2510
+'Ogoki Post', 'Canada', 2511
+'Kingfisher Lake', 'Canada', 2512
+'Bearskin Lake', 'Canada', 2513
+'North Spirit Lake', 'Canada', 2514
+'Wunnumin Lake', 'Canada', 2515
+'Angling Lake', 'Canada', 2516
+'Summer Beaver', 'Canada', 2517
+'Whatì', 'Canada', 2518
+'Rigolet', 'Canada', 2519
+'Anahim Lake', 'Canada', 2520
+'Punta Gorda', 'Belize', 2521
+'Caye Caulker', 'Belize', 2522
+'Puntarenas', 'Costa Rica', 2523
+'Uummannaq', 'Greenland', 2524
+'Upernavik', 'Greenland', 2525
+'Sisimiut', 'Greenland', 2526
+'Qaanaaq', 'Greenland', 2527
+'Narsaq', 'Greenland', 2528
+'Nanortalik', 'Greenland', 2529
+'Maniitsoq', 'Greenland', 2530
+'Qaqortoq', 'Greenland', 2531
+'Paamiut', 'Greenland', 2532
+'Neerlerit Inaat', 'Greenland', 2533
+'Alluitsup Paa', 'Greenland', 2534
+'Wapenamanda', 'Papua New Guinea', 2535
+'Vanimo', 'Papua New Guinea', 2536
+'Tokua', 'Papua New Guinea', 2537
+'Tabubil', 'Papua New Guinea', 2538
+'Tari', 'Papua New Guinea', 2539
+'Misima Island', 'Papua New Guinea', 2540
+'Moro', 'Papua New Guinea', 2541
+'Momote', 'Papua New Guinea', 2542
+'Mendi', 'Papua New Guinea', 2543
+'Kavieng', 'Papua New Guinea', 2544
+'Kiunga', 'Papua New Guinea', 2545
+'Hoskins', 'Papua New Guinea', 2546
+'Girua', 'Papua New Guinea', 2547
+'Gurney', 'Papua New Guinea', 2548
+'Daru', 'Papua New Guinea', 2549
+'Kundiawa', 'Papua New Guinea', 2550
+'Buka Island', 'Papua New Guinea', 2551
+'Ramata', 'Solomon Islands', 2552
+'Kagau Island', 'Solomon Islands', 2553
+'Suavanao', 'Solomon Islands', 2554
+'Marau', 'Solomon Islands', 2555
+'Rennell Island', 'Solomon Islands', 2556
+'Gizo', 'Solomon Islands', 2557
+'Munda', 'Solomon Islands', 2558
+'Santa Cruz/Graciosa Bay/Luova', 'Solomon Islands', 2559
+'Kirakira', 'Solomon Islands', 2560
+'Fera Island', 'Solomon Islands', 2561
+'Atoifi', 'Solomon Islands', 2562
+'Tiksi', 'Russia', 2563
+'Cherskiy', 'Russia', 2564
+'Chokurdah', 'Russia', 2565
+'Kostanay', 'Kazakhstan', 2566
+'Zhezkazgan', 'Kazakhstan', 2567
+'Kokshetau', 'Kazakhstan', 2568
+'Spanish Town', 'British Virgin Islands', 2569
+'Charlestown', 'Saint Kitts and Nevis', 2570
+'El Vigía', 'Venezuela', 2571
+'Santa Rosa', 'Brazil', 2572
+'Huánuco', 'Peru', 2573
+'Riberalta', 'Bolivia', 2574
+'Guayaramerín', 'Bolivia', 2575
+'Puerto Inírida', 'Colombia', 2576
+'Nuquí', 'Colombia', 2577
+'La Pedrera', 'Colombia', 2578
+'Puerto Leguízamo', 'Colombia', 2579
+'La Toma (Catamayo)', 'Ecuador', 2580
+'San Cristóbal', 'Ecuador', 2581
+'Vitória Da Conquista', 'Brazil', 2582
+'Marília', 'Brazil', 2583
+'Macaé', 'Brazil', 2584
+'Roxas City', 'Philippines', 2585
+'Calbayog City', 'Philippines', 2586
+'Virac', 'Philippines', 2587
+'Tuguegarao', 'Philippines', 2588
+'Basco', 'Philippines', 2589
+'Naga', 'Philippines', 2590
+'Sangley Point', 'Philippines', 2591
+'General Santos City', 'Philippines', 2592
+'Sokcho / Gangneung', 'South Korea', 2593
+'Anadyr', 'Russia', 2594
+'Zaporozhye', 'Ukraine', 2595
+'Kharkov', 'Ukraine', 2596
+'Ivano-Frankivsk', 'Ukraine', 2597
+'Uzhgorod', 'Ukraine', 2598
+'Solovetsky Islands', 'Russia', 2599
+'Cherepovets', 'Russia', 2600
+'Petrozavodsk', 'Russia', 2601
+'Kyzyl', 'Russia', 2602
+'Novokuznetsk', 'Russia', 2603
+'Igarka', 'Russia', 2604
+'Grozny', 'Russia', 2605
+'Beslan', 'Russia', 2606
+'Elista', 'Russia', 2607
+'Kearney', 'United States', 2608
+'Kingman', 'United States', 2609
+'Pasco', 'United States', 2610
+'Akutan', 'United States', 2611
+'Silver City', 'United States', 2612
+'Lopez', 'United States', 2613
+'Salekhard', 'Russia', 2614
+'Khanty-Mansiysk', 'Russia', 2615
+'Nyagan', 'Russia', 2616
+'Sovetskiy', 'Russia', 2617
+'Izhevsk', 'Russia', 2618
+'Kirov', 'Russia', 2619
+'Nadym', 'Russia', 2620
+'Kurgan', 'Russia', 2621
+'Khudzhand', 'Tajikistan', 2622
+'Andizhan', 'Uzbekistan', 2623
+'Fergana', 'Uzbekistan', 2624
+'Namangan', 'Uzbekistan', 2625
+'Nukus', 'Uzbekistan', 2626
+'Urgench', 'Uzbekistan', 2627
+'Khanabad', 'Uzbekistan', 2628
+'Termez', 'Uzbekistan', 2629
+'Belgorod', 'Russia', 2630
+'Kursk', 'Russia', 2631
+'Vorkuta', 'Russia', 2632
+'Bugulma', 'Russia', 2633
+'Cheboksary', 'Russia', 2634
+'Orsk', 'Russia', 2635
+'Penza', 'Russia', 2636
+'Saransk', 'Russia', 2637
+'Hubli', 'India', 2638
+'Koggala', 'Sri Lanka', 2639
+'Shillong', 'India', 2640
+'Guwahati', 'India', 2641
+'Dimapur', 'India', 2642
+'Barisal', 'Bangladesh', 2643
+'Bharatpur', 'Nepal', 2644
+'Chandragarhi', 'Nepal', 2645
+'Nepalgunj', 'Nepal', 2646
+'Gan Island', 'Maldives', 2647
+'Haa Dhaalu Atoll', 'Maldives', 2648
+'Laamu Atoll', 'Maldives', 2649
+'Tak', 'Thailand', 2650
+'Buonmethuot', 'Vietnam', 2651
+'Haiphong', 'Vietnam', 2652
+'Nha Trang', 'Vietnam', 2653
+'Conson', 'Vietnam', 2654
+'Can Tho', 'Vietnam', 2655
+'Dienbienphu', 'Vietnam', 2656
+'Phucat', 'Vietnam', 2657
+'Pleiku', 'Vietnam', 2658
+'Vinh', 'Vietnam', 2659
+'Dawei', 'Burma', 2660
+'Kawthoung', 'Burma', 2661
+'Waikabubak-Sumba Island', 'Indonesia', 2662
+'Tanjung Redep-Borneo Island', 'Indonesia', 2663
+'Langgur-Kei Islands', 'Indonesia', 2664
+'Long Datih', 'Malaysia', 2665
+'Long Seridan', 'Malaysia', 2666
+'Mukah', 'Malaysia', 2667
+'Bakalalan', 'Malaysia', 2668
+'Lawas', 'Malaysia', 2669
+'Bario', 'Malaysia', 2670
+'Kudat', 'Malaysia', 2671
+'Bandar Lampung-Sumatra Island', 'Indonesia', 2672
+'Ranai-Natuna Besar Island', 'Indonesia', 2673
+'Laut Island', 'Indonesia', 2674
+'Albany', 'Australia', 2675
+'Aurukun', 'Australia', 2676
+'Barcaldine', 'Australia', 2677
+'Birdsville', 'Australia', 2678
+'Broken Hill', 'Australia', 2679
+'Hamilton Island', 'Australia', 2680
+'Bedourie', 'Australia', 2681
+'Burketown', 'Australia', 2682
+'Boulia', 'Australia', 2683
+'Bathurst', 'Australia', 2684
+'Coober Pedy', 'Australia', 2685
+'Cloncurry', 'Australia', 2686
+'Ceduna', 'Australia', 2687
+'Cunnamulla', 'Australia', 2688
+'Coen', 'Australia', 2689
+'Doomadgee', 'Australia', 2690
+'Devonport', 'Australia', 2691
+'Elcho Island', 'Australia', 2692
+'Esperance', 'Australia', 2693
+'Flinders Island', 'Australia', 2694
+'Geraldton', 'Australia', 2695
+'Gladstone', 'Australia', 2696
+'Groote Eylandt', 'Australia', 2697
+'Griffith', 'Australia', 2698
+'Horn Island', 'Australia', 2699
+'Julia Creek', 'Australia', 2700
+'King Island', 'Australia', 2701
+'Kowanyama', 'Australia', 2702
+'Lord Howe Island', 'Australia', 2703
+'Lockhart River', 'Australia', 2704
+'Lismore', 'Australia', 2705
+'Longreach', 'Australia', 2706
+'Merimbula', 'Australia', 2707
+'Milingimbi', 'Australia', 2708
+'Maningrida', 'Australia', 2709
+'McArthur River Mine', 'Australia', 2710
+'Mildura', 'Australia', 2711
+'Moree', 'Australia', 2712
+'Moranbah', 'Australia', 2713
+'Moruya', 'Australia', 2714
+'Mount Gambier', 'Australia', 2715
+'Mornington Island', 'Australia', 2716
+'Narrandera', 'Australia', 2717
+'Normanton', 'Australia', 2718
+'Newman', 'Australia', 2719
+'Olympic Dam', 'Australia', 2720
+'Argyle', 'Australia', 2721
+'Paraburdoo', 'Australia', 2722
+'Cocos Keeling Island', 'Cocos (Keeling) Islands', 2723
+'Gove', 'Australia', 2724
+'Parkes', 'Australia', 2725
+'Port Lincoln', 'Australia', 2726
+'Pormpuraaw', 'Australia', 2727
+'Port Macquarie', 'Australia', 2728
+'Portland', 'Australia', 2729
+'Quilpie', 'Australia', 2730
+'Roma', 'Australia', 2731
+'St George', 'Australia', 2732
+'Thargomindah', 'Australia', 2733
+'Windorah', 'Australia', 2734
+'Whyalla', 'Australia', 2735
+'Winton', 'Australia', 2736
+'Burnie', 'Australia', 2737
+'Chifeng', 'China', 2738
+'Changzhi', 'China', 2739
+'Datong', 'China', 2740
+'Hohhot', 'China', 2741
+'Baotou', 'China', 2742
+'Shijiazhuang', 'China', 2743
+'Tongliao', 'China', 2744
+'Ulanhot', 'China', 2745
+'Xilinhot', 'China', 2746
+'Beihai', 'China', 2747
+'Changde', 'China', 2748
+'Dayong', 'China', 2749
+'Meixian', 'China', 2750
+'Zhuhai', 'China', 2751
+'Liuzhou', 'China', 2752
+'Zhanjiang', 'China', 2753
+'Enshi', 'China', 2754
+'Nanyang', 'China', 2755
+'Xiangfan', 'China', 2756
+'Yichang', 'China', 2757
+'Golmud', 'China', 2758
+'Qingyang', 'China', 2759
+'Xining', 'China', 2760
+"Yan'an", 'China', 2761
+'Yulin', 'China', 2762
+'Altai', 'Mongolia', 2763
+'Bayankhongor', 'Mongolia', 2764
+'Dalanzadgad', 'Mongolia', 2765
+'Khovd', 'Mongolia', 2766
+'Muren', 'Mongolia', 2767
+'Shangri-La', 'China', 2768
+'Luxi', 'China', 2769
+'Simao', 'China', 2770
+'Zhaotong', 'China', 2771
+'Ganzhou', 'China', 2772
+'Jingdezhen', 'China', 2773
+'Jiujiang', 'China', 2774
+'Quzhou', 'China', 2775
+'Lianyungang', 'China', 2776
+'Huangyan', 'China', 2777
+'Linyi', 'China', 2778
+'Quanzhou', 'China', 2779
+'Huangshan', 'China', 2780
+'Weifang', 'China', 2781
+'Wuxi', 'China', 2782
+'Wuyishan', 'China', 2783
+'Wenzhou', 'China', 2784
+'Yancheng', 'China', 2785
+'Yiwu', 'China', 2786
+'Zhoushan', 'China', 2787
+'Bangda', 'China', 2788
+'Dazhou', 'China', 2789
+'Guangyuan', 'China', 2790
+'Luzhou', 'China', 2791
+'Mianyang', 'China', 2792
+'Nanchong', 'China', 2793
+'Nyingchi', 'China', 2794
+'Wanxian', 'China', 2795
+'Aksu', 'China', 2796
+'Kuqa', 'China', 2797
+'Korla', 'China', 2798
+'Karamay', 'China', 2799
+'Yining', 'China', 2800
+'Heihe', 'China', 2801
+'Jiamusi', 'China', 2802
+'Jinzhou', 'China', 2803
+'Qiqihar', 'China', 2804
+'Yanji', 'China', 2805
+'Worcester', 'United States', 2806
+'Anqing', 'China', 2807
+'Ji An', 'China', 2808
+'Qinhuangdao', 'China', 2809
+'Yuncheng', 'China', 2810
+'Lanzhou', 'China', 2811
+'Jiayuguan', 'China', 2812
+'Dandong', 'China', 2813
+'Dongsheng', 'China', 2814
+'Panzhihua', 'China', 2815
+'Dibrugarh', 'India', 2816
+'Grand Canyon West', 'United States', 2817
+'Boulder City', 'United States', 2818
+'Provincetown', 'United States', 2819
+'Gustavia', 'France', 2820
+'Belize', 'Belize', 2821
+'Tambow', 'Russia', 2822
+'Shizuoka', 'Japan', 2823
+'Erechim', 'Brazil', 2824
+'Navoi', 'Uzbekistan', 2825
+'Setif', 'Algeria', 2826
+'La Rochelle', 'France', 2827
+'Jining', 'China', 2828
+'Mohe County', 'China', 2829
+'Yaroslavl', 'Russia', 2830
+'Rimatara', 'French Polynesia', 2831
+'Ust-Kut', 'Russia', 2832
+'Bellona', 'Solomon Islands', 2833
+'Wenatchee', 'United States', 2834
+'Choibalsan', 'Mongolia', 2835
+'Taree', 'Australia', 2836
+'Orange', 'Australia', 2837
+'Grafton', 'Australia', 2838
+'Hamadan', 'Iran', 2839
+'St-Augustin', 'Canada', 2840
+'Vieques Island', 'Puerto Rico', 2841
+'Çorlu', 'Turkey', 2842
+'Sinop', 'Turkey', 2843
+'Mus', 'Turkey', 2844
+'Canakkale', 'Turkey', 2845
+'Eskissehir', 'Turkey', 2846
+'Mpacha', 'Namibia', 2847
+'Walvis Bay', 'Namibia', 2848
+'Punta del Este', 'Uruguay', 2849
+'Sialkot', 'Pakistan', 2850
+'Bonaventure', 'Canada', 2851
+'Samburu South', 'Kenya', 2852
+'Chaoyang', 'China', 2853
+'Walaha', 'Vanuatu', 2854
+'Tanjung Manis', 'Malaysia', 2855
+'Long Akah', 'Malaysia', 2856
+'Geneina', 'Sudan', 2857
+'Togiak Village', 'United States', 2858
+'Port Heiden', 'United States', 2859
+'King Cove', 'United States', 2860
+'Igiugig', 'United States', 2861
+'Kangra', 'India', 2862
+'Sege', 'Solomon Islands', 2863
+'Burgos', 'Spain', 2864
+'Leon', 'Spain', 2865
+'Deering', 'United States', 2866
+'Mardin', 'Turkey', 2867
+'Tacheng', 'China', 2868
+'Lago Agrio', 'Ecuador', 2869
+'Parsabad', 'Iran', 2870
+'Ilam', 'Iran', 2871
+'Gorgan', 'Iran', 2872
+'Wuzhou', 'China', 2873
+'Hami', 'China', 2874
+'Sand Point', 'United States', 2875
+'Gorakhpur', 'India', 2876
+'Araracuara', 'Colombia', 2877
+'Hagerstown', 'United States', 2878
+'Bella Coola', 'Canada', 2879
+'Pajala', 'Sweden', 2880
+'Governador Valadares', 'Brazil', 2881
+'Apatity', 'Russia', 2882
+'Cauayan', 'Philippines', 2883
+'La Fortuna/San Carlos', 'Costa Rica', 2884
+'Imo', 'Nigeria', 2885
+'Arctic Village', 'United States', 2886
+'Tasiujaq', 'Canada', 2887
+'Puvirnituq', 'Canada', 2888
+'Noatak', 'United States', 2889
+'Savoonga', 'United States', 2890
+'Shishmaref', 'United States', 2891
+'Ruby', 'United States', 2892
+'Point Hope', 'United States', 2893
+'Mekoryuk', 'United States', 2894
+'Kivalina', 'United States', 2895
+"St Mary's", 'United States', 2896
+'Kaltag', 'United States', 2897
+'Hooper Bay', 'United States', 2898
+'Gambell', 'United States', 2899
+'Atqasuk', 'United States', 2900
+'Anvik', 'United States', 2901
+'Anaktuvuk Pass', 'United States', 2902
+'Altay', 'China', 2903
+'Manzhouli', 'China', 2904
+'Wuhai', 'China', 2905
+'Brainerd', 'United States', 2906
+'Lewisburg', 'United States', 2907
+'Chefornak', 'United States', 2908
+'Branson', 'United States', 2909
+'Tongren', 'China', 2910
+'Nizhnekamsk', 'Russia', 2911
+'Osubi', 'Nigeria', 2912
+'St. Augustine Airport', 'United States', 2913
+'Santa Rosa', 'United States', 2914
+'Aspen', 'United States', 2915
+'Hilton Head', 'United States', 2916
+'Ulyanovsk', 'Russia', 2917
+'Thief River Falls', 'United States', 2918
+'Corozal', 'Belize', 2919
+'Gelendzik', 'Russia', 2920
+'Gunnison', 'United States', 2921
+'Manistee', 'United States', 2922
+'Punta Gorda', 'United States', 2923
+'Jamestown', 'United States', 2924
+'Weyers Cave', 'United States', 2925
+'Dickinson', 'United States', 2926
+'Sidney', 'United States', 2927
+'Chadron', 'United States', 2928
+'Alliance', 'United States', 2929
+'McCook', 'United States', 2930
+'Glendive', 'United States', 2931
+'Wolf Point', 'United States', 2932
+'Alamosa', 'United States', 2933
+'Moab', 'United States', 2934
+'Vernal', 'United States', 2935
+'Show Low', 'United States', 2936
+'Mammoth Lakes', 'United States', 2937
+'Friday Harbor', 'United States', 2938
+'Eastsound', 'United States', 2939
+'Emmonak', 'United States', 2940
+'Unalakleet', 'United States', 2941
+'Shageluk', 'United States', 2942
+'Chuathbaluk', 'United States', 2943
+'Nuiqsut', 'United States', 2944
+'Eek', 'United States', 2945
+'Kasigluk', 'United States', 2946
+'Kwethluk', 'United States', 2947
+'Kwigillingok', 'United States', 2948
+'Marshall', 'United States', 2949
+'Russian Mission', 'United States', 2950
+'Tuntutuliak', 'United States', 2951
+'Levelock', 'United States', 2952
+'Chalkyitsik', 'United States', 2953
+'Hughes', 'United States', 2954
+'Huslia', 'United States', 2955
+'Minto', 'United States', 2956
+'Nulato', 'United States', 2957
+'Rampart', 'United States', 2958
+'Tanana', 'United States', 2959
+'Venetie', 'United States', 2960
+'Beaver', 'United States', 2961
+'Central', 'United States', 2962
+'Shungnak', 'United States', 2963
+'Brich Creek', 'United States', 2964
+'Coldfoot', 'United States', 2965
+'Visalia', 'United States', 2966
+'Merced', 'United States', 2967
+'Toowoomba', 'Australia', 2968
+'Angoon', 'United States', 2969
+'Elfin Cove', 'United States', 2970
+'Tenakee Springs', 'United States', 2971
+'Pelican', 'United States', 2972
+'Excursion Inlet', 'United States', 2973
+'Hoonah', 'United States', 2974
+'Craig', 'United States', 2975
+'Hollis', 'United States', 2976
+'Metakatla', 'United States', 2977
+'Thorne Bay', 'United States', 2978
+'Hydaburg', 'United States', 2979
+'Point Baker', 'United States', 2980
+'Port Protection', 'United States', 2981
+'North Whale Pass', 'United States', 2982
+'Chignik Lake', 'United States', 2983
+'Egegik', 'United States', 2984
+'Chignik Lagoon', 'United States', 2985
+'Perryville', 'United States', 2986
+'Pilot Point', 'United States', 2987
+'South Naknek', 'United States', 2988
+'Akhiok', 'United States', 2989
+'Karluk', 'United States', 2990
+'Larsen Bay', 'United States', 2991
+'Old Harbor', 'United States', 2992
+'Ouzinkie', 'United States', 2993
+'Port Lions', 'United States', 2994
+'Amook Bay', 'United States', 2995
+'Kitoi Bay', 'United States', 2996
+'Port Williams', 'United States', 2997
+'Seal Bay', 'United States', 2998
+'Zachar Bay', 'United States', 2999
+'Ambler', 'United States', 3000
+'Buckland', 'United States', 3001
+'Kiana', 'United States', 3002
+'Kobuk', 'United States', 3003
+'Noorvik', 'United States', 3004
+'Selawik', 'United States', 3005
+'Brevig Mission', 'United States', 3006
+'Elim', 'United States', 3007
+'Golovin', 'United States', 3008
+'Teller', 'United States', 3009
+'Wales', 'United States', 3010
+'White Mountain', 'United States', 3011
+'Koyuk', 'United States', 3012
+'St. Michael', 'United States', 3013
+'Shaktoolik', 'United States', 3014
+'Stebbins', 'United States', 3015
+'Tin City', 'United States', 3016
+'Atka', 'United States', 3017
+'Nikolski', 'United States', 3018
+'Alakanuk', 'United States', 3019
+'Nunam Iqua', 'United States', 3020
+'Kipnuk', 'United States', 3021
+'False Pass', 'United States', 3022
+'Nelson Lagoon', 'United States', 3023
+'Klawock', 'United States', 3024
+'Quinhagak', 'United States', 3025
+'Kotlik', 'United States', 3026
+'Koyukuk', 'United States', 3027
+'Scammon Bay', 'United States', 3028
+'Nunapitchuk', 'United States', 3029
+'Kongiganak', 'United States', 3030
+'Nikolai', 'United States', 3031
+'Takotna', 'United States', 3032
+'Pilot Station', 'United States', 3033
+'Akiak', 'United States', 3034
+'Tuluksak', 'United States', 3035
+'Grayling', 'United States', 3036
+'Wainwright', 'United States', 3037
+'Circle', 'United States', 3038
+'Coffman Cove', 'United States', 3039
+'Crooked Creek', 'United States', 3040
+'Red Devil', 'United States', 3041
+'Sleetmute', 'United States', 3042
+'Stony River', 'United States', 3043
+'Healy', 'United States', 3044
+'Kake', 'United States', 3045
+'Manley Hot Springs', 'United States', 3046
+'St. George', 'United States', 3047
+'Postville', 'Canada', 3048
+'Kangiqsujuaq', 'Canada', 3049
+'Havre-Saint-Pierre', 'Canada', 3050
+'Rainbow Lake', 'Canada', 3051
+'Bella Bella', 'Canada', 3052
+'Dangriga', 'Belize', 3053
+'Placencia', 'Belize', 3054
+'Christiansted', 'Virgin Islands', 3055
+'Uyuni', 'Bolivia', 3056
+'Rerrenabaque', 'Bolivia', 3057
+'Saravena', 'Colombia', 3058
+'La Chorrera', 'Colombia', 3059
+'La Macarena', 'Colombia', 3060
+'Villa Garzon', 'Colombia', 3061
+'Cabo Frio', 'Brazil', 3062
+'Sinop', 'Brazil', 3063
+'Gurupi', 'Brazil', 3064
+'Santana do Araguaia', 'Brazil', 3065
+'Breves', 'Brazil', 3066
+'Parintins', 'Brazil', 3067
+'Barreiras', 'Brazil', 3068
+'Santa Terezinha', 'Brazil', 3069
+'Minacu', 'Brazil', 3070
+'Araguaina', 'Brazil', 3071
+'Dourados', 'Brazil', 3072
+'Rondonopolis', 'Brazil', 3073
+'Guarapuava', 'Brazil', 3074
+'Joacaba', 'Brazil', 3075
+'Rio Verde', 'Brazil', 3076
+'Araxa', 'Brazil', 3077
+'Coari', 'Brazil', 3078
+'Barcelos', 'Brazil', 3079
+'Guanambi', 'Brazil', 3080
+'Jijiga', 'Ethiopia', 3081
+'Masai Mara', 'Kenya', 3082
+'Enfidha', 'Tunisia', 3083
+'Pakuba', 'Uganda', 3084
+'Hatay', 'Turkey', 3085
+'Raivavae', 'French Polynesia', 3086
+'Foshan', 'China', 3087
+'Lleida', 'Spain', 3088
+'Olgii', 'Mongolia', 3089
+'Iturup Island', 'Russia', 3090
+'Okha', 'Russia', 3091
+'Najaf', 'Iraq', 3092
+'Fuyang', 'China', 3093
+'Longyan', 'China', 3094
+'Baoshan', 'China', 3095
+'Xingyi', 'China', 3096
+'Liping', 'China', 3097
+'Zhijiang', 'China', 3098
+'Lincang', 'China', 3099
+'Wenshan', 'China', 3100
+'Sao Gabriel da Cachoeira', 'Brazil', 3101
+'Parauapebas', 'Brazil', 3102
+'Itaituba', 'Brazil', 3103
+'Khalije Fars', 'Iran', 3104
+'Yasuj', 'Iran', 3105
+'Ulaangom', 'Mongolia', 3106
+'Dickwella', 'Sri Lanka', 3107
+'Kulyab', 'Tajikistan', 3108
+'Ravensthorpe', 'Australia', 3109
+'Provo', 'United States', 3110
+'Los Alamos', 'United States', 3111
+'Ulawa', 'Solomon Islands', 3112
+'Choiseul Bay', 'Solomon Islands', 3113
+'Santa Ana', 'Solomon Islands', 3114
+'Rundu', 'Namibia', 3115
+'Angmagssalik', 'Greenland', 3116
+'Morristown', 'United States', 3117
+'Panama City', 'United States', 3118
+'Latacunga', 'Ecuador', 3119
+'Mysore', 'India', 3120
+'Marktoberdorf', 'Germany', 3121
+'Zonguldak', 'Turkey', 3122
+'Tengchong', 'China', 3123
+'Sevastopol', 'Ukraine', 3124
+'Yushu', 'China', 3125
+'Playon Chico', 'Panama', 3126
+'Huai An', 'China', 3127
+'El Porvenir', 'Panama', 3128
+'Shiquanhe', 'China', 3129
+'Puerto Obaldia', 'Panama', 3130
+'Ukunda', 'Kenya', 3131
+'Mackenzie British Columbia', 'Canada', 3132
+'Zhongwei', 'China', 3133
+'Baise', 'China', 3134
+'NAYPYITAW', 'Burma', 3135
+'Roche Harbor', 'United States', 3136
+'Westsound', 'United States', 3137
+'Juiz de Fora', 'Brazil', 3138
+'Nightmute', 'United States', 3139
+'Toksook Bay', 'United States', 3140
+'Tununak', 'United States', 3141
+'Goodnews Bay', 'United States', 3142
+'Newtok', 'United States', 3143
+'Achutupo', 'Panama', 3144
+'Garachine', 'Panama', 3145
+'Mulatupo', 'Panama', 3146
+'Ittoqqortoormiit', 'Greenland', 3147
+'Vinnitsa', 'Ukraine', 3148
+'Kegaska', 'Canada', 3149
+'Trail', 'Canada', 3150
+'Arctic Bay', 'Canada', 3151
+'Belmopan', 'Belize', 3152
+'Sohag', 'Egypt', 3153
+'Patos de Minas', 'Brazil', 3154
+'Bauru', 'Brazil', 3155
+'Ourilandia do Norte', 'Brazil', 3156
+'Redencao', 'Brazil', 3157
+'Sao Felix do Xingu', 'Brazil', 3158
+'Bointo', 'Brazil', 3159
+'Sao Felix do Araguaia', 'Brazil', 3160
+'Cacador', 'Brazil', 3161
+'Eirunepe', 'Brazil', 3162
+'Sao Paulo de Olivenca', 'Brazil', 3163
+'Santa Isabel do Rio Negro', 'Brazil', 3164
+'Alanya', 'Turkey', 3165
+'Keewaywin', 'Canada', 3166
+'Al-Ula', 'Saudi Arabia', 3167
+'Praya', 'Indonesia', 3168
+'Handan', 'China', 3169
+'Jixi', 'China', 3170
+'Beloyarsky', 'Russia', 3171
+'Lephalale', 'South Africa', 3172
+'Bayannur', 'China', 3173
+'Pomalaa', 'Indonesia', 3174
+'Gorno-Altaysk', 'Russia', 3175
+'Lankaran', 'Azerbaijan', 3176
+'Qabala', 'Azerbaijan', 3177
+'Qianjiang', 'China', 3178
+'Yuzhno-Kurilsk', 'Russia', 3179
+'Baishan', 'China', 3180
+'Lublin', 'Poland', 3181
+'Yongzhou', 'China', 3182
+'Tangshan', 'China', 3183
+'Yangzhou', 'China', 3184
+'Kooddoo', 'Maldives', 3185
+'Rio Hondo', 'Argentina', 3186
+'Kangding', 'China', 3187
+'Veliky Ustyug', 'Russia', 3188
+'Bodaibo', 'Russia', 3189
+'Mattala', 'Sri Lanka', 3190
+'Sir Bani Yas Island', 'United Arab Emirates', 3191
+'Dalma Island', 'United Arab Emirates', 3192
+'Jiagedaqi District', 'China', 3193
+'Bijie', 'China', 3194
+'Lensk', 'Russia', 3195
+'Igdir', 'Turkey', 3196
+'Sanliurfa', 'Turkey', 3197
+'Kutahya', 'Turkey', 3198
+'Brusselton', 'Australia', 3199
+'Yichun', 'China', 3200
+'Thanh Hoa', 'Vietnam', 3201
+'Mamuju', 'Indonesia', 3202
+'Sigiriya', 'Sri Lanka', 3203
+'Bingol', 'Turkey', 3204
+'Kastamonu', 'Turkey', 3205
+'Daocheng', 'China', 3206
+'Xiahe city', 'China', 3207
+'Comiso', 'Italy', 3208
