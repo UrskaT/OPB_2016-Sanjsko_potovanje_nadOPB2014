@@ -28,7 +28,8 @@ WHERE lokacija.id=id_lok_kam""" # input shraniš kot ime_letalisca_kam, id_letal
 """SELECT let.id_let, cena FROM let
 JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
-WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam"""
+WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam
+ORDER BY cena"""
  # Vsi potrebni podatki za karto (kje, kam, letališča, letalska družba, cena)
 """SELECT zac_letalisce.ime_letalisca, zac_lokacija.mesto,
 zac_lokacija.drzava, kon_letalisce.ime_letalisca, destinacija.mesto,
@@ -38,23 +39,20 @@ JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam"""
+WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam
+ORDER BY cena"""
  # Vsi potrebni podatki za karto + POIMENOVANI STOLPCI v select-u
 """SELECT zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
 zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
-destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz, ponudnik.id_ponud, cena FROM let
+destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+ponudnik.id_ponud, cena FROM let
 JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam"""
-
-####### Število letališč v posameznih mestih, padajoče
- #(max 6 - London, ostala... San Jose 4, Seattle 3, Moscow 3, Paris 2, Tokyo 2, Rome 2, Vancouver 2, Dubai 2...)
-"""SELECT mesto, count(*) as stevilo FROM letalisce
-JOIN lokacija ON letalisce.bliznje=lokacija.id
-GROUP BY mesto ORDER BY stevilo DESC"""
+WHERE zac_letalisce.id_air=id_letalisca_kje AND kon_letalisce.id_air=id_letalisca_kam
+ORDER BY cena"""
 
 ####### Generiranje vseh letov za VSA letališča v mestu !!!! PREVERI NA POSTGRESQL !!!!
  # Samo let in cena, ne rabmo ponudnika in lokacij
@@ -63,7 +61,8 @@ JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam""" # id vpisane lokacije in destinacije na začetku 
+WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam
+ORDER BY cena"""                                                  # id vpisane lokacije in destinacije na začetku 
  # Vsi potrebni podatki za karto (kje, kam, letališča, letalska družba, cena)
 """SELECT zac_letalisce.ime_letalisca, zac_lokacija.mesto,
 zac_lokacija.drzava, kon_letalisce.ime_letalisca, destinacija.mesto,
@@ -73,17 +72,20 @@ JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam""" # id vpisane lokacije in destinacije na začetku 
+WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam
+ORDER BY cena"""                                                  # id vpisane lokacije in destinacije na začetku 
  # Vsi potrebni podatki za karto + POIMENOVANI STOLPCI v select-u
 """SELECT zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
 zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
-destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz, ponudnik.id_ponud, cena FROM let
+destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+ponudnik.id_ponud, cena FROM let
 JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam""" # id vpisane lokacije in destinacije na začetku 
+WHERE zac_lokacija.id=id_lok_kje AND destinacija.id=id_lok_kam
+ORDER BY cena"""                                                  # id vpisane lokacije in destinacije na začetku 
 
 ####### Generiranje vseh letov za VSA letališča v drzavi !!!! PREVERI NA POSTGRESQL !!!!
  # Samo let in cena, ne rabmo ponudnika in lokacij
@@ -92,7 +94,8 @@ JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam""" # vpisana država lokacije in destinacije na začetku 
+WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam
+ORDER BY cena"""                                                   # vpisana država lokacije in destinacije na začetku 
  # Vsi potrebni podatki za karto (kje, kam, letališča, letalska družba, cena)
 """SELECT zac_letalisce.ime_letalisca, zac_lokacija.mesto,
 zac_lokacija.drzava, kon_letalisce.ime_letalisca, destinacija.mesto,
@@ -102,7 +105,8 @@ JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam""" # vpisana država lokacije in destinacije na začetku
+WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam
+ORDER BY cena"""                                                    # vpisana država lokacije in destinacije na začetku
  # Vsi potrebni podatki za karto + POIMENOVANI STOLPCI v select-u
 """SELECT zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
 zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
@@ -112,7 +116,8 @@ JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam""" # vpisana država lokacije in destinacije na začetku
+WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.drzava=input_drz_kam
+ORDER BY cena"""                                                     # vpisana država lokacije in destinacije na začetku
 
 ''' STRUKTURA BAZE
 lokacija (id, mesto, drzava)
@@ -121,3 +126,36 @@ ponudnik (id_ponud, ime_ponudnika, cenovni_razred)
 let (id_let, letalska_druzba, kam_leti, od_kod, dolzina, cena)
 '''
 
+######## Število letališč v posameznih mestih, padajoče
+ #(max 6 - London, ostala... San Jose 4, Seattle 3, Moscow 3, Paris 2, Tokyo 2, Rome 2, Vancouver 2, Dubai 2...)
+"""SELECT mesto, count(*) as stevilo FROM letalisce
+JOIN lokacija ON letalisce.bliznje=lokacija.id
+GROUP BY mesto ORDER BY stevilo DESC"""
+
+####### Število letališč v posameznih drzavah, padajoče !!!! PREVERI NA POSTGRESQL !!!!
+"""SELECT drzava, count(*) as stevilo FROM letalisce
+JOIN lokacija ON letalisce.bliznje=lokacija.id
+GROUP BY drzava ORDER BY stevilo DESC"""
+
+####### Število letov iz posameznih letalisc, padajoče !!!! PREVERI NA POSTGRESQL !!!!
+"""SELECT id_let, count(*) as stevilo FROM let
+JOIN letalisce ON let.od_kod=letalisce.id_air
+GROUP BY id_let ORDER BY stevilo DESC"""
+
+####### Generiranje vseh letov za VSA zacetna letališča v mestu in končna v državi
+"""SELECT let.id_let, cena FROM let
+JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+WHERE zac_lokacija.id=id_lok_kje AND destinacija.drzava=input_drz_kam
+ORDER BY cena"""                                                   # vpisana država lokacije in destinacije na začetku 
+
+####### Generiranje vseh letov za VSA zacetna letališča v drzavi in končna v mestu
+"""SELECT let.id_let, cena FROM let
+JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+WHERE zac_lokacija.drzava=input_drz_kje AND destinacija.id=id_lok_kam
+ORDER BY cena"""  
