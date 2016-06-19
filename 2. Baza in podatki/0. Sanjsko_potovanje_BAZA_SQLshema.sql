@@ -62,7 +62,8 @@ CREATE TABLE karta(
 	kupec TEXT REFERENCES potnik(uporabnisko_ime),
 	polet INTEGER NOT NULL REFERENCES let(id_let)
 			ON DELETE RESTRICT
-			ON UPDATE RESTRICT
+			ON UPDATE RESTRICT,
+	cas_nakupa TIMESTAMP NOT NULL DEFAULT NOW()
 );
 	
 -- Karta se izbriše (premakne v arhiv) ko je unovčena, ima rok uporabe...
