@@ -1,16 +1,12 @@
-%rebase ('base.html', title=uporabnik_ime)
+%rebase ('base.html', title=ime)
 
 <div class="page-header">
-<h1>{{uporabnik_ime}}</h1>
+<h1>{{ime}}</h1>
 </h1>
 </div>
 
-<ul class="list-group">
-<li class="list-group-item">Trači <span class="badge">{{trac_count}}</span></li>
-<li class="list-group-item">Komentarji <span class="badge">{{komentar_count}}</span></li>
-</ul>
+<!-- TUKI VSTAVI SEZNAM KART, ki jih ima uporabnik rezervirane -->
 
-%if username == uporabnik:
    <form class="form-horizontal" method="post" action=".">
    <fieldset>
 

@@ -6,31 +6,93 @@
   </div>
 %end
 
-<form id="trac-forma" class="form-horizontal" method="post" action="/trac/new/">
+
+<form class="form-horizontal">
 <fieldset>
 
-<!-- Form Name -->
-<!--
-<legend>Kva dogaja?</legend>
--->	
-<!-- Textarea -->
-<!--<div class="control-group">
-  <label class="control-label" for="trac"></label>
-  <div class="controls">                     
-    <textarea id="trac" name="trac"></textarea>
+<!-- ZAČETNA LOKACIJA -->
+<legend>Začetna lokacija - start</legend>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi državo</label>
+  <div class="col-md-6">
+    <select id="drzava_kje" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+	  %for drzava in drzave:
+      <option value="{{drzava}}">{{drzava['drzava']}}</option>
+      %end
+    </select>
   </div>
 </div>
--->
-<!-- Button -->
-<!--<div class="control-group">
-  <label class="control-label" for="singlebutton"></label>
-  <div class="controls">
-    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Kulsko!</button>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi mesto</label>
+  <div class="col-md-6">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
   </div>
-</div> 
--->
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi letališče</label>
+  <div class="col-md-6">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
+  </div>
+</div>
+
+
+<!-- KONČNA LOKACIJA -->
+<legend>Končna lokacija - cilj</legend>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi državo</label>
+  <div class="col-md-6">
+    <select id="drzava_kon" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+	  %for drzava in drzave:
+      <option value="{{drzava}}">{{drzava['drzava']}}</option>
+      %end
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi mesto</label>
+  <div class="col-md-6">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Izberi letališče</label>
+  <div class="col-md-6">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
+  </div>
+</div>
 
 </fieldset>
 </form>
+
 
 
