@@ -53,15 +53,14 @@
                %end
                name="priimek"
                required>
-<!--####### kva dam pod type k je številka, a loh uporabm šumnike za palceholder ?? 		-->
-		<input type="????stevika,int????" class="form-control" placeholder="Številka plačilne kartice"
+		<input type="number" class="form-control" placeholder="Številka plačilne kartice"
                %if placilna:
                value="{{placilna}}"
                %end
                name="placilna"
                required>
         <input type="password" class="form-control" placeholder="Geslo" name="password1" required>
-        <input type="password" class="form-control" placeholder="Geslo" name="password2" required>
+        <input type="password" class="form-control" placeholder="Ponovi geslo" name="password2" required>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Registriraj se</button>
       </form>

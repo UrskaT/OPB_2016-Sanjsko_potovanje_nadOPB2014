@@ -1,15 +1,19 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-import auth_public as auth
+#import auth_public as auth
+import auth
 import bottle
 import hashlib # računanje MD5 kriptografski hash za gesla
 
 import psycopg2, psycopg2.extensions, psycopg2.extras
 psycopg2.extensions.register_type(psycopg2.extensions.UNICODE)
 
+# Sporočila o napakah
+bottle.debug(True)
+
 # Mapa s statičnimi datotekami
-static_dir = = "./static"
+static_dir = "./static"
 
 # Skrivnost za kodiranje cookijev
 secret = "to skrivnost je zelo tezko uganiti 1094107c907cw982982c42"
@@ -38,7 +42,7 @@ def get_user(auto_login = True):
     username = bottle.request.get_cookie('username', secret=secret)
     # Preverimo, ali ta uporabnik obstaja
     if username is not None:
-        c.execute("SELECT uporabnisko_ime, ime, priimek FROM potnik WHERE username=%s",
+        c.execute("SELECT uporabnisko_ime, ime FROM potnik WHERE uporabnisko_ime=%s",
                   [username])
         r = c.fetchone()
         if r is not None:
@@ -104,7 +108,7 @@ def login_get():
                            username=None,
                            ime=None,
                            priimek=None,
-                           placilna=None
+                           placilna=None,
                            napaka=None)
 
 @bottle.post("/register/")
@@ -123,22 +127,22 @@ def register_post():
         return bottle.template("register.html",
                                username=username,
                                ime=ime,
-                               priimek=priimek
-                               placilna=placilna
+                               priimek=priimek,
+                               placilna=placilna,
                                napaka='To uporabniško ime je že zasedeno')
     elif not password1 == password2:
         # Geslo se ne ujemata
         return bottle.template("register.html",
                                username=username,
                                ime=ime,
-                               priimek=priimek
-                               placilna=placilna
+                               priimek=priimek,
+                               placilna=placilna,
                                napaka='Gesli se ne ujemata')
     else:
         # Vse je v redu, vstavi novega uporabnika v bazo
         password = password_md5(password1)
         c.execute("""INSERT INTO potnik (uporabnisko_ime, ime, geslo, priimek, placilna_kartica)
-         VALUES (%s, %s, %s, %s, %s""", (username, ime, password, priimek, placilna))
+         VALUES (%s, %s, %s, %s, %s)""", (username, ime, password, priimek, placilna))
         # Daj uporabniku cookie
         bottle.response.set_cookie('username', username, path='/', secret=secret)
         bottle.redirect("/")
@@ -231,7 +235,7 @@ conn.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT) # onemo
 c = conn.cursor(cursor_factory=psycopg2.extras.DictCursor) 
 
 # poženemo strežnik na portu 8080, glej http://localhost:8080/
-run(host='localhost', port=8080, reloader=True, debug=True)
+bottle.run(host='localhost', port=8080, reloader=True)
 
 ## ? debug=True ?
 ## že zgori bla ena možnost...
