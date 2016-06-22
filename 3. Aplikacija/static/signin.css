@@ -1,4 +1,4 @@
-
+/* Gumb in forma v zeleni barvi, in link Registracija */
 .btn-primary {
     color: #fff;
     background-color: #38a181;
@@ -30,14 +30,7 @@ a {
 a:hover {
     color: #38a181;
 }
-
-input.form-control {
-border-color: #38a181;
-}
-
-/*
-
-*/
+/* ----------------------------------------------------- */
 body {
   padding-top: 40px;
   padding-bottom: 40px;

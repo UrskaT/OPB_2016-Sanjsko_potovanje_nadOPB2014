@@ -32,7 +32,47 @@ body {
 	color: #38a181;
 	font-weight: bold;
 }
-
+/* Gumb in forma v zeleni barvi, in link Registracija */
+.btn-primary {
+    color: #fff;
+    background-color: #38a181;
+	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+    border-color: #fff;
+	
+}
+.btn-primary:hover{
+    background-color: #38a181;
+	color: #fff;
+	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+	background-position: 0px;
+	 border-color: #333;
+}
+.btn-primary:focus {
+    background-color: #2d6ca2;
+	color: #fff;
+	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+	background-position: 0px;
+	 border-color: #333;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: ##38a181;
+    border-color: #333;
+	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+}
+.btn-primary:visited {
+    color: #fff;
+    background-color: ##38a181;
+    border-color: #333;
+	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+}
+a {
+    color: #38a181;
+}
+a:hover {
+    color: #38a181;
+}
+/* ----------------------------------------------------- */
 footer {
  text-align: right;
  margin-right: 20px;

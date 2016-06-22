@@ -6,8 +6,7 @@
   </div>
 %end
 
-
-<form class="form-horizontal">
+<form id="lokacija-forma" class="form-horizontal" method="post" action="/leti/izbor/">
 <fieldset>
 
 <!-- ZAČETNA LOKACIJA -->
@@ -15,9 +14,9 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi državo</label>
+  <label class="col-md-4 control-label" for="drzava_kje">Izberi državo</label>
   <div class="col-md-6">
-    <select id="drzava_kje" name="selectbasic" class="form-control">
+    <select id="drzava_kje" name="drzava_kje" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
 	  %for drzava in drzave:
       <option value="{{drzava}}">{{drzava['drzava']}}</option>
@@ -28,24 +27,24 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi mesto</label>
+  <label class="col-md-4 control-label" for="mesto_kje">Izberi mesto</label>
   <div class="col-md-6">
-    <select id="selectbasic" name="selectbasic" class="form-control">
+    <select id="mesto_kje" name="mesto_kje" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1">Option one</option>
-      <option value="2">Option two</option>
+      <option value="1_kjeM">Option one</option>
+      <option value="2_kjeM">Option two</option>
     </select>
   </div>
 </div>
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi letališče</label>
+  <label class="col-md-4 control-label" for="letalisce_kje">Izberi letališče</label>
   <div class="col-md-6">
-    <select id="selectbasic" name="selectbasic" class="form-control">
+    <select id="letalisce_kje" name="letalisce_kje" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1">Option one</option>
-      <option value="2">Option two</option>
+      <option value="1_kjeL">Option one</option>
+      <option value="2:kjeL">Option two</option>
     </select>
   </div>
 </div>
@@ -56,9 +55,9 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi državo</label>
+  <label class="col-md-4 control-label" for="drzava_kam">Izberi državo</label>
   <div class="col-md-6">
-    <select id="drzava_kon" name="selectbasic" class="form-control">
+    <select id="drzava_kam" name="drzava_kam" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
 	  %for drzava in drzave:
       <option value="{{drzava}}">{{drzava['drzava']}}</option>
@@ -69,28 +68,29 @@
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi mesto</label>
+  <label class="col-md-4 control-label" for="mesto_kam">Izberi mesto</label>
   <div class="col-md-6">
-    <select id="selectbasic" name="selectbasic" class="form-control">
+    <select id="mesto_kam" name="mesto_kam" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1">Option one</option>
-      <option value="2">Option two</option>
+      <option value="1_kamM">Option one</option>
+      <option value="2_kamM">Option two</option>
     </select>
   </div>
 </div>
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Izberi letališče</label>
+  <label class="col-md-4 control-label" for="letalisce_kam">Izberi letališče</label>
   <div class="col-md-6">
-    <select id="selectbasic" name="selectbasic" class="form-control">
+    <select id="letalisce_kam" name="letalisce_kam" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1">Option one</option>
-      <option value="2">Option two</option>
+      <option value="1_kamL">Option one</option>
+      <option value="2_kamL">Option two</option>
     </select>
   </div>
 </div>
 
+<button class="btn btn-lg btn-primary btn-block" type="submit">Poišči najbolj ugodne lete</button>
 </fieldset>
 </form>
 
