@@ -6,7 +6,58 @@
   </div>
 %end
 
-<form id="lokacija-forma" class="form-horizontal" method="post" action="/leti/izbor/">
+<!-- tukaj bo vsa JavaScript koda -->
+<script>
+
+$(document).ready(function(){
+	// se zažene, ko se v celoti naloži spletna stran, z JQuery-em pridobimo referenco na drop down meni
+	$("#drzava_kje").change(function (event){
+		var drzava = $(this).val(); // pridobimo trenutno izbrano vrednost v dropdown-u
+		$.get("http://localhost:8080/mesta/" + drzava, function(data) {
+			// iz zgornjega url-ja pridobimo podatke ki so v polju "mesta", se shranijo v data	
+			napolni_dropdown("#mesto_kje", data["mesta"], " - - - - - - - Izberi mesto - - - - - - - ");
+		});
+	});
+	$("#drzava_kam").change(function (event){
+		var drzava = $(this).val();
+		$.get("http://localhost:8080/mesta/" + drzava, function(data) {	
+			napolni_dropdown("#mesto_kam", data["mesta"], " - - - - - - - Izberi mesto - - - - - - - ");
+		});	
+	});
+	$("#mesto_kje").change(function (event){
+		var mesto = $(this).val();
+		var drzava = $("#drzava_kje").val();
+		$.get("http://localhost:8080/letalisca/" + drzava + "/" + mesto, function(data) {	
+			napolni_dropdown("#letalisce_kje", data["letalisca"], " - - - - - - - Izberi letalisce - - - - - - - ");
+		});
+	});;
+	$("#mesto_kam").change(function (event){
+		var mesto = $(this).val();
+		var drzava = $("#drzava_kam").val();
+		$.get("http://localhost:8080/letalisca/" + drzava + "/" + mesto, function(data) {	
+			napolni_dropdown("#letalisce_kam", data["letalisca"], " - - - - - - - Izberi letalisce - - - - - - - ");
+		});
+	});;
+});
+
+
+/* Ta funckcija vnesle mesta in letalisca v drug drop down meni */
+function napolni_dropdown(element_id, items, initial_text) {
+	var element = $(element_id);
+	// najprej pobrišemo vsebimo drugega drop down-a, npr če bo kdo večkrat zamenjal državo
+	element.html("");
+	element.append($("<option>",  {value: "None", text: initial_text}));
+	$.each(items, function(i, item) {
+		// mesto po mesto dodamo v drug drop down meni
+		element.append($("<option>",  {value: item, text: item}));
+	});
+}
+
+
+</script>
+
+
+<form id="lokacija-forma" class="form-horizontal" method="post" action=".">
 <fieldset>
 
 <!-- ZAČETNA LOKACIJA -->
@@ -17,9 +68,9 @@
   <label class="col-md-4 control-label" for="drzava_kje">Izberi državo</label>
   <div class="col-md-6">
     <select id="drzava_kje" name="drzava_kje" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+	  <option value="None"> - - - - - - - Izberi državo - - - - - - - </option>
 	  %for drzava in drzave:
-      <option value="{{drzava}}">{{drzava['drzava']}}</option>
+      <option value="{{drzava['drzava']}}">{{drzava['drzava']}}</option>
       %end
     </select>
   </div>
@@ -30,9 +81,7 @@
   <label class="col-md-4 control-label" for="mesto_kje">Izberi mesto</label>
   <div class="col-md-6">
     <select id="mesto_kje" name="mesto_kje" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1_kjeM">Option one</option>
-      <option value="2_kjeM">Option two</option>
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - -</option>
     </select>
   </div>
 </div>
@@ -43,8 +92,6 @@
   <div class="col-md-6">
     <select id="letalisce_kje" name="letalisce_kje" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1_kjeL">Option one</option>
-      <option value="2:kjeL">Option two</option>
     </select>
   </div>
 </div>
@@ -58,9 +105,9 @@
   <label class="col-md-4 control-label" for="drzava_kam">Izberi državo</label>
   <div class="col-md-6">
     <select id="drzava_kam" name="drzava_kam" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+	  <option value="None"> - - - - - - - Izberi državo - - - - - - - </option>
 	  %for drzava in drzave:
-      <option value="{{drzava}}">{{drzava['drzava']}}</option>
+      <option value="{{drzava['drzava']}}">{{drzava['drzava']}}</option>
       %end
     </select>
   </div>
@@ -71,9 +118,7 @@
   <label class="col-md-4 control-label" for="mesto_kam">Izberi mesto</label>
   <div class="col-md-6">
     <select id="mesto_kam" name="mesto_kam" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1_kamM">Option one</option>
-      <option value="2_kamM">Option two</option>
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - -</option>
     </select>
   </div>
 </div>
@@ -84,8 +129,6 @@
   <div class="col-md-6">
     <select id="letalisce_kam" name="letalisce_kam" class="form-control">
 	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
-      <option value="1_kamL">Option one</option>
-      <option value="2_kamL">Option two</option>
     </select>
   </div>
 </div>

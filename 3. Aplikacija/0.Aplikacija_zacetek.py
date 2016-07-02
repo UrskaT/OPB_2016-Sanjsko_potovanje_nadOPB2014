@@ -21,6 +21,16 @@ secret = "to skrivnost je zelo tezko uganiti 1094107c907cw982982c42"
 
 ######################################################################
 # POMOŽNE FUNKCIJE
+''' dodelaj, preveri..
+def get_leti(drzava_kje, mesto_kje, drzava_kam, mesto_kam):
+	c.execute("""SELECT let.id_let, cena FROM let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	WHERE zac_letalisce.id_air=%s AND kon_letalisce.id_air=%s 
+	ORDER BY cena""", [id_letalisca_kje, id_letalisca_kam])
+	leti = c.fetchall()
+	return leti
+'''
 def password_md5(s):
     """Vrne MD5 hash danega UTF-8 niza."""
     h = hashlib.md5()
@@ -57,24 +67,64 @@ def get_user(auto_login = True):
 ######################################################################
 # FUNKCIJE, KI OBDELAJO ZAHTEVE ODJEMALCEV
 
-@bottle.route("/static/<filename:path>")
-def static(filename):
-    # serviramo vse statične datoteke iz naslova  /static/...
-    return bottle.static_file(filename, root=static_dir)
+@bottle.get("/mesta/<drzava>")
+def get_mesta(drzava):
+	c.execute("SELECT mesto FROM lokacija WHERE drzava=%s", (drzava,))
+	mesto_drz = c.fetchall()
+	return {"mesta": [v["mesto"] for v in mesto_drz]}
+		
+@bottle.get("/id_lok/<drzava>/<mesto>")
+def get_id_lok(mesto, drzava):
+	c.execute("SELECT id FROM lokacija WHERE drzava=%s AND mesto=%s", [drzava, mesto])
+	id_mesto = c.fetchall()
+	return {"id_lok": [v["id"] for v in id_mesto]}
+
+@bottle.get("/letalisca/<drzava>/<mesto>")
+def get_letalisca(drzava, mesto):
+	c.execute("""SELECT ime_letalisca FROM letalisce JOIN lokacija 
+	ON letalisce.bliznje=lokacija.id WHERE lokacija.mesto=%s AND lokacija.drzava=%s""", [mesto, drzava])
+	letalisce = c.fetchall()
+	return {"letalisca": [v["ime_letalisca"] for v in letalisce]}
 
 @bottle.route("/")
 def main():
-    """Glavna stran."""
+	"""Glavna stran."""
     # Iz cookieja dobimo uporabnika in morebitno sporočilo
-    (username, ime) = get_user()
-    sporocilo = get_sporocilo()
-#####ts = traci()
-    return bottle.template("main.html",
+	(username, ime) = get_user()
+	sporocilo = get_sporocilo()
+	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
+	drzave=c.fetchall()
+	return bottle.template("main.html",
                            ime=ime,
                            username=username,
-                           #traci=ts,
-                           sporocilo=sporocilo)
+                           sporocilo=sporocilo,
+						   drzave=drzave
+						   )
 
+@bottle.post("/leti/izbor/")
+def izbor_letov():
+	"""Glavna stran."""
+    # Iz cookieja dobimo uporabnika in morebitno sporočilo
+	(username, ime) = get_user()
+	sporocilo = get_sporocilo()
+	drzava_kje = bottle.request.forms.drzava_kje
+	mesto_kje = bottle.request.forms.mesto_kje
+	letalisce_kje = bottle.request.forms.letalisce_kje
+	drzava_kam = bottle.request.forms.drzava_kam
+	mesto_kam = bottle.request.forms.mesto_kam
+	letalisce_kam = bottle.request.forms.letalisce_kam
+	print(drzava_kje, mesto_kje, letalisce_kje, drzava_kam, mesto_kam, letalisce_kam)
+	return bottle.template("leti.html",
+                           ime=ime,
+                           username=username,
+                           sporocilo=sporocilo,
+						   drzava_kje=drzava_kje,
+						   mesto_kje=mesto_kje,
+						   letalisce_kje=letalisce_kje,
+						   drzava_kam=drzava_kam,
+						   mesto_kam=mesto_kam,
+						   letalisce_kam=letalisce_kam
+						   )
 @bottle.get("/login/")
 def login_get():
     """Serviraj formo za login."""
@@ -102,7 +152,7 @@ def login_post():
         bottle.redirect("/")
 
 @bottle.get("/register/")
-def login_get():
+def register_get():
     """Prikaži formo za registracijo."""
     return bottle.template("register.html", 
                            username=None,
@@ -146,6 +196,11 @@ def register_post():
         # Daj uporabniku cookie
         bottle.response.set_cookie('username', username, path='/', secret=secret)
         bottle.redirect("/")
+	
+@bottle.route("/static/<filename:path>")
+def static(filename):
+    # serviramo vse statične datoteke iz naslova  /static/...
+    return bottle.static_file(filename, root=static_dir)
 
 
 '''
@@ -154,28 +209,16 @@ def user_wall(username, sporocila=[]):
     """Prikaži stran uporabnika"""
     # Kdo je prijavljeni uporabnik? (Ni nujno isti kot username.)
     (username_login, ime_login) = get_user()
-    # Ime uporabnika (hkrati preverimo, ali uporabnik sploh obstaja)
-    c = baza.cursor()
-    c.execute("SELECT ime FROM uporabnik WHERE username=?", [username])
-    (ime,) = c.fetchone()
-    # Koliko tracev je napisal ta uporabnik?
-    c.execute("SELECT COUNT(*) FROM trac WHERE avtor=?", [username])
-    (t,) = c.fetchone()
-    # Koliko komentarjev je napisal ta uporabnik?
-    c.execute("SELECT COUNT(*) FROM komentar WHERE avtor=?", [username])
-    (k,) = c.fetchone()
-    # Prikažemo predlogo
-    return bottle.template("user.html",
-                           uporabnik_ime=ime,
-                           uporabnik=username,
-                           username=username_login,
-                           ime=ime_login,
-                           trac_count=t,
-                           komentar_count=k,
-                           sporocila=sporocila)
-'''
+	if username_login==username:
+		# Rezervirane katre tega uporabnika?
+		##c.execute("SELECT  ... WHERE potnik=%s", [username])
+		# Prikažemo predlogo
+		return bottle.template("user.html",
+								ime=ime,
+								sporocila=sporocila)
+	else:
+		bottle.redirect("/")
 
-'''
 @bottle.post("/user/<username>/")
 def user_change(username):
     """Obdelaj formo za spreminjanje podatkov o uporabniku."""
@@ -219,7 +262,6 @@ def user_change(username):
 '''
 
 
-
 @bottle.get("/logout/")
 def logout():
     """Pobriši cookie in preusmeri na login."""
@@ -234,7 +276,7 @@ conn = psycopg2.connect(database=auth.db, host=auth.host, user=auth.user, passwo
 conn.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT) # onemogočimo transakcije
 c = conn.cursor(cursor_factory=psycopg2.extras.DictCursor) 
 
-# poženemo strežnik na portu 8080, glej http://localhost:8080/
+# poženemo strežnik na portu 8080, glej http://localhost:8080/ 
 bottle.run(host='localhost', port=8080, reloader=True)
 
 ## ? debug=True ?
