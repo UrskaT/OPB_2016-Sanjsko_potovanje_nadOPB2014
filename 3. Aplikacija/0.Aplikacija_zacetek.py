@@ -21,7 +21,7 @@ secret = "to skrivnost je zelo tezko uganiti 1094107c907cw982982c42"
 
 ######################################################################
 # POMOŽNE FUNKCIJE
-''' dodelaj, preveri..
+
 def get_leti(drzava_kje, mesto_kje, drzava_kam, mesto_kam):
 	c.execute("""SELECT let.id_let, cena FROM let
 	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
@@ -30,7 +30,7 @@ def get_leti(drzava_kje, mesto_kje, drzava_kam, mesto_kam):
 	ORDER BY cena""", [id_letalisca_kje, id_letalisca_kam])
 	leti = c.fetchall()
 	return leti
-'''
+
 def password_md5(s):
     """Vrne MD5 hash danega UTF-8 niza."""
     h = hashlib.md5()
@@ -100,6 +100,26 @@ def main():
                            sporocilo=sporocilo,
 						   drzave=drzave
 						   )
+'''
+@bottle.route("/")
+def main():
+	"""Glavna stran."""
+    # Iz cookieja dobimo uporabnika in morebitno sporočilo
+	(username, ime) = get_user()
+	sporocilo = get_sporocilo()
+	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
+	drzave=c.fetchall()
+	return bottle.template("main.html",
+                           ime=ime,
+                           username=username,
+                           sporocilo=sporocilo,
+						   drzave=drzave
+						   drzava_kje=None
+						   drzava_kam=None
+						   )
+						   
+	bottle.redirect ('/leti/izbor/')
+'''
 
 @bottle.post("/leti/izbor/")
 def izbor_letov():
@@ -261,12 +281,11 @@ def user_change(username):
     return user_wall(username, sporocila=sporocila)
 '''
 
-
 @bottle.get("/logout/")
 def logout():
-    """Pobriši cookie in preusmeri na login."""
-    bottle.response.delete_cookie('username')
-    bottle.redirect('/login/')
+	"""Pobriši cookie in preusmeri na login."""
+	bottle.response.delete_cookie('username', path='/', secret=secret)
+	bottle.redirect('/login/')
 
 ######################################################################
 # Glavni program
