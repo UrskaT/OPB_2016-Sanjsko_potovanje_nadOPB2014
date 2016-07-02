@@ -52,7 +52,7 @@ body {
 	color: #fff;
 	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
 	background-position: 0px;
-	 border-color: #333;
+	border-color: #333;
 }
 .btn-primary:active {
     color: #fff;
@@ -78,4 +78,13 @@ footer {
  margin-right: 20px;
  padding-top: 60px;
 }
+/* --------Izpis napak-------------------- */
+.alert-warning {
+    border-color: #bb29bb;
+	font-size: 12px;
+	font-weight: bold;
+}
 
+.alert-warning {
+color: #bb29bb;
+}
