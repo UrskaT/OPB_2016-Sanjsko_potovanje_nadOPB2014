@@ -12,22 +12,10 @@ CREATE TABLE lokacija (
 	drzava TEXT NOT NULL
 );	
 	
-CREATE TABLE zelja(
-	id_st SERIAL PRIMARY KEY,
-	lastnik TEXT REFERENCES potnik(uporabnisko_ime)
-		ON DELETE CASCADE
-		ON UPDATE CASCADE,
-	zacetna_lokacija INTEGER NOT NULL REFERENCES lokacija(id)
-		ON DELETE CASCADE,
-	zeli_iti INTEGER NOT NULL REFERENCES lokacija(id)
-		ON DELETE CASCADE
-);
--- Želje se redno brišejo...
-	
 CREATE TABLE letalisce (	
 	id_air INTEGER PRIMARY KEY,
 	ime_letalisca TEXT NOT NULL,
-	blizinje INTEGER NOT NULL REFERENCES lokacija(id)
+	bliznje INTEGER NOT NULL REFERENCES lokacija(id)
 		ON DELETE RESTRICT
 		ON UPDATE RESTRICT,
 	gps_sirina FLOAT NOT NULL,
@@ -36,7 +24,7 @@ CREATE TABLE letalisce (
 
 CREATE TABLE ponudnik(
 	id_ponud INTEGER PRIMARY KEY,
-	ime TEXT NOT NULL,
+	ime_ponudnika TEXT NOT NULL,
 	cenovni_razred FLOAT NOT NULL
 );
 
