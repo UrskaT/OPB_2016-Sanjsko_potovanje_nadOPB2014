@@ -41,18 +41,18 @@ body {
 	
 }
 .btn-primary:hover{
-    background-color: #38a181;
 	color: #fff;
+    background-color: #38a181;
 	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
+	border-color: #333;
 	background-position: 0px;
-	 border-color: #333;
 }
 .btn-primary:focus {
-    background-color: #2d6ca2;
 	color: #fff;
+	background-color: #2d6ca2;
 	background-image: linear-gradient(to bottom,#38a181 0,#333 100%);
-	background-position: 0px;
 	border-color: #333;
+	background-position: 0px;
 }
 .btn-primary:active {
     color: #fff;
@@ -76,7 +76,14 @@ a:hover {
 footer {
  text-align: right;
  margin-right: 20px;
- padding-top: 60px;
+ margin-bottom: 0px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ height: 30px;
+}
+hr {
+    margin-top: 60px;
+margin-bottom: 5px;
 }
 /* --------Izpis napak-------------------- */
 .alert-warning {
@@ -87,4 +94,50 @@ footer {
 
 .alert-warning {
 color: #bb29bb;
+}
+/* --------Leti, kupi karto...-------------------- */
+.btn-info {
+background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+background-color: #3072ab;
+border-color: #28a4c9;
+}
+.btn-info:visited{
+background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+background-color: #3072ab;
+border-color: #28a4c9;
+}
+.btn-info:hover{
+background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+background-color: #3072ab;
+border-color: #333;
+background-position: 0px;
+}
+.btn-info:focus{
+background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+background-color: #2d6ca2;
+border-color: #333;
+	background-position: 0px;
+}
+.btn-info:active{
+background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+background-color: #3072ab;
+border-color: #333;
+}
+.col-md-offset-2 {
+    margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	    width: 100%;
+}
+.panel-heading {
+    background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+}
+div.control-group {
+	font-weight: bold;
+}
+legend {
+    font-weight: bold;
+    font-size: 23px; 
 }

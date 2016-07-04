@@ -1,10 +1,10 @@
 %rebase('base.html', title='Sanjsko potovanje')
 
-%if sporocilo:
-  <div class="alert {{sporocilo[0]}} alert-dismissable">{{sporocilo[1]}}
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-  </div>
-%end
+ %if napaka:
+ <div class="alert alert-warning">{{napaka}}
+     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+ </div>
+ %end
 
 <!-- tukaj bo vsa JavaScript koda -->
 <script>
@@ -40,7 +40,6 @@ $(document).ready(function(){
 	});;
 });
 
-
 /* Ta funckcija vnesle mesta in letalisca v drug drop down meni */
 function napolni_dropdown(element_id, items, initial_text) {
 	var element = $(element_id);
@@ -57,12 +56,11 @@ function napolni_dropdown(element_id, items, initial_text) {
 </script>
 
 
-<form id="lokacija-forma" class="form-horizontal" method="post" action=".">
+<form id="lokacija-forma" class="form-horizontal" method="post" action="/leti/izbor">
 <fieldset>
 
 <!-- ZAČETNA LOKACIJA -->
 <legend>Začetna lokacija - start</legend>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="drzava_kje">Izberi državo</label>
@@ -75,23 +73,21 @@ function napolni_dropdown(element_id, items, initial_text) {
     </select>
   </div>
 </div>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="mesto_kje">Izberi mesto</label>
   <div class="col-md-6">
     <select id="mesto_kje" name="mesto_kje" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - -</option>
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - - -</option>
     </select>
   </div>
 </div>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="letalisce_kje">Izberi letališče</label>
   <div class="col-md-6">
     <select id="letalisce_kje" name="letalisce_kje" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - -</option>
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - - - -</option>
     </select>
   </div>
 </div>
@@ -99,7 +95,6 @@ function napolni_dropdown(element_id, items, initial_text) {
 
 <!-- KONČNA LOKACIJA -->
 <legend>Končna lokacija - cilj</legend>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="drzava_kam">Izberi državo</label>
@@ -112,17 +107,15 @@ function napolni_dropdown(element_id, items, initial_text) {
     </select>
   </div>
 </div>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="mesto_kam">Izberi mesto</label>
   <div class="col-md-6">
     <select id="mesto_kam" name="mesto_kam" class="form-control">
-	  <option value="None">- - - - - - - - - - - - - - - - - - - - - -</option>
+	  <option value="None">- - - - - - - - - - - - - - - - - - - - - - - -</option>
     </select>
   </div>
 </div>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="letalisce_kam">Izberi letališče</label>

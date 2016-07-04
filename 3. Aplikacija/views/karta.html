@@ -1,0 +1,32 @@
+%rebase('base.html', title='Sanjsko potovanje')
+
+ %if napaka:
+ <div class="alert alert-warning">{{napaka}}</div>
+ %end
+ 
+<form id="trac-forma" class="form-horizontal" method="post" action="/karta_kupljena/{{id_leta}}/{{id_karte}}">
+<fieldset>
+
+ % for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti:
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label"></label>
+	<pre>
+<legend>Letalska karta - let {{id_leta}}</legend>
+ Ime in priimek:    <span style="color:blue">{{ime}} {{priimek}}</span> 
+ 
+ Začetno letališče: <span style="color:blue">{{zac_let}} ({{zac_mest}}, {{zac_drz}})</span>
+ Končno letališče:  <span style="color:blue">{{kon_let}} ({{kon_mest}}, {{kon_drz}})</span>
+ Letalska družba:   <span style="color:blue">{{ponudnik}}</span>
+ ID leta:           <span style="color:blue">{{id_leta}}</span>
+ Dolžina:           <span style="color:blue">{{dolzina}} milij</span>
+
+ Cena:              <span style="color:blue"><font size="3">{{cena}}€</font></span> 
+  <label class="control-label" for="singlebutton"></label><div class="controls">
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Potrdi nakup!</button></div></pre>
+%end
+
+
+</fieldset>
+</form> 
+
