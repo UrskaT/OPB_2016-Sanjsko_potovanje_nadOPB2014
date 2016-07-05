@@ -6,14 +6,14 @@
  </div>
  %end
  
- % for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti: 
+% for (id_karte, cas, ime, priimek ,id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti: 
 <form id="trac-forma" class="form-horizontal" method="post" action="/karta_kupljena/{{id_leta}}">
 <fieldset>
 <!-- Textarea -->
 <div class="control-group">
   <label class="control-label"></label>
 	<pre>
-<legend>Letalska karta - let {{id_leta}}</legend>
+<legend>Letalska karta - ID {{id_karte}}</legend>
  Ime in priimek:    <span style="color:blue">{{ime}} {{priimek}}</span> 
  
  ID leta:           <span style="color:blue">{{id_leta}}</span>
@@ -22,10 +22,21 @@
  Letalska družba:   <span style="color:blue">{{ponudnik}}</span>
  Dolžina:           <span style="color:blue">{{dolzina}} milij</span>
 
- Cena:              <span style="color:blue"><font size="3">{{cena}}€</font></span> 
-  <label class="control-label" for="singlebutton"></label><div class="controls">
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Potrdi nakup!</button></div></pre>
+ Datum in ura nakupa: <span style="color:blue">{{cas}}</span>
+ Veljavnost:          <span style="color:blue">6 mesecev</span>
+ 
+ Cena:                <span style="color:blue"><font size="3">{{cena}}€</font></span> 
+</div></pre>
 
 </fieldset>
 </form> 
 %end
+<div><p></p></div>
+
+ <div>
+<button class="btn btn-primary"> <a href="/user/{{username}}/"><font size="2"><span style="color:white"><span class="glyphicon glyphicon-backward"></span> Nazaj na stran uporabnika</span></font></a></button>
+</div>
+<div><p></p></div>
+ <div>
+<button class="btn btn-primary"> <a href="/"><font size="2"><span style="color:white"><span class="glyphicon glyphicon-backward"></span> Izberi nov let in si rezerviraj karto</span></font></a></button>
+</div>

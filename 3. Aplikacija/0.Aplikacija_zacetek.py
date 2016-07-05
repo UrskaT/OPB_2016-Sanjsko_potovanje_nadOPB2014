@@ -205,7 +205,7 @@ def izbor_letov():
 def podrobnosti_kupljena_karta(id_karte):
 	(username, ime, priimek) = get_potnik()
 	podrobnosti = get_podrobnosti_karta(id_karte)
-	return bottle.template("xxxxxxxxxxxx.html",
+	return bottle.template("podrobnosti.html",
                            ime=ime,
 						   priimek=priimek,
                            username=username,

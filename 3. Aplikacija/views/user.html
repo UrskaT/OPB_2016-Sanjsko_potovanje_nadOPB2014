@@ -1,10 +1,10 @@
 %rebase('base1.html', title=ime)
 
 <div class="page-header">
-<h1>{{ime}} {{priimek}}</h1>
+<h3><b>{{ime}} {{priimek}}</b></h3>
 </h1>
 </div>
-
+	
 <!-- TUKI VSTAVI SEZNAM KART, ki jih ima uporabnik rezervirane -->
 <div class="container">
     <div class="row col-md-6 col-md-offset-2 custyle">
@@ -32,7 +32,7 @@
                 <td>{{kon_let}}<br>({{kon_mest}}, {{kon_drz}})</td>
                 <td>{{ponudnik}}</td>
                 <th>{{cena}}€</th>
-                <td class="text-center"><a class='btn btn-info btn-xs' href="/karta_podrobnosti/{{id_karte}}"><span class="glyphicon glyphicon-ok"></span>  Podrobnosti</a></td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="/kupljena_karta_podrobnosti/{{id_karte}}"><span class="glyphicon glyphicon-forward"></span>  Podrobnosti</a></td>
             </tr>
 %end
     </table>
@@ -41,8 +41,12 @@
 	   %end
     </div>
 </div>
+ 
+ <div>
+<button class="btn btn-primary"> <a href="/"><font size="2"><span style="color:white"><span class="glyphicon glyphicon-backward"></span> Izberi nov let in si rezerviraj karto</span></font></a></button>
+</div>
 
-<div><p></p><p></p><p></p><p></p></div>
+<div><p></p></div>
 
 <!-- OBRAZEC ZA SPREMINJANJE PODATKOV --> 
    <form class="row col-md-6 col-md-offset-2 custyle" method="post" action=".">
@@ -104,7 +108,7 @@
    <div class="control-group">
      <label class="control-label" for="singlebutton"></label>
      <div class="controls">
-       <button id="singlebutton" name="singlebutton" class="btn btn-primary">Spremeni</button>
+       <button id="singlebutton" name="singlebutton" class="btn btn-primary"><font size="2">Spremeni</font></button>
      </div>
    </div>
 
