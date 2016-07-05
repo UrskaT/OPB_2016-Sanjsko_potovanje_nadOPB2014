@@ -1,20 +1,9 @@
 %rebase('base1.html', title='Sanjsko potovanje')
 
- %if napaka:
- <div class="alert alert-warning">{{napaka}}
-     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
- </div>
- %end
- 
-<!--
-<div class="panel panel-primary">
-  <div class="panel-heading">
-Izbrani leti 
-  </div>
-</div> -->
-
 <div class="container">
     <div class="row col-md-6 col-md-offset-2 custyle">
+	<legend>Leti na izbrani relaciji </legend>
+
     <table class="table table-striped custab">
     <thead>
         <tr>
@@ -41,5 +30,47 @@ Izbrani leti
             </tr>
 %end
     </table>
+ %if napaka:
+ <div class="alert alert-warning">{{napaka}}
+     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+ </div>
+ %end
+    </div>
+</div>
+
+<!-- Vsi leti v danih mestih -->
+% if leti_mesto != []:
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+	<legend>Dodatno: Predlagani leti v bližini </legend>
+    <table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>ID leta</th>
+            <th>Začetno letališče</th>
+            <th>Kraj</th>
+            <th>Končno letališče</th>
+            <th>Kraj</th>
+            <th>Letalska družba</th>
+			<th>Cena leta [€]</th>
+            <th class="text-center">Nakup/rezervacija karte</th>
+        </tr>
+    </thead>
+% for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in leti_mesto:
+		% if letalisce_kje != zac_let or letalisce_kam != kon_let or (letalisce_kje != zac_let and letalisce_kam != kon_let):
+            <tr>
+                <td>{{id_leta}}</td>
+                <td>{{zac_let}}</td>
+                <td>{{zac_mest}},<br>{{zac_drz}}</td>
+                <td>{{kon_let}}</td>
+                <td>{{kon_mest}},<br>{{kon_drz}}</td>
+                <td>{{ponudnik}}</td>
+                <th>{{cena}}€</th>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="/karta_podrobnosti/{{id_leta}}"><span class="glyphicon glyphicon-shopping-cart"></span>  Kupi karto</a></td>
+            </tr>
+		%end
+%end
+    </table>
+
     </div>
 </div>

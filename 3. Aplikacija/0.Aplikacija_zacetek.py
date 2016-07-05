@@ -24,25 +24,37 @@ secret = "to skrivnost je zelo tezko uganiti 1094107c907cw982982c42"
 def get_id_lok(mesto, drzava):
 	c.execute("SELECT id FROM lokacija WHERE drzava=%s AND mesto=%s", [drzava, mesto])
 	id_lok = c.fetchall()
-	return id_lok
-'''
-def get_id_letalisce1(id_lok, letalisce):
-	c.execute("SELECT id_air FROM letalisce WHERE bliznje=%s" AND ime_letalisca=%s, [id_lok, letalisce])
-	id_mesto = c.fetchall()
-	return id_mesto '''
+	print (id_lok)
+	return id_lok[0][0]
+
+def get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam):
+	id_lok_kje = get_id_lok(mesto_kje, drzava_kje)
+	id_lok_kam = get_id_lok(mesto_kam, drzava_kam)
+	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE zac_lokacija.id=%s AND destinacija.id=%s ORDER BY cena""", [id_lok_kje, id_lok_kam])
+	leti_mesto = c.fetchall() 
+	return leti_mesto
 
 def get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam):
 	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
-		zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
-		destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
-		ponudnik.ime_ponudnika, dolzina, cena FROM let
-		JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
-		JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
-		JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
-		JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
-		JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-		WHERE zac_letalisce.ime_letalisca=%s AND kon_letalisce.ime_letalisca=%s AND zac_lokacija.drzava=%s AND destinacija.drzava=%s
-		ORDER BY cena""", [letalisce_kje, letalisce_kam, drzava_kje, drzava_kam])
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE zac_letalisce.ime_letalisca=%s AND kon_letalisce.ime_letalisca=%s AND zac_lokacija.drzava=%s AND destinacija.drzava=%s
+	ORDER BY cena""", [letalisce_kje, letalisce_kam, drzava_kje, drzava_kam])
 	leti = c.fetchall() 
 	return leti	
 
@@ -92,8 +104,9 @@ def get_podrobnosti_karta(id_karte):
 	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
 	WHERE id_kart=%s""", [id_karte])
 	vse_karte = c.fetchall()
-	return vse_karte	
-	
+	return vse_karte
+
+
 def password_md5(s):
     """Vrne MD5 hash danega UTF-8 niza."""
     h = hashlib.md5()
@@ -150,7 +163,7 @@ def get_letalisca(drzava, mesto):
 def main():
 	"""Glavna stran."""
     # Iz cookieja dobimo uporabnika in morebitno sporočilo
-	(username, ime) = get_user()
+	(username, ime, priimek) = get_potnik()
 	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
 	drzave=c.fetchall()
 	return bottle.template("main.html",
@@ -164,7 +177,7 @@ def main():
 def izbor_letov():
 	"""Glavna stran."""
     # Iz cookieja dobimo uporabnika in morebitno sporočilo
-	(username, ime) = get_user()
+	(username, ime, priimek) = get_potnik()
 	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
 	drzave=c.fetchall()
 	drzava_kje = bottle.request.forms.drzava_kje
@@ -177,7 +190,7 @@ def izbor_letov():
 		return bottle.template("main.html",
                            ime=ime,
                            username=username,
-                           napaka="Prosimo, izpolnete vsa polja!",
+						   napaka="Prosimo, izpolnete vsa polja!",
 						   drzave=drzave)
 	elif letalisce_kje==letalisce_kam: 
 		return bottle.template("main.html",
@@ -187,18 +200,26 @@ def izbor_letov():
 						   drzave=drzave)
 	else:
 		izbor = get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam)
+		leti_mesto = get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam)
 		if izbor == []:
-			return bottle.template("main.html",
+			return bottle.template("leti.html",
                            ime=ime,
                            username=username,
-						   napaka="Za to relacijo ni znanih letov. Poizkusite ponovno s kakterim drugim letališčem v bližini.",
-						   drzave=drzave)
+						   letalisce_kje=letalisce_kje,
+						   letalisce_kam=letalisce_kam,
+						   napaka="Za relacijo \""+letalisce_kje+" ("+mesto_kje+", "+drzava_kje+") : "+letalisce_kam+" ("+mesto_kam+", "+drzava_kam+")\" ni znanih letov. "+" "+"Poizkusite ponovno s kakterim drugim letališčem v bližini.",
+						   drzave=drzave,
+						   leti_mesto=leti_mesto, 
+						   izbor=izbor)
 		else:
 			return bottle.template("leti.html",
                            ime=ime,
                            username=username,
+						   letalisce_kje=letalisce_kje,
+						   letalisce_kam=letalisce_kam,
 						   napaka=None,
-						   izbor=izbor)
+						   izbor=izbor,
+						   leti_mesto=leti_mesto)
 
 
 @bottle.route("/kupljena_karta_podrobnosti/<id_karte>")
