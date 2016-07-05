@@ -17,15 +17,13 @@ WHERE drzava=input_drz_dam AND mesto=input_mes_kam""" ,[input_drz_kam, input_mes
 c.execute("""SELECT id_air, ime_letalisca FROM letalisce
 JOIN lokacija ON letalisce.bliznje=lokacija.id
 WHERE lokacija.id=%s""", [id_lok_kje]) # input shraniš kot ime_letalisca_kje, id_letalisca_kje
-                                #(že v selectu "id as ime_letalisca_kje", ali prek kurzorja)
 c.execute("""SELECT id_air, ime_letalisca FROM letalisce
 JOIN lokacija ON letalisce.bliznje=lokacija.id
 WHERE lokacija.id=%s""", [id_lok_kam]) # input shraniš kot ime_letalisca_kam, id_letalisca_kam
-                                #(že v selectu "id as ime_letalisca_kam", ali prek kurzorja)
 
 ####### Generiranje vseh letov za eno začetno in končno letališče
  # Samo let in cena, ne rabmo ponudnika in lokacij
-c.execute("""SELECT let.id_let, cena FROM let
+c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, kon_letalisce.ime_letalisca as kon_letalisce, cena FROM let
 JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
 JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
 WHERE zac_letalisce.id_air=%s AND kon_letalisce.id_air=%s

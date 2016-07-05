@@ -19,13 +19,46 @@ static_dir = "./static"
 secret = "to skrivnost je zelo tezko uganiti 1094107c907cw982982c42"
 
 
-######################################################################
+############################################################################################################################################
 # POMOŽNE FUNKCIJE
+def get_potnik(auto_login = True):
+    username = bottle.request.get_cookie('username', secret=secret)
+    if username is not None:
+        c.execute("SELECT uporabnisko_ime, ime, priimek FROM potnik WHERE uporabnisko_ime=%s",
+                  [username])
+        r = c.fetchone()
+        if r is not None:
+            return r
+    if auto_login:
+        bottle.redirect('/login/')
+    else:
+        return None
+		
+def password_md5(s):
+    """Vrne MD5 hash danega UTF-8 niza."""
+    h = hashlib.md5()
+    h.update(s.encode('utf-8'))
+    return h.hexdigest()
+	
 def get_id_lok(mesto, drzava):
 	c.execute("SELECT id FROM lokacija WHERE drzava=%s AND mesto=%s", [drzava, mesto])
 	id_lok = c.fetchall()
-	print (id_lok)
 	return id_lok[0][0]
+	
+def get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam):
+	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE zac_letalisce.ime_letalisca=%s AND kon_letalisce.ime_letalisca=%s AND zac_lokacija.drzava=%s AND destinacija.drzava=%s
+	ORDER BY cena""", [letalisce_kje, letalisce_kam, drzava_kje, drzava_kam])
+	leti = c.fetchall() 
+	return leti	
 
 def get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam):
 	id_lok_kje = get_id_lok(mesto_kje, drzava_kje)
@@ -43,21 +76,6 @@ def get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam):
 	leti_mesto = c.fetchall() 
 	return leti_mesto
 
-def get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam):
-	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
-	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
-	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
-	ponudnik.ime_ponudnika, dolzina, cena FROM let
-	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
-	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
-	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
-	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
-	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-	WHERE zac_letalisce.ime_letalisca=%s AND kon_letalisce.ime_letalisca=%s AND zac_lokacija.drzava=%s AND destinacija.drzava=%s
-	ORDER BY cena""", [letalisce_kje, letalisce_kam, drzava_kje, drzava_kam])
-	leti = c.fetchall() 
-	return leti	
-
 def get_podrobnosti_leta(id_leta):
 	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
 		zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
@@ -71,7 +89,7 @@ def get_podrobnosti_leta(id_leta):
 		WHERE let.id_let=%s""", (id_leta,))
 	leti = c.fetchall() 
 	return leti
-
+	
 def get_vse_karte(username):
 	c.execute("""SELECT id_kart, cas_nakupa, ime, priimek, 
 	polet, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
@@ -85,7 +103,7 @@ def get_vse_karte(username):
 	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
 	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
 	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-	WHERE kupec=%s ORDER BY cas_nakupa DESC""", [username])
+	WHERE kupec=%s ORDER BY cas_nakupa""", [username])
 	vse_karte = c.fetchall()
 	return vse_karte
 	
@@ -106,160 +124,9 @@ def get_podrobnosti_karta(id_karte):
 	vse_karte = c.fetchall()
 	return vse_karte
 
-
-def password_md5(s):
-    """Vrne MD5 hash danega UTF-8 niza."""
-    h = hashlib.md5()
-    h.update(s.encode('utf-8'))
-    return h.hexdigest()
-
-def get_user(auto_login = True):
-    # Dobimo username iz piškotka oz. ga preusmerimo na login če še ni prijavljen
-    username = bottle.request.get_cookie('username', secret=secret)
-    # Preverimo, ali ta uporabnik obstaja
-    if username is not None:
-        c.execute("SELECT uporabnisko_ime, ime FROM potnik WHERE uporabnisko_ime=%s",
-                  [username])
-        r = c.fetchone()
-        if r is not None:
-            # uporabnik obstaja, vrnemo njegove podatke
-            return r
-    # Če pridemo do sem, uporabnik ni prijavljen, naredimo redirect
-    if auto_login:
-        bottle.redirect('/login/')
-    else:
-        return None
-
-def get_potnik(auto_login = True):
-    username = bottle.request.get_cookie('username', secret=secret)
-    if username is not None:
-        c.execute("SELECT uporabnisko_ime, ime, priimek FROM potnik WHERE uporabnisko_ime=%s",
-                  [username])
-        r = c.fetchone()
-        if r is not None:
-            return r
-    if auto_login:
-        bottle.redirect('/login/')
-    else:
-        return None
-
-######################################################################
+############################################################################################################################################
 # FUNKCIJE, KI OBDELAJO ZAHTEVE ODJEMALCEV
 
-@bottle.get("/mesta/<drzava>")
-def get_mesta(drzava):
-	c.execute("SELECT mesto FROM lokacija WHERE drzava=%s ORDER BY mesto", (drzava,))
-	mesto_drz = c.fetchall()
-	return {"mesta": [v["mesto"] for v in mesto_drz]}
-		
-@bottle.get("/letalisca/<drzava>/<mesto>")
-def get_letalisca(drzava, mesto):
-	c.execute("""SELECT ime_letalisca FROM letalisce JOIN lokacija 
-	ON letalisce.bliznje=lokacija.id WHERE lokacija.mesto=%s AND lokacija.drzava=%s ORDER BY ime_letalisca""", [mesto, drzava])
-	letalisce = c.fetchall()
-	return {"letalisca": [v["ime_letalisca"] for v in letalisce]}
-
-@bottle.route("/")
-def main():
-	"""Glavna stran."""
-    # Iz cookieja dobimo uporabnika in morebitno sporočilo
-	(username, ime, priimek) = get_potnik()
-	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
-	drzave=c.fetchall()
-	return bottle.template("main.html",
-                           ime=ime,
-                           username=username,
-						   napaka=None,
-						   drzave=drzave
-						   )
-
-@bottle.post("/leti/izbor")
-def izbor_letov():
-	"""Glavna stran."""
-    # Iz cookieja dobimo uporabnika in morebitno sporočilo
-	(username, ime, priimek) = get_potnik()
-	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
-	drzave=c.fetchall()
-	drzava_kje = bottle.request.forms.drzava_kje
-	mesto_kje = bottle.request.forms.mesto_kje
-	letalisce_kje = bottle.request.forms.letalisce_kje
-	drzava_kam = bottle.request.forms.drzava_kam
-	mesto_kam = bottle.request.forms.mesto_kam
-	letalisce_kam = bottle.request.forms.letalisce_kam
-	if "None" in [drzava_kje, mesto_kje, letalisce_kje, drzava_kam, mesto_kam, letalisce_kam]:
-		return bottle.template("main.html",
-                           ime=ime,
-                           username=username,
-						   napaka="Prosimo, izpolnete vsa polja!",
-						   drzave=drzave)
-	elif letalisce_kje==letalisce_kam: 
-		return bottle.template("main.html",
-                           ime=ime,
-                           username=username,
-                           napaka="Začetno in končno letališče se morata razlikovati, prosimo ponovno izpolnite obrazec.",
-						   drzave=drzave)
-	else:
-		izbor = get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam)
-		leti_mesto = get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam)
-		if izbor == []:
-			return bottle.template("leti.html",
-                           ime=ime,
-                           username=username,
-						   letalisce_kje=letalisce_kje,
-						   letalisce_kam=letalisce_kam,
-						   napaka="Za relacijo \""+letalisce_kje+" ("+mesto_kje+", "+drzava_kje+") : "+letalisce_kam+" ("+mesto_kam+", "+drzava_kam+")\" ni znanih letov. "+" "+"Poizkusite ponovno s kakterim drugim letališčem v bližini.",
-						   drzave=drzave,
-						   leti_mesto=leti_mesto, 
-						   izbor=izbor)
-		else:
-			return bottle.template("leti.html",
-                           ime=ime,
-                           username=username,
-						   letalisce_kje=letalisce_kje,
-						   letalisce_kam=letalisce_kam,
-						   napaka=None,
-						   izbor=izbor,
-						   leti_mesto=leti_mesto)
-
-
-@bottle.route("/kupljena_karta_podrobnosti/<id_karte>")
-def podrobnosti_kupljena_karta(id_karte):
-	(username, ime, priimek) = get_potnik()
-	podrobnosti = get_podrobnosti_karta(id_karte)
-	return bottle.template("podrobnosti.html",
-                           ime=ime,
-						   priimek=priimek,
-                           username=username,
-						   napaka=None,
-						   podrobnosti=podrobnosti,
-						   id_karte=id_karte)
-						   
-@bottle.route("/karta_podrobnosti/<id_leta>")
-def prikazi_podrobnosti_karta(id_leta):
-	(username, ime, priimek) = get_potnik()
-	podrobnosti = get_podrobnosti_leta(id_leta)
-	return bottle.template("karta.html",
-                           ime=ime,
-						   priimek=priimek,
-                           username=username,
-						   napaka=None,
-						   podrobnosti=podrobnosti,
-						   id_leta=id_leta)
-
-@bottle.post("/karta_kupljena/<id_leta>") # poprav hiperlink!! i karte... poenoti...
-def kupi_karto(id_leta):
-	(username, ime, priimek) = get_potnik()
-	podrobnosti = get_podrobnosti_leta(id_leta)
-	c.execute("INSERT INTO karta (kupec, polet) VALUES (%s, %s)", (username, id_leta))
-	print (username, id_leta)
-	return bottle.template("kupljeno.html",
-                           ime=ime,
-						   priimek=priimek,
-                           username=username,
-						   podrobnosti=podrobnosti,
-						   id_leta=id_leta,
-						   napaka="Uspešno ste zaključili nakup, \"Letalska karta - let "+id_leta+"\" je vaša! Hvala za sodelovanje.")
-						   
 @bottle.get("/login/")
 def login_get():
     """Serviraj formo za login."""
@@ -330,13 +197,106 @@ def register_post():
          VALUES (%s, %s, %s, %s, %s)""", (username, ime, password, priimek, placilna))
         # Daj uporabniku cookie
         bottle.response.set_cookie('username', username, path='/', secret=secret)
-        bottle.redirect("/")
-	
-@bottle.route("/static/<filename:path>")
-def static(filename):
-    # serviramo vse statične datoteke iz naslova  /static/...
-    return bottle.static_file(filename, root=static_dir)
+        bottle.redirect("/")		
+		
+@bottle.route("/")
+def main():
+	"""Glavna stran."""
+    # Iz cookieja dobimo uporabnika in morebitno sporočilo
+	(username, ime, priimek) = get_potnik()
+	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
+	drzave=c.fetchall()
+	return bottle.template("main.html",
+                           ime=ime,
+                           username=username,
+						   napaka=None,
+						   drzave=drzave)
+						   
+@bottle.get("/mesta/<drzava>")
+def get_mesta(drzava):
+	c.execute("SELECT mesto FROM lokacija WHERE drzava=%s ORDER BY mesto", (drzava,))
+	mesto_drz = c.fetchall()
+	return {"mesta": [v["mesto"] for v in mesto_drz]}
+		
+@bottle.get("/letalisca/<drzava>/<mesto>")
+def get_letalisca(drzava, mesto):
+	c.execute("""SELECT ime_letalisca FROM letalisce JOIN lokacija 
+	ON letalisce.bliznje=lokacija.id WHERE lokacija.mesto=%s AND lokacija.drzava=%s ORDER BY ime_letalisca""", [mesto, drzava])
+	letalisce = c.fetchall()
+	return {"letalisca": [v["ime_letalisca"] for v in letalisce]}
 
+@bottle.post("/leti/izbor")
+def izbor_letov():
+	"""Glavna stran."""
+    # Iz cookieja dobimo uporabnika in morebitno sporočilo
+	(username, ime, priimek) = get_potnik()
+	c.execute("SELECT distinct drzava FROM lokacija ORDER BY drzava")
+	drzave=c.fetchall()
+	drzava_kje = bottle.request.forms.drzava_kje
+	mesto_kje = bottle.request.forms.mesto_kje
+	letalisce_kje = bottle.request.forms.letalisce_kje
+	drzava_kam = bottle.request.forms.drzava_kam
+	mesto_kam = bottle.request.forms.mesto_kam
+	letalisce_kam = bottle.request.forms.letalisce_kam
+	if "None" in [drzava_kje, mesto_kje, letalisce_kje, drzava_kam, mesto_kam, letalisce_kam]:
+		return bottle.template("main.html",
+                           ime=ime,
+                           username=username,
+						   napaka="Prosimo, izpolnete vsa polja!",
+						   drzave=drzave)
+	elif letalisce_kje==letalisce_kam: 
+		return bottle.template("main.html",
+                           ime=ime,
+                           username=username,
+                           napaka="Začetno in končno letališče se morata razlikovati, prosimo ponovno izpolnite obrazec.",
+						   drzave=drzave)
+	else:
+		izbor = get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam)
+		leti_mesto = get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam)
+		if izbor == []:
+			return bottle.template("leti.html",
+                           ime=ime,
+                           username=username,
+						   letalisce_kje=letalisce_kje,
+						   letalisce_kam=letalisce_kam,
+						   napaka="Za relacijo \""+letalisce_kje+" ("+mesto_kje+", "+drzava_kje+") : "+letalisce_kam+" ("+mesto_kam+", "+drzava_kam+")\" ni znanih letov. "+" "+"Poizkusite ponovno s kakterim drugim letališčem v bližini.",
+						   drzave=drzave,
+						   leti_mesto=leti_mesto, 
+						   izbor=izbor)
+		else:
+			return bottle.template("leti.html",
+                           ime=ime,
+                           username=username,
+						   letalisce_kje=letalisce_kje,
+						   letalisce_kam=letalisce_kam,
+						   napaka=None,
+						   izbor=izbor,
+						   leti_mesto=leti_mesto)
+
+@bottle.route("/karta/<id_leta>")
+def prikazi_podrobnosti_karta(id_leta):
+	(username, ime, priimek) = get_potnik()
+	podrobnosti = get_podrobnosti_leta(id_leta)
+	return bottle.template("karta.html",
+                           ime=ime,
+						   priimek=priimek,
+                           username=username,
+						   napaka=None,
+						   podrobnosti=podrobnosti,
+						   id_leta=id_leta)
+						   
+@bottle.post("/karta_kupi/<id_leta>") # poprav hiperlink!! i karte... poenoti...
+def kupi_karto(id_leta):
+	(username, ime, priimek) = get_potnik()
+	podrobnosti = get_podrobnosti_leta(id_leta)
+	c.execute("INSERT INTO karta (kupec, polet) VALUES (%s, %s)", (username, id_leta))
+	return bottle.template("kupljeno.html",
+                           ime=ime,
+						   priimek=priimek,
+                           username=username,
+						   podrobnosti=podrobnosti,
+						   id_leta=id_leta,
+						   napaka="Uspešno ste zaključili nakup, \"Letalska karta - let "+id_leta+"\" je vaša! Hvala za sodelovanje.")
 
 @bottle.route("/user/<username>/")
 def user_wall(username, sporocila=[], obvestila=[]):
@@ -347,7 +307,6 @@ def user_wall(username, sporocila=[], obvestila=[]):
 	placilna_kartica = c.fetchone()[0]
 	if username_login==username:
 		vse_karte = get_vse_karte (username)
-		print(vse_karte)
 		if vse_karte == []:
 			obvestila.append(("alert-success", "Nimate rezerviranih kart."))
 		else:
@@ -398,12 +357,28 @@ def user_change(username):
 	# Prikažemo stran uporabnika, pokličemo funkcijo, ki servira stran: 
 	return user_wall(username, sporocila=sporocila)
 
+@bottle.route("/kupljena_karta_podrobnosti/<id_karte>")
+def podrobnosti_kupljena_karta(id_karte):
+	(username, ime, priimek) = get_potnik()
+	podrobnosti = get_podrobnosti_karta(id_karte)
+	return bottle.template("podrobnosti.html",
+                           ime=ime,
+						   priimek=priimek,
+                           username=username,
+						   napaka=None,
+						   podrobnosti=podrobnosti,
+						   id_karte=id_karte)
 
 @bottle.get("/logout/")
 def logout():
 	"""Pobriši cookie in preusmeri na login."""
 	bottle.response.delete_cookie('username', path='/', secret=secret)
 	bottle.redirect('/login/')
+	
+@bottle.route("/static/<filename:path>")
+def static(filename):
+    # serviramo vse statične datoteke iz naslova  /static/...
+    return bottle.static_file(filename, root=static_dir)
 
 ######################################################################
 # Glavni program
