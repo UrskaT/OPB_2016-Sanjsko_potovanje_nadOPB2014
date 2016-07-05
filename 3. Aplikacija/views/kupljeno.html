@@ -4,7 +4,7 @@
  <div class="alert alert-warning">{{napaka}}</div>
  %end
  
-<form id="trac-forma" class="form-horizontal" method="post" action="/karta_kupljena/{{id_leta}}/">
+<form id="trac-forma" class="form-horizontal" method="post" action="/">
 <fieldset>
 
  % for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti:
@@ -24,8 +24,13 @@
  Cena:              <span style="color:blue"><font size="3">{{cena}}€</font></span> 
  </pre>
 %end
+<div><p></p></div>
+<span style="color:transparent"><font size="3">.</font></span>
+<div><p></p></div>
 
+    <div>
+      <a class="btn btn-primary" href="/"><span class="glyphicon glyphicon-backward"></span> Izberi nov let in si rezerviraj karto</a>
+    </div>
 
 </fieldset>
 </form> 
-
