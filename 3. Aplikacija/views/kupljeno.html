@@ -4,7 +4,7 @@
  <div class="alert alert-warning">{{napaka}}</div>
  %end
  
-<form id="trac-forma" class="form-horizontal" method="post" action="/karta_kupljena/{{id_leta}}/{{id_karte}}">
+<form id="trac-forma" class="form-horizontal" method="post" action="/karta_kupljena/{{id_leta}}/">
 <fieldset>
 
  % for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti:
@@ -22,8 +22,7 @@
  Dolžina:           <span style="color:blue">{{dolzina}} milij</span>
 
  Cena:              <span style="color:blue"><font size="3">{{cena}}€</font></span> 
-  <label class="control-label" for="singlebutton"></label><div class="controls">
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Potrdi nakup!</button></div></pre>
+ </pre>
 %end
 
 

@@ -169,11 +169,11 @@ def izbor_letov():
 	else:
 		izbor = get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam)
 		if izbor == []:
-			return bottle.template("leti.html",
+			return bottle.template("main.html",
                            ime=ime,
                            username=username,
 						   napaka="Za to relacijo ni znanih letov. Poizkusite ponovno s kakterim drugim letališčem v bližini.",
-						   izbor=izbor)
+						   drzave=drzave)
 		else:
 			return bottle.template("leti.html",
                            ime=ime,
@@ -181,32 +181,31 @@ def izbor_letov():
 						   napaka=None,
 						   izbor=izbor)
 
-@bottle.get("/karta_podrobnosti/<id_leta>")
+@bottle.route("/karta_podrobnosti/<id_leta>")
 def prikazi_podrobnosti_karta(id_leta):
 	(username, ime, priimek) = get_potnik()
 	podrobnosti = get_podrobnosti_karta(id_leta)
-	id_karte=11111112
 	return bottle.template("karta.html",
                            ime=ime,
 						   priimek=priimek,
                            username=username,
 						   napaka=None,
 						   podrobnosti=podrobnosti,
-						   id_leta=id_leta,
-						   id_karte=id_karte)
+						   id_leta=id_leta)
 
-@bottle.post("/karta_kupljena/<id_leta>/<id_karte>") # poprav hiperlink!! i karte... poenoti...
-def kupi_karto(id_leta, id_karte):
+@bottle.post("/karta_kupljena/<id_leta>") # poprav hiperlink!! i karte... poenoti...
+def kupi_karto(id_leta):
 	(username, ime, priimek) = get_potnik()
 	podrobnosti = get_podrobnosti_karta(id_leta)
+	c.execute("INSERT INTO karta (kupec, polet) VALUES (%s, %s)", (username, id_leta))
+	print (username, id_leta)
 	return bottle.template("kupljeno.html",
                            ime=ime,
 						   priimek=priimek,
                            username=username,
-						   napaka=None,
 						   podrobnosti=podrobnosti,
-						   id_leta=id_leta, 
-						   id_karte=id_karte)
+						   id_leta=id_leta,
+						   napaka="Uspešno ste zaključili nakup, \"Letalska karta - let "+id_leta+"\" je vaša! Hvala za sodelovanje.")
 						   
 @bottle.get("/login/")
 def login_get():
