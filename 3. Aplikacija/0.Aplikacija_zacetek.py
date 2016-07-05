@@ -46,7 +46,7 @@ def get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam):
 	leti = c.fetchall() 
 	return leti	
 
-def get_podrobnosti_karta(id_leta):
+def get_podrobnosti_leta(id_leta):
 	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
 		zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
 		destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
@@ -59,22 +59,41 @@ def get_podrobnosti_karta(id_leta):
 		WHERE let.id_let=%s""", (id_leta,))
 	leti = c.fetchall() 
 	return leti
-'''
-def get_leti_id(id_letalisce_kje, id_letalisce_kam):
-	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
-		zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
-		destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
-		ponudnik.ime_ponudnika, cena FROM let
-		JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
-		JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
-		JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
-		JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
-		JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
-		WHERE zac_letalisce.id_air=%s AND kon_letalisce.id_air=%s
-		ORDER BY cena""", [id_letalisce_kje, id_letalisce_kam])
-	leti = c.fetchall()
-	return leti
-'''	
+
+def get_vse_karte(username):
+	c.execute("""SELECT id_kart, cas_nakupa, ime, priimek, 
+	polet, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM karta 
+	JOIN potnik ON karta.kupec=potnik.uporabnisko_ime
+	JOIN let ON karta.polet=let.id_let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE kupec=%s ORDER BY cas_nakupa DESC""", [username])
+	vse_karte = c.fetchall()
+	return vse_karte
+	
+def get_podrobnosti_karta(id_karte):
+	c.execute("""SELECT id_kart, cas_nakupa, ime, priimek, 
+	polet, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM karta 
+	JOIN potnik ON karta.kupec=potnik.uporabnisko_ime
+	JOIN let ON karta.polet=let.id_let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE id_kart=%s""", [id_karte])
+	vse_karte = c.fetchall()
+	return vse_karte	
+	
 def password_md5(s):
     """Vrne MD5 hash danega UTF-8 niza."""
     h = hashlib.md5()
@@ -181,10 +200,23 @@ def izbor_letov():
 						   napaka=None,
 						   izbor=izbor)
 
+
+@bottle.route("/kupljena_karta_podrobnosti/<id_karte>")
+def podrobnosti_kupljena_karta(id_karte):
+	(username, ime, priimek) = get_potnik()
+	podrobnosti = get_podrobnosti_karta(id_karte)
+	return bottle.template("xxxxxxxxxxxx.html",
+                           ime=ime,
+						   priimek=priimek,
+                           username=username,
+						   napaka=None,
+						   podrobnosti=podrobnosti,
+						   id_karte=id_karte)
+						   
 @bottle.route("/karta_podrobnosti/<id_leta>")
 def prikazi_podrobnosti_karta(id_leta):
 	(username, ime, priimek) = get_potnik()
-	podrobnosti = get_podrobnosti_karta(id_leta)
+	podrobnosti = get_podrobnosti_leta(id_leta)
 	return bottle.template("karta.html",
                            ime=ime,
 						   priimek=priimek,
@@ -196,7 +228,7 @@ def prikazi_podrobnosti_karta(id_leta):
 @bottle.post("/karta_kupljena/<id_leta>") # poprav hiperlink!! i karte... poenoti...
 def kupi_karto(id_leta):
 	(username, ime, priimek) = get_potnik()
-	podrobnosti = get_podrobnosti_karta(id_leta)
+	podrobnosti = get_podrobnosti_leta(id_leta)
 	c.execute("INSERT INTO karta (kupec, polet) VALUES (%s, %s)", (username, id_leta))
 	print (username, id_leta)
 	return bottle.template("kupljeno.html",
@@ -285,63 +317,66 @@ def static(filename):
     return bottle.static_file(filename, root=static_dir)
 
 
-'''
 @bottle.route("/user/<username>/")
-def user_wall(username, sporocila=[]):
-    """Prikaži stran uporabnika"""
-    # Kdo je prijavljeni uporabnik? (Ni nujno isti kot username.)
-    (username_login, ime_login) = get_user()
+def user_wall(username, sporocila=[], obvestila=[]):
+	"""Prikaži stran uporabnika"""
+	# Kdo je prijavljeni uporabnik? (Ni nujno isti kot username.)
+	(username_login, ime, priimek) = get_potnik()
+	c.execute("SELECT placilna_kartica FROM potnik WHERE uporabnisko_ime=%s", [username_login])
+	placilna_kartica = c.fetchone()[0]
 	if username_login==username:
-		# Rezervirane katre tega uporabnika?
-		##c.execute("SELECT  ... WHERE potnik=%s", [username])
-		# Prikažemo predlogo
+		vse_karte = get_vse_karte (username)
+		print(vse_karte)
+		if vse_karte == []:
+			obvestila.append(("alert-success", "Nimate rezerviranih kart."))
+		else:
+			obvestila=[]
 		return bottle.template("user.html",
 								ime=ime,
-								sporocila=sporocila)
+								priimek=priimek,
+								username=username,
+								sporocila=sporocila,
+								obvestila=obvestila,
+								placilna_kartica=placilna_kartica,
+								vse_karte=vse_karte)
 	else:
 		bottle.redirect("/")
 
 @bottle.post("/user/<username>/")
 def user_change(username):
-    """Obdelaj formo za spreminjanje podatkov o uporabniku."""
-    # Kdo je prijavljen?
-    (username, ime) = get_user()
-    # Novo ime
-    ime_new = bottle.request.forms.ime
-    # Staro geslo (je obvezno)
-    password1 = password_md5(bottle.request.forms.password1)
-    # Preverimo staro geslo
-    c = baza.cursor()
-    c.execute ("SELECT 1 FROM uporabnik WHERE username=? AND password=?",
-               [username, password1])
-    # Pokazali bomo eno ali več sporočil, ki jih naberemo v seznam
-    sporocila = []
-    if c.fetchone():
-        # Geslo je ok
-        # Ali je treba spremeniti ime?
-        if ime_new != ime:
-            c.execute("UPDATE uporabnik SET ime=? WHERE username=?", [ime_new, username])
-            sporocila.append(("alert-success", "Spreminili ste si ime."))
-        # Ali je treba spremeniti geslo?
-        password2 = bottle.request.forms.password2
-        password3 = bottle.request.forms.password3
-        if password2 or password3:
-            # Preverimo, ali se gesli ujemata
-            if password2 == password3:
-                # Vstavimo v bazo novo geslo
-                password2 = password_md5(password2)
-                c.execute ("UPDATE uporabnik SET password=? WHERE username = ?", [password2, username])
-                sporocila.append(("alert-success", "Spremenili ste geslo."))
-            else:
-                sporocila.append(("alert-danger", "Gesli se ne ujemata"))
-    else:
-        # Geslo ni ok
-        sporocila.append(("alert-danger", "Napačno staro geslo"))
-    c.close ()
-    # Prikažemo stran z uporabnikom, z danimi sporočili. Kot vidimo,
-    # lahko kar pokličemo funkcijo, ki servira tako stran
-    return user_wall(username, sporocila=sporocila)
-'''
+	sporocila = []
+	obvestila=[]
+	"""Obdelaj formo za spreminjanje podatkov o uporabniku."""
+	(username, ime, priimek) = get_potnik()
+	c.execute("SELECT placilna_kartica FROM potnik WHERE uporabnisko_ime=%s", [username])
+	placilna_kartica = c.fetchone()[0]
+	# Preverimo staro geslo (je obvezen vpis)
+	password1 = password_md5(bottle.request.forms.password1)
+	c.execute ("SELECT 1 FROM potnik WHERE uporabnisko_ime=%s AND geslo=%s",[username, password1])
+	if c.fetchone():
+		# Ali je treba spremeniti ime/priimek/plačilno kartico?
+		ime_new = bottle.request.forms.ime
+		priimek_new = bottle.request.forms.priimek
+		placilna_kartica_new = bottle.request.forms.placilna_kartica
+		if (ime_new != ime) or (priimek_new != priimek) or (placilna_kartica_new != placilna_kartica):
+			c.execute("UPDATE potnik SET ime=%s, priimek=%s, placilna_kartica=%s WHERE uporabnisko_ime=%s", [ime_new, priimek_new, placilna_kartica_new, username])
+			sporocila.append(("alert-success", "Vaši podatki so spremenjeni."))
+		# Ali je treba spremeniti geslo?
+		password2 = bottle.request.forms.password2
+		password3 = bottle.request.forms.password3
+		if password2 or password3:
+			# Preverimo, ali se gesli ujemata
+			if password2 == password3:
+				password2 = password_md5(password2)
+				c.execute ("UPDATE potnik SET geslo=%s WHERE uporabnisko_ime=%s", [password2, username])
+				sporocila.append(("alert-success", "Spremenili ste geslo."))
+			else:
+				sporocila.append(("alert-danger", "Novi gesli se ne ujemata!"))
+	else:
+		sporocila.append(("alert-danger", "Vpisali ste napačno geslo!"))
+	# Prikažemo stran uporabnika, pokličemo funkcijo, ki servira stran: 
+	return user_wall(username, sporocila=sporocila)
+
 
 @bottle.get("/logout/")
 def logout():

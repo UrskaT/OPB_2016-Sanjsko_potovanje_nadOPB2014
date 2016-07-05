@@ -1,13 +1,51 @@
-%rebase ('base.html', title=ime)
+%rebase('base1.html', title=ime)
 
 <div class="page-header">
-<h1>{{ime}}</h1>
+<h1>{{ime}} {{priimek}}</h1>
 </h1>
 </div>
 
 <!-- TUKI VSTAVI SEZNAM KART, ki jih ima uporabnik rezervirane -->
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+	<legend>Rezervirane karte</legend>
+    <table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>ID karte</th>
+			<th>Datum in čas nakupa</th>
+			<th>Potnik</th>
+            <th>Začetno letališče</th>
+            <th>Končno letališče</th>
+            <th>Letalska družba</th>
+			<th>Cena</th>
+            <th class="text-center">Podrobnosti</th>
+        </tr>
+    </thead>
 
-   <form class="form-horizontal" method="post" action=".">
+% for (id_karte, cas, ime, priimek ,id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in vse_karte:
+            <tr>
+                <td>{{id_karte}}</td>
+				<td>{{cas}}</td>
+				<td>{{ime}} {{priimek}}</td>
+                <td>{{zac_let}}<br>({{zac_mest}}, {{zac_drz}})</td>
+                <td>{{kon_let}}<br>({{kon_mest}}, {{kon_drz}})</td>
+                <td>{{ponudnik}}</td>
+                <th>{{cena}}€</th>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="/karta_podrobnosti/{{id_karte}}"><span class="glyphicon glyphicon-ok"></span>  Podrobnosti</a></td>
+            </tr>
+%end
+    </table>
+	   %for obvestila in obvestila:
+        <div class="alert {{obvestila[0]}}">{{obvestila[1]}}</div>
+	   %end
+    </div>
+</div>
+
+<div><p></p><p></p><p></p><p></p></div>
+
+<!-- OBRAZEC ZA SPREMINJANJE PODATKOV --> 
+   <form class="row col-md-6 col-md-offset-2 custyle" method="post" action=".">
    <fieldset>
 
    <!-- Form Name -->
@@ -27,9 +65,21 @@
 
    <!-- Text input-->
    <div class="control-group">
-     <label class="control-label" for="textinput">Polno ime</label>
+     <label class="control-label" for="textinput">Ime</label>
      <div class="controls">
-       <input id="textinput" name="ime" value="{{ime}}" type="text" placeholder="" class="input-xlarge" required="">
+       <input id="textinput" name="ime" value="{{ime}}" type="text" placeholder="" class="input-xlarge">
+     </div>
+   </div>
+   <div class="control-group">
+     <label class="control-label" for="textinput">Priimek</label>
+     <div class="controls">
+       <input id="textinput" name="priimek" value="{{priimek}}" type="text" placeholder="" class="input-xlarge">
+     </div>
+   </div>
+   <div class="control-group">
+     <label class="control-label" for="textinput">Številka plačilne kartice</label>
+     <div class="controls">
+       <input id="textinput" name="placilna_kartica" value="{{placilna_kartica}}" type="text" placeholder="" class="input-xlarge">
      </div>
    </div>
 

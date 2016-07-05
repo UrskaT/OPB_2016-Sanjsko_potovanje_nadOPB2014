@@ -1,7 +1,9 @@
 %rebase('base.html', title='Sanjsko potovanje')
 
  %if napaka:
- <div class="alert alert-warning">{{napaka}}</div>
+ <div class="alert alert-warning">{{napaka}}
+     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+ </div>
  %end
  
  % for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in podrobnosti: 
