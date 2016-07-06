@@ -22,7 +22,8 @@ Aplikacija bo omogočala:
 Naloži vsebino repozitorija (Download ZIP)  in poženi datoteko "0.Aplikacija_pogon.py", ki se nahaja v mapi "3.Aplikacija", poleg ostalega programskega dela.
 (Načrtovalni del - SQL shema, obdelava podatkov in uvoz podatkov se nahaja v mapi "2.Baza in podatki")
 
-###### Uporabljena programska orodja:
+
+######Uporabljena programska orodja:
 * ER diagrami narisani z Dia 
 * Podatki na PostgreSQL bazai 
 * Python 3.x
