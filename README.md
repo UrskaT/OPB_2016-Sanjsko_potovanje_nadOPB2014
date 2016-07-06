@@ -19,17 +19,17 @@ Aplikacija bo omogočala:
 * [3] http://blog.rome2rio.com/2013/01/02/170779446/ 
 
 #### Zagon programa/aplikacije
-Download .zip repozitorija in poženi datoteko "0.Aplikacija_pogon.py", ki se nahaja v mapi "3.Aplikacija", poleg ostalega programskega dela.
+Naloži vsebino repozitorija (Download ZIP)  in poženi datoteko "0.Aplikacija_pogon.py", ki se nahaja v mapi "3.Aplikacija", poleg ostalega programskega dela.
 (Načrtovalni del - SQL shema, obdelava podatkov in uvoz podatkov se nahaja v mapi "2.Baza in podatki")
 
 ######Uporabljena programska orodja:
-*ER diagrami narisani z Dia 
-*Podatki na PostgreSQL bazai 
-*Python 3.x
-*knjižnica bottle.py 
-*knjižnica psycopg2 (postgreSQL)
-*Bootstrap
-*HTML, Javascript, css
-*Git, msysgit (git GUI, git BASH)
+* ER diagrami narisani z Dia 
+* Podatki na PostgreSQL bazai 
+* Python 3.x
+* knjižnica bottle.py 
+* knjižnica psycopg2 (postgreSQL)
+* Bootstrap
+* HTML, Javascript, css
+* Git, msysgit (git GUI, git BASH)
 
 *** _Opomba: cene letov so izračunane glede na statistiko v letu 2013, ekonomski razred [3]._ 
