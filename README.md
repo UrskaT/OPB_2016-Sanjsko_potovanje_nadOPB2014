@@ -7,7 +7,7 @@ Osnovna ideja je baza za evidenco poletov z N največjih letališč, ki bo upora
 #### Aplikacija
 Aplikacija bo omogočala: 
 * pregled letov pri dani začetni in končnI lokaciji (država, mesto) za enega ali več letališč v danem mestu
-* cenovna ponudba, iskanje najugodnejšega leta
+* cenovna ponudba, iskanje najugodnejšega leta***
 * nakup/rezervacija karte
 
 #### ER diagram
@@ -22,7 +22,7 @@ Aplikacija bo omogočala:
 Naloži vsebino repozitorija (Download ZIP)  in poženi datoteko "0.Aplikacija_pogon.py", ki se nahaja v mapi "3.Aplikacija", poleg ostalega programskega dela.
 (Načrtovalni del - SQL shema, obdelava podatkov in uvoz podatkov se nahaja v mapi "2.Baza in podatki")
 
-######Uporabljena programska orodja:
+########Uporabljena programska orodja:
 * ER diagrami narisani z Dia 
 * Podatki na PostgreSQL bazai 
 * Python 3.x
