@@ -13,28 +13,28 @@ $(document).ready(function(){
 	// se zažene, ko se v celoti naloži spletna stran, z JQuery-em pridobimo referenco na drop down meni
 	$("#drzava_kje").change(function (event){
 		var drzava = $(this).val(); // pridobimo trenutno izbrano vrednost v dropdown-u
-		$.get("http://localhost:8080/mesta/" + drzava, function(data) {
+		$.get("/mesta/" + drzava, function(data) {
 			// iz zgornjega url-ja pridobimo podatke ki so v polju "mesta", se shranijo v data	
 			napolni_dropdown("#mesto_kje", data["mesta"], " - - - - - - - Izberi mesto - - - - - - - ");
 		});
 	});
 	$("#drzava_kam").change(function (event){
 		var drzava = $(this).val();
-		$.get("http://localhost:8080/mesta/" + drzava, function(data) {	
+		$.get("/mesta/" + drzava, function(data) {	
 			napolni_dropdown("#mesto_kam", data["mesta"], " - - - - - - - Izberi mesto - - - - - - - ");
 		});	
 	});
 	$("#mesto_kje").change(function (event){
 		var mesto = $(this).val();
 		var drzava = $("#drzava_kje").val();
-		$.get("http://localhost:8080/letalisca/" + drzava + "/" + mesto, function(data) {	
+		$.get("/letalisca/" + drzava + "/" + mesto, function(data) {	
 			napolni_dropdown("#letalisce_kje", data["letalisca"], " - - - - - - - Izberi letalisce - - - - - - - ");
 		});
 	});;
 	$("#mesto_kam").change(function (event){
 		var mesto = $(this).val();
 		var drzava = $("#drzava_kam").val();
-		$.get("http://localhost:8080/letalisca/" + drzava + "/" + mesto, function(data) {	
+		$.get("/letalisca/" + drzava + "/" + mesto, function(data) {	
 			napolni_dropdown("#letalisce_kam", data["letalisca"], " - - - - - - - Izberi letalisce - - - - - - - ");
 		});
 	});;
