@@ -3,7 +3,7 @@ CREATE TABLE potnik(
 	geslo text NOT NULL,
 	ime TEXT NOT NULL,
 	priimek TEXT NOT NULL,
-	placilna_kartica INTEGER NOT NULL
+	placilna_kartica BIGINT NOT NULL
 );
 	
 CREATE TABLE lokacija (
