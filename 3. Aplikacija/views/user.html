@@ -36,8 +36,8 @@
             </tr>
 %end
     </table>
-	   %for obvestila in obvestila:
-        <div class="alert {{obvestila[0]}}">{{obvestila[1]}}</div>
+	   %if obvestila != []:
+        <div class="alert {{obvestila[0][0]}}">{{obvestila[0][1]}}</div>
 	   %end
     </div>
 </div>

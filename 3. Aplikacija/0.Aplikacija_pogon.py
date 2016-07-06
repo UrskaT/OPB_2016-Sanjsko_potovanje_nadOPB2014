@@ -190,6 +190,14 @@ def register_post():
                                priimek=priimek,
                                placilna=placilna,
                                napaka='Gesli se ne ujemata')
+    elif int(placilna) >= 10000000000000000:
+        # več kot 16 številk na kartici
+        return bottle.template("register.html",
+                               username=username,
+                               ime=ime,
+                               priimek=priimek,
+                               placilna=placilna,
+                               napaka='Napačna številka plačilne kartice, vnesite največ 16-mestno številko.')						   
     else:
         # Vse je v redu, vstavi novega uporabnika v bazo
         password = password_md5(password1)
@@ -212,13 +220,13 @@ def main():
 						   napaka=None,
 						   drzave=drzave)
 						   
-@bottle.get("/mesta/<drzava>")
+@bottle.route("/mesta/<drzava>")
 def get_mesta(drzava):
 	c.execute("SELECT mesto FROM lokacija WHERE drzava=%s ORDER BY mesto", (drzava,))
 	mesto_drz = c.fetchall()
 	return {"mesta": [v["mesto"] for v in mesto_drz]}
 		
-@bottle.get("/letalisca/<drzava>/<mesto>")
+@bottle.route("/letalisca/<drzava>/<mesto>")
 def get_letalisca(drzava, mesto):
 	c.execute("""SELECT ime_letalisca FROM letalisce JOIN lokacija 
 	ON letalisce.bliznje=lokacija.id WHERE lokacija.mesto=%s AND lokacija.drzava=%s ORDER BY ime_letalisca""", [mesto, drzava])
@@ -260,7 +268,6 @@ def izbor_letov():
 						   letalisce_kje=letalisce_kje,
 						   letalisce_kam=letalisce_kam,
 						   napaka="Za relacijo \""+letalisce_kje+" ("+mesto_kje+", "+drzava_kje+") : "+letalisce_kam+" ("+mesto_kam+", "+drzava_kam+")\" ni znanih letov. "+" "+"Poizkusite ponovno s kakterim drugim letališčem v bližini.",
-						   drzave=drzave,
 						   leti_mesto=leti_mesto, 
 						   izbor=izbor)
 		else:
@@ -338,6 +345,10 @@ def user_change(username):
 		ime_new = bottle.request.forms.ime
 		priimek_new = bottle.request.forms.priimek
 		placilna_kartica_new = bottle.request.forms.placilna_kartica
+		if int(placilna_kartica_new) >= 10000000000000000:
+			# več kot 16 številk na kartici
+			sporocila.append(("alert-success", "Napačna številka plačilne kartice, vnesite največ 16-mestno številko."))
+			return user_wall(username, sporocila=sporocila)
 		if (ime_new != ime) or (priimek_new != priimek) or (placilna_kartica_new != placilna_kartica):
 			c.execute("UPDATE potnik SET ime=%s, priimek=%s, placilna_kartica=%s WHERE uporabnisko_ime=%s", [ime_new, priimek_new, placilna_kartica_new, username])
 			sporocila.append(("alert-success", "Vaši podatki so spremenjeni."))
