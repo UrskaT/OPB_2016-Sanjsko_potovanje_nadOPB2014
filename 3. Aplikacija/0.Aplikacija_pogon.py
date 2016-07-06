@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-#import auth_public as auth
-import auth
+import auth_public as auth
+#import auth
 import bottle
 import hashlib # računanje MD5 kriptografski hash za gesla
 
