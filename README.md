@@ -16,7 +16,8 @@ Aplikacija bo omogočala:
 #### Vir podatkov: 
 * [1] http://openflights.org/data.html
 * [2] http://openflights.org/  
-* [3] http://blog.rome2rio.com/2013/01/02/170779446/ 
+* [3] http://blog.rome2rio.com/2013/01/02/170779446/
+* [4] http://bluemm.blogspot.si/2007/01/excel-formula-to-calculate-distance.html
 
 #### Zagon programa/aplikacije
 Naloži vsebino repozitorija (Download ZIP)  in poženi datoteko "0.Aplikacija_pogon.py", ki se nahaja v mapi "3.Aplikacija", poleg ostalega programskega dela. (Načrtovalni del - SQL shema, obdelava podatkov in uvoz podatkov se nahaja v mapi "2.Baza in podatki")
