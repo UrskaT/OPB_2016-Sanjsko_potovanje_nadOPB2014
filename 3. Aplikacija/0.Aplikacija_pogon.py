@@ -75,6 +75,22 @@ def get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam):
 	WHERE zac_lokacija.id=%s AND destinacija.id=%s ORDER BY cena""", [id_lok_kje, id_lok_kam])
 	leti_mesto = c.fetchall() 
 	return leti_mesto
+	
+def get_leti_mesto_drzava(mesto_kje, drzava_kje, mesto_kam, drzava_kam):
+	id_lok_kje = get_id_lok(mesto_kje, drzava_kje)
+	id_lok_kam = get_id_lok(mesto_kam, drzava_kam)
+	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
+	zac_lokacija.drzava as zac_lokacija_drz, kon_letalisce.ime_letalisca as kon_letalisce,
+	destinacija.mesto as destinacija_mes, destinacija.drzava as destinacija_drz,
+	ponudnik.ime_ponudnika, dolzina, cena FROM let
+	JOIN letalisce AS zac_letalisce ON let.od_kod=zac_letalisce.id_air
+	JOIN letalisce AS kon_letalisce ON let.kam_leti=kon_letalisce.id_air
+	JOIN ponudnik ON let.letalska_druzba=ponudnik.id_ponud
+	JOIN lokacija AS zac_lokacija ON zac_letalisce.bliznje=zac_lokacija.id
+	JOIN lokacija AS destinacija ON kon_letalisce.bliznje=destinacija.id
+	WHERE zac_lokacija.id=%s AND destinacija.drzava=%s ORDER BY cena""", [id_lok_kje, drzava_kam])
+	leti_mesto_drzava = c.fetchall() 
+	return leti_mesto_drzava
 
 def get_podrobnosti_leta(id_leta):
 	c.execute("""SELECT let.id_let, zac_letalisce.ime_letalisca as zac_letalisce, zac_lokacija.mesto as zac_lokacija_mes,
@@ -261,6 +277,7 @@ def izbor_letov():
 	else:
 		izbor = get_leti(letalisce_kje, letalisce_kam, drzava_kje, drzava_kam)
 		leti_mesto = get_leti_mesto(mesto_kje, drzava_kje, mesto_kam, drzava_kam)
+		leti_mesto_drzava = get_leti_mesto_drzava(mesto_kje, drzava_kje, mesto_kam, drzava_kam)
 		if izbor == []:
 			return bottle.template("leti.html",
                            ime=ime,
@@ -268,7 +285,8 @@ def izbor_letov():
 						   letalisce_kje=letalisce_kje,
 						   letalisce_kam=letalisce_kam,
 						   napaka="Za relacijo \""+letalisce_kje+" ("+mesto_kje+", "+drzava_kje+") : "+letalisce_kam+" ("+mesto_kam+", "+drzava_kam+")\" ni znanih letov. "+" "+"Poizkusite ponovno s kakterim drugim letališčem v bližini.",
-						   leti_mesto=leti_mesto, 
+						   leti_mesto=leti_mesto,
+						   leti_mesto_drzava=leti_mesto_drzava,
 						   izbor=izbor)
 		else:
 			return bottle.template("leti.html",
@@ -277,6 +295,7 @@ def izbor_letov():
 						   letalisce_kje=letalisce_kje,
 						   letalisce_kam=letalisce_kam,
 						   napaka=None,
+						   leti_mesto_drzava=leti_mesto_drzava,						   
 						   izbor=izbor,
 						   leti_mesto=leti_mesto)
 

@@ -56,7 +56,7 @@
             <th class="text-center">Nakup/rezervacija karte</th>
         </tr>
     </thead>
-% for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in leti_mesto:
+	% for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in leti_mesto:
 		% if letalisce_kje != zac_let or letalisce_kam != kon_let or (letalisce_kje != zac_let and letalisce_kam != kon_let):
             <tr>
                 <td>{{id_leta}}</td>
@@ -69,7 +69,43 @@
                 <td class="text-center"><a class='btn btn-info btn-xs' href="/karta/{{id_leta}}"><span class="glyphicon glyphicon-shopping-cart"></span>  Kupi karto</a></td>
             </tr>
 		%end
+	%end
+    </table>
+    </div>
+</div>
 %end
+
+% if leti_mesto_drzava != [] and leti_mesto == []:
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+	<legend>Dodatno: Predlagani leti v bližini </legend>
+    <table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>ID leta</th>
+            <th>Začetno letališče</th>
+            <th>Kraj</th>
+            <th>Končno letališče</th>
+            <th>Kraj</th>
+            <th>Letalska družba</th>
+			<th>Cena leta [€]</th>
+            <th class="text-center">Nakup/rezervacija karte</th>
+        </tr>
+    </thead>
+	% for (id_leta, zac_let, zac_mest, zac_drz, kon_let, kon_mest, kon_drz, ponudnik, dolzina, cena) in leti_mesto_drzava:
+		% if letalisce_kje != zac_let or letalisce_kam != kon_let or (letalisce_kje != zac_let and letalisce_kam != kon_let):
+            <tr>
+                <td>{{id_leta}}</td>
+                <td>{{zac_let}}</td>
+                <td>{{zac_mest}},<br>{{zac_drz}}</td>
+                <td>{{kon_let}}</td>
+                <td>{{kon_mest}},<br>{{kon_drz}}</td>
+                <td>{{ponudnik}}</td>
+                <th>{{cena}}€</th>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="/karta/{{id_leta}}"><span class="glyphicon glyphicon-shopping-cart"></span>  Kupi karto</a></td>
+            </tr>
+		%end
+	%end
     </table>
     </div>
 </div>
