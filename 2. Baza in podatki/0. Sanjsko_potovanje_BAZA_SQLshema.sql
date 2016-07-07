@@ -8,7 +8,7 @@ CREATE TABLE potnik(
 	
 CREATE TABLE lokacija (
 	id INTEGER PRIMARY KEY,
-	mesto TEXT NOT NULL UNIQUE,
+	mesto TEXT NOT NULL,
 	drzava TEXT NOT NULL
 );	
 	
